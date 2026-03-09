@@ -125,6 +125,8 @@ https://streams.uzunmuhalefet.com/stream/6a6bce48-2365-49c8-bfb2-3fccdac9372e.m3
 https://streams.uzunmuhalefet.com/stream/4542f8b9-5c6c-4ef1-aa87-48c0f991fe73.m3u8
 #EXTINF:-1 group-title="Spor" tvg-logo="https://assets.uzunmuhalefet.com/logos/bbe065e2-ff43-4c9c-aec8-1734bd397daf.png" tvg-url="https://www.trtspor.com.tr/" tvg-id="TRTSpor.tr",TRT Spor
 https://streams.uzunmuhalefet.com/stream/dc23a8ec-c62f-47a2-ae23-e823a9851a1a.m3u8
+#EXTINF:-1 tvg-logo="https://yt3.ggpht.com/_vs7K9u3pS-C7flO0cVIkxqgLsIkjElGL6izCYFzI0COAYKda5g2J9DRB9-EHsfTXwA_ayi72g" group-title="SPOR",beIN SPORTS HABER
+https://live.yt-hls.workers.dev/?ID=UCPe9vNjHF1kEExT5kHwc7aw
 #EXTINF:-1 group-title="Spor" tvg-logo="https://assets.uzunmuhalefet.com/logos/f530a309-bcec-46a0-bb80-32a2a3591114.png" tvg-url="https://www.trtspor.com.tr/trtspor2" tvg-id="TRTSporYildiz.tr",TRT Spor Yıldız
 https://streams.uzunmuhalefet.com/stream/978e9210-f530-44ae-99c8-8bdfc998b071.m3u8
 #EXTINF:-1 group-title="Spor" tvg-logo="https://assets.uzunmuhalefet.com/logos/c7b11f89-a897-47f2-90b8-961928bc0521.png" tvg-url="https://www.trt.net.tr/" tvg-id="TRT3.tr",TRT 3 Spor
