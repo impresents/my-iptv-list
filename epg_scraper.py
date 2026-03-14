@@ -43,7 +43,6 @@ ALIAS_MAP = {
     "VAV TV": ["vavtv"], "KRT": ["krttv"], "TRT EBA": ["trteba", "ebatv", "trtoku"]
 }
 
-# Sadece senin bulduğun "En İyisi" olan turkey3.xml
 MASTER_URLS = [
     "https://www.open-epg.com/app/download.php?file=turkey3.xml"
 ]
@@ -101,19 +100,12 @@ def main():
                         matched_in_this_file[master_id] = data["epg_id"]
                         break
 
-        prog_count = 0
         for prog in root.findall('programme'):
             master_prog_id = prog.get('channel')
             if master_prog_id in matched_in_this_file:
-                # KRİTİK NOKTA: Saat dilimini Türkiye (+0300) olarak damgalıyoruz!
-                start_str = prog.get('start', '')
-                stop_str = prog.get('stop', '')
-                if start_str: prog.set('start', re.sub(r'[+-]\d{4}', '+0300', start_str))
-                if stop_str: prog.set('stop', re.sub(r'[+-]\d{4}', '+0300', stop_str))
-
+                # Saat dilimi yaması tamamen silindi. Kaynaktan geldiği gibi bırakıyoruz.
                 prog.set('channel', matched_in_this_file[master_prog_id])
                 new_tv.append(prog)
-                prog_count += 1
                 total_prog_count += 1
                 
     rough_string = ET.tostring(new_tv, 'utf-8')
