@@ -89,6 +89,7 @@ CHANNELS_DATA = {
     "TGRT Belgesel": "TGRT Belgesel"
 }
 
+# Kaynaktaki Olası Diğer İsimleri (Alias)
 ALIAS_MAP = {
     "NOW": ["fox", "nowtv", "fox tv"],
     "TV8.5": ["tv85", "tv 8,5", "tv8bucuk", "tv 8.5"],
@@ -115,12 +116,13 @@ ALIAS_MAP = {
     "TRT EBA": ["trteba", "ebatv", "trtoku"]
 }
 
+# ÖNCELİK SIRASI DEĞİŞTİRİLDİ: En kaliteli liste olan turkey2 en başa alındı.
 MASTER_URLS = [
-    "https://www.open-epg.com/app/download.php?file=turkey1.xml",
     "https://www.open-epg.com/app/download.php?file=turkey2.xml",
     "https://www.open-epg.com/app/download.php?file=turkey3.xml",
     "https://www.open-epg.com/app/download.php?file=turkey4.xml",
-    "https://www.open-epg.com/app/download.php?file=turkey5.xml"
+    "https://www.open-epg.com/app/download.php?file=turkey5.xml",
+    "https://www.open-epg.com/app/download.php?file=turkey1.xml"
 ]
 
 def normalize_name(name):
@@ -183,13 +185,16 @@ def main():
                         continue
                         
                     match_found = False
-                    if data["norm_primary"] in master_norm or master_norm in data["norm_primary"]:
+                    
+                    # BİREBİR (Exact) EŞLEŞME KONTROLÜ
+                    if master_norm == data["norm_primary"] or master_norm in data["norm_aliases"]:
                         match_found = True
-                    else:
-                        for alias in data["norm_aliases"]:
-                            if alias in master_norm or master_norm in alias:
-                                match_found = True
-                                break
+                    # İÇİNDE GEÇME KONTROLÜ (Fakat TV8/TV8.5 karışmasını engelleyen özel kilit eklendi)
+                    elif data["norm_primary"] in master_norm:
+                        if data["norm_primary"] == "tv8" and "85" in master_norm:
+                            match_found = False # Kesinlikle eşleştirme, es geç!
+                        else:
+                            match_found = True
                                 
                     if match_found:
                         data["found"] = True
@@ -203,7 +208,7 @@ def main():
         for prog in root.findall('programme'):
             master_prog_id = prog.get('channel')
             if master_prog_id in matched_in_this_file:
-                # KRİTİK DÜZELTME: Saat dilimini zorla Türkiye (+0300) yapıyoruz!
+                # Saat dilimini zorla Türkiye (+0300) yapıyoruz!
                 start_str = prog.get('start', '')
                 stop_str = prog.get('stop', '')
                 
