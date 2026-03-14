@@ -21,10 +21,15 @@ MY_CHANNELS = [
     "TRT Belgesel", "TGRT Belgesel"
 ]
 
-# İnternetteki ana Türkçe TV Rehberi kaynağı (Her gün güncellenir)
-MASTER_EPG_URL = "https://epg.koditvepg.com/TR/guide.xml"
+# Çökmelere Karşı 4 Farklı Güvenilir Master EPG Kaynağı
+MASTER_URLS = [
+    "https://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_TR1.xml",
+    "https://iptv-org.github.io/epg/guides/tr/tvplus.com.tr.epg.xml",
+    "https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml",
+    "https://iptv-org.github.io/epg/guides/tr/dsmart.com.tr.epg.xml"
+]
 
-# İsimleri eşleştirmek için temizleyen fonksiyon (Örn: "Kanal D HD" -> "kanald")
+# İsimleri eşleştirmek için temizleyen fonksiyon
 def normalize_name(name):
     n = name.lower()
     n = n.replace("hd", "").replace("fhd", "").replace("4k", "")
@@ -32,71 +37,90 @@ def normalize_name(name):
     return n
 
 def main():
-    print("Master EPG indiriliyor (Bu işlem birkaç saniye sürebilir)...")
-    try:
-        resp = requests.get(MASTER_EPG_URL, timeout=30)
-        resp.raise_for_status()
-    except Exception as e:
-        print(f"HATA: Master XML indirilemedi - {e}")
-        sys.exit(1)
-
-    print("Master XML ayrıştırılıyor...")
-    try:
-        root = ET.fromstring(resp.content)
-    except Exception as e:
-        print(f"HATA: XML parçalanamadı - {e}")
-        sys.exit(1)
-
-    # Hedef kanallarımız ve Android uygulamanın beklediği epgId'ler (Örn: KanalD.tr)
     target_map = {}
     for ch in MY_CHANNELS:
         norm = normalize_name(ch)
-        # Uygulamadaki ID mantığın: Boşlukları sil ve sonuna .tr ekle
         epg_id = ch.replace(" ", "") + ".tr" 
         target_map[norm] = {
             "original_name": ch,
             "epg_id": epg_id,
-            "found_master_id": None
+            "found": False,
+            "source_url": None
         }
 
-    new_tv = ET.Element("tv", attrib={"generator-info-name": "BelesTiVi EPG Generator v2.0"})
-    matched_channel_ids = {} 
+    new_tv = ET.Element("tv", attrib={"generator-info-name": "BelesTiVi EPG Generator v3.0 (Multi-Source)"})
+    total_prog_count = 0
 
-    # 1. Aşama: Kanalları Eşleştir
-    for channel in root.findall('channel'):
-        master_id = channel.get('id')
-        display_name_el = channel.find('display-name')
-        
-        if display_name_el is not None and display_name_el.text:
-            master_name = display_name_el.text
-            master_norm = normalize_name(master_name)
+    print("Çoklu EPG Kaynak Taraması Başlıyor...\n")
 
-            # Bizim 77 kanallık listede var mı kontrol et
-            for norm_key, data in target_map.items():
-                if norm_key in master_norm or master_norm in norm_key:
-                    if data["found_master_id"] is None: # İlk eşleşeni al
-                        data["found_master_id"] = master_id
-                        matched_channel_ids[master_id] = data["epg_id"]
+    for url in MASTER_URLS:
+        print(f"➤ Kaynak İndiriliyor: {url.split('/')[-1]}...")
+        try:
+            resp = requests.get(url, timeout=20)
+            if resp.status_code != 200:
+                print(f"  ❌ HATA: Kaynak yanıt vermedi (HTTP {resp.status_code})")
+                continue
+            root = ET.fromstring(resp.content)
+            print("  ✅ İndirildi ve ayrıştırıldı. Kanallar eşleştiriliyor...")
+        except Exception as e:
+            print(f"  ❌ HATA: İndirme veya okuma başarısız - {e}")
+            continue
 
-                        # Android uygulaman için yeni XML'e kanalı ekle
-                        new_ch = ET.SubElement(new_tv, "channel", id=data["epg_id"])
-                        new_dn = ET.SubElement(new_ch, "display-name", lang="tr")
-                        new_dn.text = data["original_name"]
-                    break
+        matched_in_this_file = {} 
 
-    # 2. Aşama: Sadece eşleşen kanalların programlarını al
-    prog_count = 0
-    for prog in root.findall('programme'):
-        master_prog_id = prog.get('channel')
-        if master_prog_id in matched_channel_ids:
-            # ID'yi senin uygulamanın anladığı ID ile değiştir
-            prog.set('channel', matched_channel_ids[master_prog_id])
-            new_tv.append(prog)
-            prog_count += 1
+        # 1. Aşama: Bu dosyadan hangi kanalları çekebiliriz bulalım
+        for channel in root.findall('channel'):
+            master_id = channel.get('id')
+            display_name_el = channel.find('display-name')
+            
+            if display_name_el is not None and display_name_el.text:
+                master_norm = normalize_name(display_name_el.text)
 
-    print(f"\nSONUÇ:")
-    print(f"Eşleşen ve Aktarılan Kanal Sayısı: {len(matched_channel_ids)} / {len(MY_CHANNELS)}")
-    print(f"Aktarılan Toplam Program Sayısı: {prog_count}")
+                for norm_key, data in target_map.items():
+                    # Eğer kanal bulunduysa
+                    if norm_key in master_norm or master_norm in norm_key:
+                        # Bu kanalı DAHA ÖNCE başka dosyada bulamadıysak, listeye ekle
+                        if not data["found"]:
+                            data["found"] = True
+                            data["source_url"] = url
+                            
+                            new_ch = ET.SubElement(new_tv, "channel", id=data["epg_id"])
+                            new_dn = ET.SubElement(new_ch, "display-name", lang="tr")
+                            new_dn.text = data["original_name"]
+                        
+                        # Eğer bu kanalın asıl kaynağı BU dosya ise programlarını çekmek için ID'sini kaydet
+                        if data["source_url"] == url:
+                            matched_in_this_file[master_id] = data["epg_id"]
+                        break
+
+        # 2. Aşama: Bu dosyadan sadece eşleşen kanalların programlarını çek
+        prog_count = 0
+        for prog in root.findall('programme'):
+            master_prog_id = prog.get('channel')
+            if master_prog_id in matched_in_this_file:
+                prog.set('channel', matched_in_this_file[master_prog_id])
+                new_tv.append(prog)
+                prog_count += 1
+                total_prog_count += 1
+                
+        print(f"  📌 Bu kaynaktan {len(matched_in_this_file)} kanal, {prog_count} program çekildi.\n")
+
+    # Genel Sonuç Raporu
+    found_count = sum(1 for data in target_map.values() if data["found"])
+    print("="*40)
+    print(f"SONUÇ RAPORU")
+    print("="*40)
+    print(f"Toplam Hedef Kanal: {len(MY_CHANNELS)}")
+    print(f"Başarıyla Bulunan Kanal: {found_count}")
+    print(f"Çekilen Toplam Program Sayısı: {total_prog_count}")
+    print("="*40)
+
+    # Bulunamayanları da listele ki bilelim
+    if found_count < len(MY_CHANNELS):
+        print("\nBulunamayan Kanallar:")
+        for norm_key, data in target_map.items():
+            if not data["found"]:
+                print(f" - {data['original_name']}")
 
     # Yeni XML'i oluştur ve kaydet
     rough_string = ET.tostring(new_tv, 'utf-8')
