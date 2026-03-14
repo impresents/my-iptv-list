@@ -92,7 +92,7 @@ CHANNELS_DATA = {
 # Kaynaktaki Olası Diğer İsimleri (Alias)
 ALIAS_MAP = {
     "NOW": ["fox", "nowtv", "fox tv"],
-    "TV8.5": ["tv85", "tv 8,5", "tv8bucuk"],
+    "TV8.5": ["tv85", "tv 8,5", "tv8bucuk", "tv 8.5"],
     "CNBC-e": ["cnbce"],
     "360": ["360tv"],
     "tv100": ["tv 100"],
@@ -116,8 +116,13 @@ ALIAS_MAP = {
     "TRT EBA": ["trteba", "ebatv", "trtoku"]
 }
 
+# Senin bulduğun yeni ve sağlam kaynaklar
 MASTER_URLS = [
-    "https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz"
+    "https://www.open-epg.com/app/download.php?file=turkey1.xml",
+    "https://www.open-epg.com/app/download.php?file=turkey2.xml",
+    "https://www.open-epg.com/app/download.php?file=turkey3.xml",
+    "https://www.open-epg.com/app/download.php?file=turkey4.xml",
+    "https://www.open-epg.com/app/download.php?file=turkey5.xml"
 ]
 
 def normalize_name(name):
@@ -141,17 +146,19 @@ def main():
             "found": False
         }
 
-    new_tv = ET.Element("tv", attrib={"generator-info-name": "BelesTiVi Smart EPG Generator"})
+    new_tv = ET.Element("tv", attrib={"generator-info-name": "BelesTiVi Open-EPG Generator"})
     total_prog_count = 0
 
-    print("EPG Taraması Başlıyor...\n")
+    print("Open-EPG Taraması Başlıyor...\n")
 
     for url in MASTER_URLS:
+        print(f"➤ Taranıyor: {url.split('=')[-1]}...")
         try:
             headers = {"User-Agent": "Mozilla/5.0"}
             resp = requests.get(url, timeout=40, headers=headers)
             
             if resp.status_code != 200:
+                print(f"  ❌ HATA: Kaynak yanıt vermedi (HTTP {resp.status_code})")
                 continue
                 
             if url.endswith('.gz') or resp.content[:2] == b'\x1f\x8b':
@@ -160,7 +167,8 @@ def main():
                 xml_data = resp.content
                 
             root = ET.fromstring(xml_data)
-        except Exception:
+        except Exception as e:
+            print(f"  ❌ HATA: İndirme veya okuma başarısız - {e}")
             continue
 
         matched_in_this_file = {} 
@@ -193,23 +201,31 @@ def main():
                         matched_in_this_file[master_id] = data["epg_id"]
                         break
 
+        prog_count = 0
         for prog in root.findall('programme'):
             master_prog_id = prog.get('channel')
             if master_prog_id in matched_in_this_file:
                 prog.set('channel', matched_in_this_file[master_prog_id])
                 new_tv.append(prog)
+                prog_count += 1
                 total_prog_count += 1
+                
+        print(f"  📌 {len(matched_in_this_file)} kanal, {prog_count} program çekildi.")
 
     found_count = sum(1 for data in target_map.values() if data["found"])
+    print("\n" + "="*40)
+    print(f"SONUÇ RAPORU")
+    print("="*40)
     print(f"Başarıyla Bulunan Kanal: {found_count} / {len(CHANNELS_DATA)}")
     print(f"Çekilen Toplam Program Sayısı: {total_prog_count}")
+    print("="*40)
 
     rough_string = ET.tostring(new_tv, 'utf-8')
     reparsed = minidom.parseString(rough_string)
     with open("epg.xml", "w", encoding="utf-8") as f:
         f.write(reparsed.toprettyxml(indent="  "))
 
-    print("\n✅ İşlem Tamam!")
+    print("\n✅ İşlem Tamam! epg.xml Github'a gönderiliyor...")
 
 if __name__ == "__main__":
     main()
