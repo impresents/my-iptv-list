@@ -1,17 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""
-Basit Türk TV EPG scraper
-İlk aşamada sadece:
-- ATV
-- Kanal D
-- Show TV
-- Star TV
-
-çıktısı üretir ve epg.xml oluşturur.
-"""
-
 import re
 import sys
 import time
@@ -54,55 +43,91 @@ CHANNELS = {
     },
 }
 
+NOISE_LINES = {
+    "YAYINDA",
+    "CANLI",
+    "CANLI İZLE",
+    "İZLE",
+    "ŞİMDİ İZLE",
+    "DETAYA GİT",
+    "BÖLÜM İZLE",
+    "FRAGMAN İZLE",
+    "SON BÖLÜMÜ İZLE",
+    "YENİ BÖLÜM",
+    "TEKRAR",
+    "HABER - CANLI",
+    "YERLİ DİZİ - TEKRAR",
+    "YAŞAM",
+    "YAŞAM - YENİ BÖLÜM",
+    "YABANCI FİLM",
+    "YERLİ SİNEMA",
+    "YABANCI SİNEMA",
+}
 
 def get_session() -> requests.Session:
     s = requests.Session()
     s.headers.update(HEADERS)
     return s
 
-
 def to_xmltv_time(dt: datetime) -> str:
     if dt.tzinfo is None:
         dt = TURKEY_TZ.localize(dt)
     return dt.strftime("%Y%m%d%H%M%S %z")
 
-
 def clean_text(text: str) -> str:
-    text = re.sub(r"\s+", " ", text or "").strip()
+    return re.sub(r"\s+", " ", (text or "")).strip()
+
+def normalize_time_text(text: str) -> str:
+    text = clean_text(text)
+    text = re.sub(r"(\d{1,2})\s*:\s*(\d{2})", r"\1:\2", text)
     return text
 
-
-def parse_time_str(time_str: str, base_date: datetime) -> datetime | None:
-    time_str = clean_text(time_str).replace(".", ":")
-    m = re.match(r"^(\d{1,2}):(\d{2})$", time_str)
+def parse_time_str(time_str: str, base_date: datetime):
+    t = normalize_time_text(time_str)
+    m = re.match(r"^(\d{1,2}):(\d{2})$", t)
     if not m:
         return None
-    hour = int(m.group(1))
-    minute = int(m.group(2))
-    return base_date.replace(hour=hour, minute=minute, second=0, microsecond=0)
+    return base_date.replace(
+        hour=int(m.group(1)),
+        minute=int(m.group(2)),
+        second=0,
+        microsecond=0,
+    )
 
+def is_noise_line(text: str) -> bool:
+    t = clean_text(text)
+    if not t:
+        return True
+    if t.upper() in NOISE_LINES:
+        return True
+    if re.fullmatch(r"\d+\.\s*Bölüm", t, flags=re.IGNORECASE):
+        return True
+    if re.fullmatch(r"[A-ZÇĞİÖŞÜa-zçğıöşü]+\s*-\s*(Canlı|Tekrar|Yeni Bölüm)", t, flags=re.IGNORECASE):
+        return True
+    return False
 
-def unique_programs(items: list[dict]) -> list[dict]:
+def unique_programs(items):
     seen = set()
     result = []
     for item in items:
-        key = (item.get("start", ""), item.get("title", ""))
-        if not item.get("title") or not item.get("start"):
+        start = normalize_time_text(item.get("start", ""))
+        title = clean_text(item.get("title", ""))
+        if not start or not title:
             continue
+        key = (start, title)
         if key in seen:
             continue
         seen.add(key)
-        result.append(item)
+        result.append({"start": start, "title": title})
     return result
 
-
-def normalize_programs(raw_programs: list[dict], base_date: datetime) -> list[tuple]:
+def normalize_programs(raw_programs, base_date):
     result = []
     day_base = base_date.replace(hour=0, minute=0, second=0, microsecond=0)
 
     for prog in raw_programs:
         title = clean_text(prog.get("title", ""))
-        start_raw = clean_text(prog.get("start", ""))
+        start_raw = normalize_time_text(prog.get("start", ""))
         if not title or not start_raw:
             continue
 
@@ -119,42 +144,108 @@ def normalize_programs(raw_programs: list[dict], base_date: datetime) -> list[tu
     fixed = []
     for i, item in enumerate(result):
         title, start_dt, _ = item
-        if i < len(result) - 1:
-            end_dt = result[i + 1][1]
-        else:
-            end_dt = start_dt + timedelta(hours=2)
+        end_dt = result[i + 1][1] if i < len(result) - 1 else start_dt + timedelta(hours=2)
         fixed.append((title, start_dt, end_dt))
-
     return fixed
 
+def scrape_page(url: str) -> BeautifulSoup:
+    session = get_session()
+    resp = session.get(url, timeout=25)
+    resp.raise_for_status()
+    return BeautifulSoup(resp.text, "html.parser")
 
-def extract_by_text_pairs(page_text: str) -> list[dict]:
-    """
-    Sayfa metninden:
-    07:00
-    Program Adı
-    şeklindeki akışları toplamaya çalışır.
-    """
+def scrape_kanald(url: str):
+    soup = scrape_page(url)
+    items = []
+
+    # Kanal D'de saatten sonra gerçek başlık h3 altında geliyor, ayrıca YAYINDA gürültüsü var
+    for title_el in soup.select("h3, h4, h5"):
+        title = clean_text(title_el.get_text(" ", strip=True))
+        if not title or is_noise_line(title):
+            continue
+
+        prev = title_el.find_previous(string=re.compile(r"\b\d{1,2}:\d{2}\b"))
+        if not prev:
+            continue
+
+        m = re.search(r"\b(\d{1,2}:\d{2})\b", str(prev))
+        if not m:
+            continue
+
+        items.append({
+            "start": m.group(1),
+            "title": title,
+        })
+
+    return unique_programs(items)
+
+def scrape_startv(url: str):
+    soup = scrape_page(url)
+    items = []
+
+    # Star TV'de gerçek başlık ##### altında, "Yaşam" gibi tür satırları ayrı
+    for title_el in soup.select("h5, h4, h3"):
+        title = clean_text(title_el.get_text(" ", strip=True))
+        if not title or is_noise_line(title):
+            continue
+
+        prev = title_el.find_previous(string=re.compile(r"\b\d{1,2}:\d{2}\b"))
+        if not prev:
+            continue
+
+        m = re.search(r"\b(\d{1,2}:\d{2})\b", str(prev))
+        if not m:
+            continue
+
+        items.append({
+            "start": m.group(1),
+            "title": title,
+        })
+
+    return unique_programs(items)
+
+def scrape_atv(url: str):
+    soup = scrape_page(url)
+    items = []
+
+    # ATV'de saatler "06: 20" formatında ve başlık ### içinde
+    for title_el in soup.select("h3, h4"):
+        title = clean_text(title_el.get_text(" ", strip=True))
+        if not title or is_noise_line(title):
+            continue
+
+        prev = title_el.find_previous(string=re.compile(r"\b\d{1,2}\s*:\s*\d{2}\b"))
+        if not prev:
+            continue
+
+        m = re.search(r"\b(\d{1,2}\s*:\s*\d{2})\b", str(prev))
+        if not m:
+            continue
+
+        items.append({
+            "start": normalize_time_text(m.group(1)),
+            "title": title,
+        })
+
+    return unique_programs(items)
+
+def extract_showtv_text_pairs(page_text: str):
     lines = [clean_text(x) for x in page_text.splitlines()]
     lines = [x for x in lines if x]
-
     items = []
+
     i = 0
     while i < len(lines):
-        line = lines[i]
+        line = normalize_time_text(lines[i])
         if re.match(r"^\d{1,2}:\d{2}$", line):
             title = ""
             j = i + 1
             while j < len(lines):
-                nxt = lines[j]
-                if re.match(r"^\d{1,2}:\d{2}$", nxt):
+                nxt = clean_text(lines[j])
+                nxt_norm = normalize_time_text(nxt)
+                if re.match(r"^\d{1,2}:\d{2}$", nxt_norm):
                     break
-                # çok kısa / anlamsız satırları atla
-                if len(nxt) >= 2 and nxt.lower() not in {
-                    "izle", "canli izle", "yayında", "detaya git",
-                    "tekrar", "canlı", "yeni bölüm", "fragman izle",
-                    "son bölüm", "son bölümü izle"
-                }:
+                if not is_noise_line(nxt):
                     title = nxt
                     break
                 j += 1
@@ -165,95 +256,14 @@ def extract_by_text_pairs(page_text: str) -> list[dict]:
 
     return unique_programs(items)
 
-
-def extract_dom_pairs(soup: BeautifulSoup) -> list[dict]:
-    """
-    HTML içinde zaman ve başlığı yakın düğümlerden toplamaya çalışır.
-    """
-    items = []
-
-    candidate_blocks = soup.select("li, article, .item, .swiper-slide, .card, .broadcast, .program")
-    for block in candidate_blocks:
-        text = clean_text(block.get_text("\n", strip=True))
-        if not text:
-            continue
-
-        time_match = re.search(r"\b(\d{1,2}:\d{2})\b", text)
-        if not time_match:
-            continue
-
-        lines = [clean_text(x) for x in text.split("\n") if clean_text(x)]
-        if len(lines) < 2:
-            continue
-
-        start = time_match.group(1)
-        title = ""
-
-        for ln in lines:
-            if ln == start:
-                continue
-            if re.match(r"^\d{1,2}:\d{2}$", ln):
-                continue
-            if ln.lower() in {
-                "izle", "canli izle", "yayında", "detaya git",
-                "tekrar", "canlı", "yeni bölüm", "fragman izle",
-                "son bölüm", "son bölümü izle"
-            }:
-                continue
-            if len(ln) >= 2:
-                title = ln
-                break
-
-        if title:
-            items.append({"start": start, "title": title})
-
-    return unique_programs(items)
-
-
-def scrape_page(url: str) -> BeautifulSoup:
-    session = get_session()
-    resp = session.get(url, timeout=25)
-    resp.raise_for_status()
-    return BeautifulSoup(resp.text, "html.parser")
-
-
-def scrape_atv(url: str) -> list[dict]:
+def scrape_showtv(url: str):
     soup = scrape_page(url)
-    items = extract_dom_pairs(soup)
-    if len(items) < 3:
-        items = extract_by_text_pairs(soup.get_text("\n"))
-    return items
+    return extract_showtv_text_pairs(soup.get_text("\n"))
 
-
-def scrape_kanald(url: str) -> list[dict]:
-    soup = scrape_page(url)
-    items = extract_dom_pairs(soup)
-    if len(items) < 3:
-        items = extract_by_text_pairs(soup.get_text("\n"))
-    return items
-
-
-def scrape_showtv(url: str) -> list[dict]:
-    soup = scrape_page(url)
-    items = extract_dom_pairs(soup)
-    if len(items) < 3:
-        items = extract_by_text_pairs(soup.get_text("\n"))
-    return items
-
-
-def scrape_startv(url: str) -> list[dict]:
-    soup = scrape_page(url)
-    items = extract_dom_pairs(soup)
-    if len(items) < 3:
-        items = extract_by_text_pairs(soup.get_text("\n"))
-    return items
-
-
-def scrape_channel(channel_id: str, info: dict, base_date: datetime) -> list[tuple]:
+def scrape_channel(channel_id: str, info: dict, base_date: datetime):
     parser_name = info["parser"]
     url = info["url"]
 
-    raw = []
     if parser_name == "atv":
         raw = scrape_atv(url)
     elif parser_name == "kanald":
@@ -262,12 +272,13 @@ def scrape_channel(channel_id: str, info: dict, base_date: datetime) -> list[tup
         raw = scrape_showtv(url)
     elif parser_name == "startv":
         raw = scrape_startv(url)
+    else:
+        raw = []
 
     print(f"  Ham veri: {len(raw)} program")
     normalized = normalize_programs(raw, base_date)
     print(f"  Normalize: {len(normalized)} program")
     return normalized
-
 
 def build_xmltv(all_programs: dict) -> str:
     tv = Element("tv", attrib={"generator-info-name": "Simple Turkish EPG Scraper"})
@@ -292,7 +303,6 @@ def build_xmltv(all_programs: dict) -> str:
     rough = tostring(tv, encoding="utf-8")
     pretty = minidom.parseString(rough).toprettyxml(indent="  ", encoding="utf-8")
     return pretty.decode("utf-8")
-
 
 def main():
     today = datetime.now(TURKEY_TZ).replace(hour=0, minute=0, second=0, microsecond=0).replace(tzinfo=None)
@@ -320,7 +330,6 @@ def main():
 
     total_programs = sum(len(v) for v in all_programs.values())
     print(f"\nTamamlandı: {len(all_programs)} kanal, {total_programs} program")
-
 
 if __name__ == "__main__":
     try:
