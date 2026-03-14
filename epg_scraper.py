@@ -11,7 +11,7 @@ import gzip
 # ==========================================
 # MANUEL SAAT AYARI (Kayma olursa buradan düzelt!)
 # Örn: Saatler 3 saat ilerideyse -3 yap. Gerideyse 3 yap.
-SAAT_AYARI = -3
+SAAT_AYARI = 3
 # ==========================================
 
 CHANNELS_DATA = {
