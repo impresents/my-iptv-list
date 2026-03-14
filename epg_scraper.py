@@ -6,6 +6,8 @@ import xml.etree.ElementTree as ET
 from xml.dom import minidom
 import re
 import sys
+import gzip
+import io
 
 # Senin Kotlin'den gönderdiğin 77 Kanallık Tam Liste
 MY_CHANNELS = [
@@ -21,15 +23,14 @@ MY_CHANNELS = [
     "TRT Belgesel", "TGRT Belgesel"
 ]
 
-# Çökmelere Karşı 4 Farklı Güvenilir Master EPG Kaynağı
+# Güncel ve Çalışan Master EPG Kaynakları (2026)
 MASTER_URLS = [
-    "https://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_TR1.xml",
-    "https://iptv-org.github.io/epg/guides/tr/tvplus.com.tr.epg.xml",
-    "https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml",
-    "https://iptv-org.github.io/epg/guides/tr/dsmart.com.tr.epg.xml"
+    "https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz",
+    "https://www.bevy.be/download.php?file=turkey.xml",
+    "https://www.bevy.be/download.php?file=turkeypremium1.xml",
+    "https://www.bevy.be/download.php?file=turkeypremium2.xml"
 ]
 
-# İsimleri eşleştirmek için temizleyen fonksiyon
 def normalize_name(name):
     n = name.lower()
     n = n.replace("hd", "").replace("fhd", "").replace("4k", "")
@@ -48,7 +49,7 @@ def main():
             "source_url": None
         }
 
-    new_tv = ET.Element("tv", attrib={"generator-info-name": "BelesTiVi EPG Generator v3.0 (Multi-Source)"})
+    new_tv = ET.Element("tv", attrib={"generator-info-name": "BelesTiVi Multi-Source EPG"})
     total_prog_count = 0
 
     print("Çoklu EPG Kaynak Taraması Başlıyor...\n")
@@ -56,11 +57,21 @@ def main():
     for url in MASTER_URLS:
         print(f"➤ Kaynak İndiriliyor: {url.split('/')[-1]}...")
         try:
-            resp = requests.get(url, timeout=20)
+            # Siteler bot olduğumuzu anlayıp engellemesin diye tarayıcı kimliği (User-Agent) ekledik
+            headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"}
+            resp = requests.get(url, timeout=40, headers=headers)
+            
             if resp.status_code != 200:
                 print(f"  ❌ HATA: Kaynak yanıt vermedi (HTTP {resp.status_code})")
                 continue
-            root = ET.fromstring(resp.content)
+                
+            # EPG dosyası ".gz" (sıkıştırılmış) formatındaysa, hafızada anında açıyoruz
+            if url.endswith('.gz') or resp.content[:2] == b'\x1f\x8b':
+                xml_data = gzip.decompress(resp.content)
+            else:
+                xml_data = resp.content
+                
+            root = ET.fromstring(xml_data)
             print("  ✅ İndirildi ve ayrıştırıldı. Kanallar eşleştiriliyor...")
         except Exception as e:
             print(f"  ❌ HATA: İndirme veya okuma başarısız - {e}")
@@ -68,7 +79,6 @@ def main():
 
         matched_in_this_file = {} 
 
-        # 1. Aşama: Bu dosyadan hangi kanalları çekebiliriz bulalım
         for channel in root.findall('channel'):
             master_id = channel.get('id')
             display_name_el = channel.find('display-name')
@@ -77,9 +87,7 @@ def main():
                 master_norm = normalize_name(display_name_el.text)
 
                 for norm_key, data in target_map.items():
-                    # Eğer kanal bulunduysa
                     if norm_key in master_norm or master_norm in norm_key:
-                        # Bu kanalı DAHA ÖNCE başka dosyada bulamadıysak, listeye ekle
                         if not data["found"]:
                             data["found"] = True
                             data["source_url"] = url
@@ -88,12 +96,10 @@ def main():
                             new_dn = ET.SubElement(new_ch, "display-name", lang="tr")
                             new_dn.text = data["original_name"]
                         
-                        # Eğer bu kanalın asıl kaynağı BU dosya ise programlarını çekmek için ID'sini kaydet
                         if data["source_url"] == url:
                             matched_in_this_file[master_id] = data["epg_id"]
                         break
 
-        # 2. Aşama: Bu dosyadan sadece eşleşen kanalların programlarını çek
         prog_count = 0
         for prog in root.findall('programme'):
             master_prog_id = prog.get('channel')
@@ -105,7 +111,6 @@ def main():
                 
         print(f"  📌 Bu kaynaktan {len(matched_in_this_file)} kanal, {prog_count} program çekildi.\n")
 
-    # Genel Sonuç Raporu
     found_count = sum(1 for data in target_map.values() if data["found"])
     print("="*40)
     print(f"SONUÇ RAPORU")
@@ -115,14 +120,13 @@ def main():
     print(f"Çekilen Toplam Program Sayısı: {total_prog_count}")
     print("="*40)
 
-    # Bulunamayanları da listele ki bilelim
+    # Bulunamayanları da görelim
     if found_count < len(MY_CHANNELS):
-        print("\nBulunamayan Kanallar:")
+        print("\nBulunamayan Kanallar (Kaynaklarda yayımlanmıyor olabilir):")
         for norm_key, data in target_map.items():
             if not data["found"]:
                 print(f" - {data['original_name']}")
 
-    # Yeni XML'i oluştur ve kaydet
     rough_string = ET.tostring(new_tv, 'utf-8')
     reparsed = minidom.parseString(rough_string)
     with open("epg.xml", "w", encoding="utf-8") as f:
