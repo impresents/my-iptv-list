@@ -118,11 +118,11 @@ ALIAS_MAP = {
 
 # ÖNCELİK SIRASI DEĞİŞTİRİLDİ: En kaliteli liste olan turkey2 en başa alındı.
 MASTER_URLS = [
+    "https://www.open-epg.com/app/download.php?file=turkey1.xml",
     "https://www.open-epg.com/app/download.php?file=turkey2.xml",
     "https://www.open-epg.com/app/download.php?file=turkey3.xml",
     "https://www.open-epg.com/app/download.php?file=turkey4.xml",
-    "https://www.open-epg.com/app/download.php?file=turkey5.xml",
-    "https://www.open-epg.com/app/download.php?file=turkey1.xml"
+    "https://www.open-epg.com/app/download.php?file=turkey5.xml"
 ]
 
 def normalize_name(name):
