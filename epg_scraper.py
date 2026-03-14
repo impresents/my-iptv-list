@@ -89,7 +89,6 @@ CHANNELS_DATA = {
     "TGRT Belgesel": "TGRT Belgesel"
 }
 
-# Kaynaktaki Olası Diğer İsimleri (Alias)
 ALIAS_MAP = {
     "NOW": ["fox", "nowtv", "fox tv"],
     "TV8.5": ["tv85", "tv 8,5", "tv8bucuk", "tv 8.5"],
@@ -116,7 +115,6 @@ ALIAS_MAP = {
     "TRT EBA": ["trteba", "ebatv", "trtoku"]
 }
 
-# Senin bulduğun yeni ve sağlam kaynaklar
 MASTER_URLS = [
     "https://www.open-epg.com/app/download.php?file=turkey1.xml",
     "https://www.open-epg.com/app/download.php?file=turkey2.xml",
@@ -205,6 +203,15 @@ def main():
         for prog in root.findall('programme'):
             master_prog_id = prog.get('channel')
             if master_prog_id in matched_in_this_file:
+                # KRİTİK DÜZELTME: Saat dilimini zorla Türkiye (+0300) yapıyoruz!
+                start_str = prog.get('start', '')
+                stop_str = prog.get('stop', '')
+                
+                if start_str:
+                    prog.set('start', re.sub(r'[+-]\d{4}', '+0300', start_str))
+                if stop_str:
+                    prog.set('stop', re.sub(r'[+-]\d{4}', '+0300', stop_str))
+
                 prog.set('channel', matched_in_this_file[master_prog_id])
                 new_tv.append(prog)
                 prog_count += 1
