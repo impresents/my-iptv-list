@@ -8,36 +8,105 @@ import re
 import sys
 import gzip
 
-# 77 Kanallık Tam Liste
-MY_CHANNELS = [
-    "TRT 1", "Show TV", "Kanal D", "ATV", "NOW", "Star TV", "TV8", "360",
-    "CNBC-e", "Bloomberg HT", "A Haber", "TRT Haber", "Kanal 7", "A2", "Beyaz TV", "tv100",
-    "Ülke TV", "TVNET", "Kanal 24", "24 TV", "NTV", "CNN Türk", "A Para", "Habertürk",
-    "TGRT Haber", "Ekotürk", "Haber Global", "TELE1", "Ekol TV", "Flash Haber", "Lider Haber", "ULUSAL TV",
-    "Halk TV", "Teve2", "TV8.5", "TRT 3", "TRT Avaz", "TRT Kurdi", "Türk Haber", "Sözcü TV",
-    "TRT Türk", "KRT", "Bengütürk", "TV4", "TRT 2", "VAV TV", "Diyanet TV", "Akit TV", "GZT", "Bi Kanal", "MK TV",
-    "TYT Türk", "TRT Spor", "A Spor", "HT Spor", "FB TV", "Tivibu Spor", "Sıfır TV", "TRT Spor Yıldız", "TJK TV",
-    "Sports TV", "TLC", "TRT Müzik", "TRT Arabi", "A News", "BBC World", "TRT World",
-    "TRT EBA", "TRT Çocuk", "STOON TV", "Cartoon Network", "Minika GO", "Minika Çocuk", "DMAX", "Yaban TV",
-    "TRT Belgesel", "TGRT Belgesel"
-]
+# 77 Kanallık Tam Liste ve Android Uygulamasının Beklediği KESİN ID'ler
+CHANNELS_DATA = {
+    "TRT 1": "TRT1.tr",
+    "Show TV": "ShowTV.tr",
+    "Kanal D": "KanalD.tr",
+    "ATV": "ATV.tr",
+    "NOW": "NOWTV.tr",
+    "Star TV": "StarTV.tr",
+    "TV8": "TV8.tr",
+    "360": "360TV.tr",
+    "CNBC-e": "CNBC-e",
+    "Bloomberg HT": "Bloomberg HT",
+    "A Haber": "AHaber.tr",
+    "TRT Haber": "TRTHaber.tr",
+    "Kanal 7": "Kanal7.tr",
+    "A2": "A2",
+    "Beyaz TV": "BeyazTV.tr",
+    "tv100": "TV100.tr",
+    "Ülke TV": "Ülke TV",
+    "TVNET": "TVNET",
+    "Kanal 24": "Kanal 24",
+    "24 TV": "24 TV",
+    "NTV": "NTV.tr",
+    "CNN Türk": "CNN Türk",
+    "A Para": "A Para",
+    "Habertürk": "Habertürk",
+    "TGRT Haber": "TGRTHaber.tr",
+    "Ekotürk": "Ekotürk",
+    "Haber Global": "HaberGlobal.tr",
+    "TELE1": "TELE1",
+    "Ekol TV": "Ekol TV",
+    "Flash Haber": "Flash Haber TV",
+    "Lider Haber": "Lider Haber TV",
+    "ULUSAL TV": "ULUSAL TV",
+    "Halk TV": "HalkTV.tr",
+    "Teve2": "Teve2.tr",
+    "TV8.5": "TV85.tr",
+    "TRT 3": "TRT 3 Spor",
+    "TRT Avaz": "TRTAvaz.tr",
+    "TRT Kurdi": "TRTKurdi.tr",
+    "Türk Haber": "Türkhaber TV",
+    "Sözcü TV": "Sözcü TV",
+    "TRT Türk": "TRT Türk",
+    "KRT": "KRT",
+    "Bengütürk": "Bengütürk",
+    "TV4": "TV 4",
+    "TRT 2": "TRT2.tr",
+    "VAV TV": "Vav TV",
+    "Diyanet TV": "Diyanet TV",
+    "Akit TV": "Akit TV",
+    "GZT": "GZT",
+    "Bi Kanal": "Bi Kanal",
+    "MK TV": "MK TV",
+    "TYT Türk": "TYT Türk",
+    "TRT Spor": "TRT Spor",
+    "A Spor": "A Spor",
+    "HT Spor": "HT Spor",
+    "FB TV": "FB TV",
+    "Tivibu Spor": "Tivibu Spor",
+    "Sıfır TV": "Sıfır TV",
+    "TRT Spor Yıldız": "TRT Spor Yıldız",
+    "TJK TV": "TJK TV",
+    "Sports TV": "Sports TV",
+    "TLC": "TLC",
+    "TRT Müzik": "TRT Müzik",
+    "TRT Arabi": "TRT Arabi",
+    "A News": "A News",
+    "BBC World": "BBC World",
+    "TRT World": "TRT World",
+    "TRT EBA": "TRT EBA",
+    "TRT Çocuk": "TRT Çocuk",
+    "STOON TV": "STOON TV",
+    "Cartoon Network": "Cartoon Network",
+    "Minika GO": "Minika GO",
+    "Minika Çocuk": "Minika Çocuk",
+    "DMAX": "DMAX",
+    "Yaban TV": "Yaban TV",
+    "TRT Belgesel": "TRT Belgesel",
+    "TGRT Belgesel": "TGRT Belgesel"
+}
 
-# Kanalların Kaynaktaki Olası Diğer İsimleri (Alias)
+# Kaynaktaki Olası Diğer İsimleri (Alias)
 ALIAS_MAP = {
-    "NOW": ["fox", "nowtv"],
-    "TV8.5": ["tv85", "tv8bucuk"],
+    "NOW": ["fox", "nowtv", "fox tv"],
+    "TV8.5": ["tv85", "tv 8,5", "tv8bucuk"],
     "CNBC-e": ["cnbce"],
+    "360": ["360tv"],
+    "tv100": ["tv 100"],
     "Kanal 24": ["24tv", "yirmidort"],
+    "24 TV": ["24tv", "yirmidort"],
     "Sözcü TV": ["szctv", "sozcu"],
     "TRT Spor Yıldız": ["trtyildiz", "trtspor2"],
     "Haber Global": ["haberglobal"],
     "TELE1": ["tele1"],
     "Halk TV": ["halktv"],
-    "tv100": ["tv100"],
     "FB TV": ["fbtv", "fenerbahce"],
     "Tivibu Spor": ["tivibuspor1", "tivibuspor"],
     "TJK TV": ["tjktv"],
-    "TRT 2": ["trt2"],
+    "TRT 2": ["trt2", "trt 2 hd"],
     "TRT Arabi": ["trtarabi"],
     "Diyanet TV": ["diyanettv"],
     "Yaban TV": ["yabantv"],
@@ -59,16 +128,13 @@ def normalize_name(name):
 
 def main():
     target_map = {}
-    for ch in MY_CHANNELS:
-        norm = normalize_name(ch)
-        epg_id = ch.replace(" ", "") + ".tr" 
-        
-        # Eğer bu kanalın alias listesi varsa onları da temizle ve kaydet
-        aliases = ALIAS_MAP.get(ch, [])
+    for ch_name, epg_id in CHANNELS_DATA.items():
+        norm = normalize_name(ch_name)
+        aliases = ALIAS_MAP.get(ch_name, [])
         norm_aliases = [normalize_name(a) for a in aliases]
         
-        target_map[ch] = {
-            "original_name": ch,
+        target_map[ch_name] = {
+            "original_name": ch_name,
             "epg_id": epg_id,
             "norm_primary": norm,
             "norm_aliases": norm_aliases,
@@ -82,7 +148,7 @@ def main():
 
     for url in MASTER_URLS:
         try:
-            headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+            headers = {"User-Agent": "Mozilla/5.0"}
             resp = requests.get(url, timeout=40, headers=headers)
             
             if resp.status_code != 200:
@@ -110,7 +176,6 @@ def main():
                     if data["found"]:
                         continue
                         
-                    # Ana isme veya alias'lara uyuyor mu kontrol et
                     match_found = False
                     if data["norm_primary"] in master_norm or master_norm in data["norm_primary"]:
                         match_found = True
@@ -136,7 +201,7 @@ def main():
                 total_prog_count += 1
 
     found_count = sum(1 for data in target_map.values() if data["found"])
-    print(f"Başarıyla Bulunan Kanal: {found_count} / {len(MY_CHANNELS)}")
+    print(f"Başarıyla Bulunan Kanal: {found_count} / {len(CHANNELS_DATA)}")
     print(f"Çekilen Toplam Program Sayısı: {total_prog_count}")
 
     rough_string = ET.tostring(new_tv, 'utf-8')
