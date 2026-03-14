@@ -3,6 +3,9 @@
   <channel id="KanalD.tr">
     <display-name lang="tr">Kanal D</display-name>
   </channel>
+  <channel id="ShowTV.tr">
+    <display-name lang="tr">Show TV</display-name>
+  </channel>
   <channel id="StarTV.tr">
     <display-name lang="tr">Star TV</display-name>
   </channel>
@@ -50,6 +53,102 @@
   </programme>
   <programme start="20260315041500 +0300" stop="20260315061500 +0300" channel="KanalD.tr">
     <title lang="tr">PROGRAMLAR</title>
+  </programme>
+  <programme start="20260314100000 +0300" stop="20260314100000 +0300" channel="ShowTV.tr">
+    <title lang="tr">Pazar Sürprizi</title>
+  </programme>
+  <programme start="20260314100000 +0300" stop="20260315080000 +0300" channel="ShowTV.tr">
+    <title lang="tr">Şükran Kaymak'la Ramazan Sofrası</title>
+  </programme>
+  <programme start="20260315080000 +0300" stop="20260315104500 +0300" channel="ShowTV.tr">
+    <title lang="tr">Kuzey Yıldızı İlk Aşk</title>
+  </programme>
+  <programme start="20260315104500 +0300" stop="20260315123000 +0300" channel="ShowTV.tr">
+    <title lang="tr">Şükran Kaymak'la Ramazan Sofrası</title>
+  </programme>
+  <programme start="20260315123000 +0300" stop="20260315150000 +0300" channel="ShowTV.tr">
+    <title lang="tr">Gelin Evi</title>
+  </programme>
+  <programme start="20260315150000 +0300" stop="20260315184500 +0300" channel="ShowTV.tr">
+    <title lang="tr">Didem Arslan Yılmaz'la Vazgeçme</title>
+  </programme>
+  <programme start="20260315184500 +0300" stop="20260315200000 +0300" channel="ShowTV.tr">
+    <title lang="tr">Show Ana Haber</title>
+  </programme>
+  <programme start="20260315200000 +0300" stop="20260315221500 +0300" channel="ShowTV.tr">
+    <title lang="tr">İntikam</title>
+  </programme>
+  <programme start="20260315221500 +0300" stop="20260315003000 +0300" channel="ShowTV.tr">
+    <title lang="tr">Belalı Tanık</title>
+  </programme>
+  <programme start="20260315003000 +0300" stop="20260315030000 +0300" channel="ShowTV.tr">
+    <title lang="tr">Bekir Köse ile Ramazan Geceleri</title>
+  </programme>
+  <programme start="20260315030000 +0300" stop="20260315050000 +0300" channel="ShowTV.tr">
+    <title lang="tr">Kızılcık Şerbeti</title>
+  </programme>
+  <programme start="20260315050000 +0300" stop="20260315200000 +0300" channel="ShowTV.tr">
+    <title lang="tr">Bahar</title>
+  </programme>
+  <programme start="20260315200000 +0300" stop="20260315010000 +0300" channel="ShowTV.tr">
+    <title lang="tr">Güldür Güldür Show</title>
+  </programme>
+  <programme start="20260315010000 +0300" stop="20260315030000 +0300" channel="ShowTV.tr">
+    <title lang="tr">Bekir Köse ile Ramazan Geceleri</title>
+  </programme>
+  <programme start="20260315030000 +0300" stop="20260315200000 +0300" channel="ShowTV.tr">
+    <title lang="tr">Veliaht</title>
+  </programme>
+  <programme start="20260315200000 +0300" stop="20260315221500 +0300" channel="ShowTV.tr">
+    <title lang="tr">Şendul Şaban</title>
+  </programme>
+  <programme start="20260315221500 +0300" stop="20260315001500 +0300" channel="ShowTV.tr">
+    <title lang="tr">İftarlık Gazoz</title>
+  </programme>
+  <programme start="20260315001500 +0300" stop="20260315024500 +0300" channel="ShowTV.tr">
+    <title lang="tr">Bekir Köse ile Ramazan Geceleri</title>
+  </programme>
+  <programme start="20260315024500 +0300" stop="20260315200000 +0300" channel="ShowTV.tr">
+    <title lang="tr">Kızılcık Şerbeti</title>
+  </programme>
+  <programme start="20260315200000 +0300" stop="20260315024500 +0300" channel="ShowTV.tr">
+    <title lang="tr">Veliaht</title>
+  </programme>
+  <programme start="20260315024500 +0300" stop="20260315200000 +0300" channel="ShowTV.tr">
+    <title lang="tr">Veliaht</title>
+  </programme>
+  <programme start="20260315200000 +0300" stop="20260315080000 +0300" channel="ShowTV.tr">
+    <title lang="tr">Kızılcık Şerbeti</title>
+  </programme>
+  <programme start="20260315080000 +0300" stop="20260315100000 +0300" channel="ShowTV.tr">
+    <title lang="tr">7 Evlat 2 Damat</title>
+  </programme>
+  <programme start="20260315100000 +0300" stop="20260315130000 +0300" channel="ShowTV.tr">
+    <title lang="tr">Cumartesi Sürprizi</title>
+  </programme>
+  <programme start="20260315130000 +0300" stop="20260315144500 +0300" channel="ShowTV.tr">
+    <title lang="tr">Şükran Kaymak'la Ramazan Sofrası</title>
+  </programme>
+  <programme start="20260315144500 +0300" stop="20260315182500 +0300" channel="ShowTV.tr">
+    <title lang="tr">Kızılcık Şerbeti</title>
+  </programme>
+  <programme start="20260315182500 +0300" stop="20260315021500 +0300" channel="ShowTV.tr">
+    <title lang="tr">Hafta Sonu Ana Haber</title>
+  </programme>
+  <programme start="20260315021500 +0300" stop="20260315080000 +0300" channel="ShowTV.tr">
+    <title lang="tr">Veliaht</title>
+  </programme>
+  <programme start="20260315080000 +0300" stop="20260315144500 +0300" channel="ShowTV.tr">
+    <title lang="tr">Kezban Paris'te</title>
+  </programme>
+  <programme start="20260315144500 +0300" stop="20260315200000 +0300" channel="ShowTV.tr">
+    <title lang="tr">Veliaht</title>
+  </programme>
+  <programme start="20260315200000 +0300" stop="20260315220000 +0300" channel="ShowTV.tr">
+    <title lang="tr">Atla Gel Şaban</title>
+  </programme>
+  <programme start="20260315220000 +0300" stop="20260316000000 +0300" channel="ShowTV.tr">
+    <title lang="tr">Eyyvah Eyvah 3</title>
   </programme>
   <programme start="20260314070000 +0300" stop="20260314090000 +0300" channel="StarTV.tr">
     <title lang="tr">Sefirin Kızı</title>
