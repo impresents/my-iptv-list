@@ -1,11 +1,12 @@
 name: EPG Güncelle
 
 on:
-  schedule:
-    # Her gün Türkiye saatiyle 00:30'da çalışır (UTC 21:30)
-    - cron: '30 21 * * *'
-  # Elle de tetiklenebilir
   workflow_dispatch:
+  schedule:
+    - cron: '30 21 * * *'
+
+permissions:
+  contents: write
 
 jobs:
   scrape-epg:
@@ -21,16 +22,15 @@ jobs:
           python-version: '3.11'
 
       - name: Bağımlılıkları yükle
-        run: |
-          pip install requests beautifulsoup4 pytz lxml
+        run: pip install -r requirements.txt
 
       - name: EPG scraper çalıştır
         run: python epg_scraper.py
 
       - name: epg.xml dosyasını commit et
         run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add epg.xml
-          git diff --cached --quiet || git commit -m "EPG güncellendi: $(TZ='Europe/Istanbul' date +'%Y-%m-%d %H:%M')"
+          git diff --cached --quiet || git commit -m "EPG güncellendi"
           git push
