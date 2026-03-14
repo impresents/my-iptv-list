@@ -206,56 +206,45 @@ def scrape_startv(url: str):
 
 def scrape_atv(url: str):
     soup = scrape_page(url)
-    items = []
+    page_text = soup.get_text("\n")
 
-    # ATV'de saatler "06: 20" formatında ve başlık ### içinde
-    for title_el in soup.select("h3, h4"):
-        title = clean_text(title_el.get_text(" ", strip=True))
-        if not title or is_noise_line(title):
-            continue
-
-        prev = title_el.find_previous(string=re.compile(r"\b\d{1,2}\s*:\s*\d{2}\b"))
-        if not prev:
-            continue
-
-        m = re.search(r"\b(\d{1,2}\s*:\s*\d{2})\b", str(prev))
-        if not m:
-            continue
-
-        items.append({
-            "start": normalize_time_text(m.group(1)),
-            "title": title,
-        })
-
-    return unique_programs(items)
-
-def extract_showtv_text_pairs(page_text: str):
     lines = [clean_text(x) for x in page_text.splitlines()]
     lines = [x for x in lines if x]
-    items = []
 
+    items = []
     i = 0
     while i < len(lines):
         line = normalize_time_text(lines[i])
+
+        # Saat satırı: 06:20 veya 06: 20 gibi
         if re.match(r"^\d{1,2}:\d{2}$", line):
             title = ""
             j = i + 1
+
             while j < len(lines):
                 nxt = clean_text(lines[j])
                 nxt_norm = normalize_time_text(nxt)
+
+                # bir sonraki saate geldiysek bırak
                 if re.match(r"^\d{1,2}:\d{2}$", nxt_norm):
                     break
+
+                # gürültü satırlarını atla
                 if not is_noise_line(nxt):
                     title = nxt
                     break
+
                 j += 1
 
             if title:
-                items.append({"start": line, "title": title})
+                items.append({
+                    "start": line,
+                    "title": title
+                })
+
         i += 1
 
     return unique_programs(items)
-
 def scrape_showtv(url: str):
     soup = scrape_page(url)
     return extract_showtv_text_pairs(soup.get_text("\n"))
