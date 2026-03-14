@@ -7,7 +7,7 @@ Her gün otomatik güncellenen Türk TV kanalları için XMLTV formatında EPG.
 Uygulamanda EPG URL'si olarak şunu kullan:
 
 ```
-https://raw.githubusercontent.com/KULLANICI_ADI/REPO_ADI/main/epg.xml
+https://raw.githubusercontent.com/impresents/my-iptv-list/main/epg.xml
 ```
 
 ## Kanallar
