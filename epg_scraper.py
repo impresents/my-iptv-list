@@ -53,6 +53,7 @@ NOISE_LINES = {
     "BÖLÜM İZLE", "FRAGMAN İZLE", "SON BÖLÜMÜ İZLE", "YENİ BÖLÜM",
     "TEKRAR", "HABER - CANLI", "YERLİ DİZİ - TEKRAR", "YAŞAM",
     "YAŞAM - YENİ BÖLÜM", "YABANCI FİLM", "YERLİ SİNEMA", "YABANCI SİNEMA",
+    "TÜM YAYIN AKIŞI", "PROGRAMLAR", "DİZİLER",
 }
 
 def get_session() -> requests.Session:
@@ -70,7 +71,8 @@ def clean_text(text: str) -> str:
 
 def normalize_time_text(text: str) -> str:
     text = clean_text(text)
-    text = re.sub(r"(\d{1,2})\s*:\s*(\d{2})", r"\1:\2", text)
+    # Saat formatlarını standartlaştır: 14.30, 14 . 30, 14: 30 -> 14:30
+    text = re.sub(r"\b(\d{1,2})\s*[:\.]\s*(\d{2})\b", r"\1:\2", text)
     return text
 
 def parse_time_str(time_str: str, base_date: datetime):
@@ -152,10 +154,10 @@ def scrape_kanald(url: str):
         title = clean_text(title_el.get_text(" ", strip=True))
         if not title or is_noise_line(title):
             continue
-        prev = title_el.find_previous(string=re.compile(r"\b\d{1,2}:\d{2}\b"))
+        prev = title_el.find_previous(string=re.compile(r"\b\d{1,2}[:\.]\d{2}\b"))
         if not prev:
             continue
-        m = re.search(r"\b(\d{1,2}:\d{2})\b", str(prev))
+        m = re.search(r"\b(\d{1,2}[:\.]\d{2})\b", str(prev))
         if not m:
             continue
         items.append({"start": m.group(1), "title": title})
@@ -168,17 +170,16 @@ def scrape_startv(url: str):
         title = clean_text(title_el.get_text(" ", strip=True))
         if not title or is_noise_line(title):
             continue
-        prev = title_el.find_previous(string=re.compile(r"\b\d{1,2}:\d{2}\b"))
+        prev = title_el.find_previous(string=re.compile(r"\b\d{1,2}[:\.]\d{2}\b"))
         if not prev:
             continue
-        m = re.search(r"\b(\d{1,2}:\d{2})\b", str(prev))
+        m = re.search(r"\b(\d{1,2}[:\.]\d{2})\b", str(prev))
         if not m:
             continue
         items.append({"start": m.group(1), "title": title})
     return unique_programs(items)
 
 def scrape_generic_text(url: str):
-    # ATV, Show TV ve TRT 1 için genel metin tarayıcı
     soup = scrape_page(url)
     page_text = soup.get_text("\n")
     lines = [clean_text(x) for x in page_text.splitlines() if clean_text(x)]
@@ -186,13 +187,25 @@ def scrape_generic_text(url: str):
     i = 0
     while i < len(lines):
         line = normalize_time_text(lines[i])
+        
+        # 1. Durum: Saat ve başlık AYNI satırdaysa (Örn: "08:00 Kahvaltı Haberleri")
+        m_combined = re.match(r"^(\d{1,2}:\d{2})\s+(.+)$", line)
+        if m_combined:
+            t_time = m_combined.group(1)
+            t_title = clean_text(m_combined.group(2))
+            if not is_noise_line(t_title):
+                items.append({"start": t_time, "title": t_title})
+            i += 1
+            continue
+            
+        # 2. Durum: Saat tek satırda, başlık alt satırlardaysa
         if re.match(r"^\d{1,2}:\d{2}$", line):
             title = ""
             j = i + 1
             while j < len(lines):
                 nxt = lines[j]
                 nxt_norm = normalize_time_text(nxt)
-                if re.match(r"^\d{1,2}:\d{2}$", nxt_norm):
+                if re.match(r"^\d{1,2}:\d{2}(\s+.+)?$", nxt_norm):
                     break
                 if not is_noise_line(nxt):
                     title = clean_text(nxt)
