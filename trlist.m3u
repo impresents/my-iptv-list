@@ -635,4 +635,6 @@ https://streams.uzunmuhalefet.com/stream/87fee393-281a-499c-97c3-18ff5c7b2289.m3
 https://streams.uzunmuhalefet.com/stream/9dde3626-6984-4f64-9683-dc3b3d0a843d.m3u8
 #EXTINF:0 CUID="318" tvg-name="Ada TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/8d64858c-5307-409d-9c62-dcc98589c043.png" group-title="Kıbrıs",Ada TV
 https://streams.uzunmuhalefet.com/stream/975e6a82-279a-4b00-a9b4-85c92f480803.m3u8
+#EXTINF:0 CUID="1" tvg-name="TRT GENÇ" tvg-logo="https://www.trt.net.tr/_nuxt/img/trt-genc.0b68abf.png" group-title="Ulusal",TRT GENÇ
+https://tv-trtgenc.medya.trt.com.tr/master.m3u8
 
