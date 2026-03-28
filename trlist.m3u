@@ -156,7 +156,7 @@ https://streams.uzunmuhalefet.com/stream/9a23eaad-ed04-4717-90a4-77984b84553e.m3
 #EXTINF:0 CUID="79" tvg-name="Denizlispor TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/f948bb15-bec8-4ba9-b4a2-710f32c214b1.png" group-title="Spor",Denizlispor TV
 https://streams.uzunmuhalefet.com/stream/98623bf2-fbeb-4be0-9a51-c917d7e64245.m3u8
 #EXTINF:0 CUID="64" tvg-name="beIN SPORTS HABER" tvg-logo="https://yt3.ggpht.com/_vs7K9u3pS-C7flO0cVIkxqgLsIkjElGL6izCYFzI0COAYKda5g2J9DRB9-EHsfTXwA_ayi72g" group-title="SPOR",beIN SPORTS HABER
-https://live.yt-hls.workers.dev/?ID=UCPe9vNjHF1kEExT5kHwc7aw
+http://live.yt-hls.workers.dev/UCPe9vNjHF1kEExT5kHwc7aw.m3u8
 #EXTINF:0 CUID="80" tvg-name="TRT Müzik" tvg-logo="https://cdn.technettv.com/channel/20630/logo_256_1699961878.png" group-title="Müzik",TRT Müzik
 https://streams.uzunmuhalefet.com/stream/6583f90f-0bff-4523-9547-1c9a96280b2e.m3u8
 #EXTINF:0 CUID="81" tvg-name="Dream Türk" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnX_gy3yBn7Cz90lnP8hI_HBWr2loGRyghJw&s" group-title="Müzik",Dream Türk
