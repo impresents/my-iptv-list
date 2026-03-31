@@ -16,6 +16,9 @@ ydl_opts = {
     'format': 'best',
     'quiet': True,
     'no_warnings': True,
+    'extractor_args': {
+        'youtube': ['player_client=android']  # İŞTE YOUTUBE'U KANDIRAN SİHİRLİ ANAHTAR!
+    }
 }
 
 # Sadece YouTube kanallarının olduğu yeni bir m3u listesi üretiyoruz
