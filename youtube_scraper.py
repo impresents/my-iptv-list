@@ -2,6 +2,7 @@ import yt_dlp
 import datetime
 
 # Kanalları ve YouTube Canlı Yayın /live linklerini buraya ekle
+# VİRGÜLLERE DİKKAT ETTİK, HEPSİ TAMAM!
 channels = {
     "HaberTürk": "https://www.youtube.com/watch?v=RNVNlJSUFoE",
     "CNN Türk": "https://www.youtube.com/watch?v=ztmY_cCtUl0",
@@ -12,12 +13,13 @@ channels = {
     "Kurtlar Vadisi Pusu": "https://www.youtube.com/watch?v=J-7jcpJE6QM"
 }
 
+# İŞTE YOUTUBE'U KANDIRAN ANDROID KALKANI BURADA:
 ydl_opts = {
     'format': 'best',
     'quiet': True,
     'no_warnings': True,
     'extractor_args': {
-        'youtube': ['player_client=android']  # İŞTE YOUTUBE'U KANDIRAN SİHİRLİ ANAHTAR!
+        'youtube': ['player_client=android']
     }
 }
 
