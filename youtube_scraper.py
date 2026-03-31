@@ -3,12 +3,13 @@ import datetime
 
 # Kanalları ve YouTube Canlı Yayın /live linklerini buraya ekle
 channels = {
-    "HaberTürk": "https://www.youtube.com/@HaberturkTV/live",
-    "CNN Türk": "https://www.youtube.com/@cnnturk/live",
-    "NTV": "https://www.youtube.com/@ntv/live",
-    "A Haber": "https://www.youtube.com/@tvahaber/live",
-    "Halk TV": "https://www.youtube.com/@HalkTvcomtr/live",
-    "Sözcü TV": "https://www.youtube.com/@Sozcutv/live"
+    "HaberTürk": "https://www.youtube.com/watch?v=RNVNlJSUFoE",
+    "CNN Türk": "https://www.youtube.com/watch?v=ztmY_cCtUl0",
+    "NTV": "https://www.youtube.com/watch?v=pqq5c6k70kk",
+    "A Haber": "https://www.youtube.com/watch?v=nmY9i63t6qo",
+    "Halk TV": "https://www.youtube.com/watch?v=8uNelFh0oz4",
+    "Sözcü TV": "https://www.youtube.com/watch?v=ztmY_cCtUl0"
+    "Kurtlar Vadisi Pusu": "https://www.youtube.com/watch?v=J-7jcpJE6QM"
 }
 
 ydl_opts = {
