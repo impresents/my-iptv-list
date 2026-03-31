@@ -8,7 +8,7 @@ channels = {
     "NTV": "https://www.youtube.com/watch?v=pqq5c6k70kk",
     "A Haber": "https://www.youtube.com/watch?v=nmY9i63t6qo",
     "Halk TV": "https://www.youtube.com/watch?v=8uNelFh0oz4",
-    "Sözcü TV": "https://www.youtube.com/watch?v=ztmY_cCtUl0",
+    "Sözcü TV": "https://www.youtube.com/watch?v=ztmY_cCtUl0"
 }
 
 # --- İŞTE YOUTUBE'U KANDIRAN YENİ "SMART TV" KALKANI ---
