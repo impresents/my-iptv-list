@@ -9,7 +9,6 @@ channels = {
     "A Haber": "https://www.youtube.com/watch?v=nmY9i63t6qo",
     "Halk TV": "https://www.youtube.com/watch?v=8uNelFh0oz4",
     "Sözcü TV": "https://www.youtube.com/watch?v=ztmY_cCtUl0",
-    "Kurtlar Vadisi Pusu": "https://www.youtube.com/watch?v=J-7jcpJE6QM"
 }
 
 # --- İŞTE YOUTUBE'U KANDIRAN YENİ "SMART TV" KALKANI ---
