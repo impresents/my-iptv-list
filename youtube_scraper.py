@@ -13,15 +13,23 @@ channels = {
 
 # --- İŞTE YOUTUBE'U KANDIRAN YENİ "SMART TV" KALKANI ---
 ydl_opts = {
-    'format': 'best',
     'quiet': True,
     'no_warnings': True,
+    'extract_flat': False,
+    'geo_bypass': True,
+    'nocheckcertificate': True,
+    'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+    'http_headers': {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+        'Accept-Language': 'en-US,en;q=0.9',
+    },
     'extractor_args': {
-        # YouTube'a "Ben bir Smart TV'yim ve web sayfası yükleyemem" diyoruz
-        'youtube': ['player_client=tv,ios', 'player_skip=webpage']
+        'youtube': {
+            'player_client': ['android', 'tv_embedded', 'ios'],
+            'player_skip': ['webpage', 'configs'],
+        }
     }
 }
-
 # Sadece YouTube kanallarının olduğu yeni bir m3u listesi üretiyoruz
 with open('youtube.m3u', 'w', encoding='utf-8') as f:
     f.write("#EXTM3U\n")
