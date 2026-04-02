@@ -676,3 +676,129 @@ https://boncuktvv.doymuyorsan-buyugu-var.workers.dev/musicazerbaycanhit
 https://boncuktvv.doymuyorsan-buyugu-var.workers.dev/tmbtv
 #EXTINF:-1 group-title="AZERBAYCAN" tvg-id="MyzTV.tr" tvg-logo="https://cdn.technettv.com/channel/33020/logo_256.png" ,MyzTV
 https://boncuktvv.doymuyorsan-buyugu-var.workers.dev/myztv
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,TRT FM
+https://rd-trtfm.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,TRT Türkü
+https://rd-trtturku.medya.trt.com.tr/master_128.m3u8
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,TRT Nagme
+https://rd-trtnagme.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,TRT Radyo 1
+https://trt.radyotvonline.net/trt1
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,TRT Radyo Haber
+https://rd-trtradyohaber.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,TRT Radyo 3
+https://rd-trtradyo3.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,TRT Radyo 1 Antalya Radyosu
+https://www.trtdinle.com/channel/antalya-radyosu
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Türkiye Polis Radyosu
+https://rd-trtradyohaber.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Haber Türk Radyo
+https://haberturkradyo.radyotvonline.net/haberturkradyo
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,A Haber Radyo
+https://trkvz-radyolar.ercdn.net/ahaberradyo/playlist.m3u8
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,NTV Radyo
+http://ntvrdwmp.radyotvonline.com/;
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,CNN Türk Radyo
+https://moondigitaledge2.radyotvonline.net/cnnturk/playlist.m3u8
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,A Spor Radyo
+https://trkvz-radyolar.ercdn.net/asporradyo/playlist.m3u8
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Radyo Spor
+http://live4.radyotvonline.com:8160/;
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Lig Radyo
+https://turkmedya.radyotvonline.com/turkmedya/ligradyo.stream/playlist.m3u8
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Meteorolojinin Sesi Radyosu
+https://radyomgm.canliyayinda.com/;
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Süper FM
+https://playerservices.streamtheworld.com/api/livestream-redirect/SUPER_FM.mp3
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Power FM
+https://listen.powerapp.com.tr/powerfm/mpeg/icecast.audio
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Power Türk
+https://live.powerapp.com.tr/powerturk/abr/playlist.m3u8
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Power Pop
+https://listen.powerapp.com.tr/powerpop/abr/playlist.m3u8
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Metro FM
+https://playerservices.streamtheworld.com/api/livestream-redirect/METRO_FM.mp3
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Virgin Radio Türkiye
+https://playerservices.streamtheworld.com/api/livestream-redirect/VIRGIN_RADIO.mp3
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Kral FM
+http://46.20.3.220/;
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Kral Pop
+http://46.20.3.201:80/
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Show Radyo
+https://windows.showradyo.com.tr/;
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Best FM
+http://46.20.7.125/listen.pls
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Joy FM
+http://provisioning.streamtheworld.com/pls/JOY_FMAAC.pls
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Joy Türk
+http://provisioning.streamtheworld.com/pls/JOY_TURKAAC.pls
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Number 1 Türk FM
+https://moondigitaledge2.radyotvonline.net/cnnturk/playlist.m3u8
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Radyo Viva
+http://46.20.3.230/;
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Radyo D
+https://moondigitaledge2.radyotvonline.net/radyod/playlist.m3u8
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Radyo Fenomen
+https://live.radyofenomen.com/fenomen/abr/playlist.m3u8
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Fenomen Türk
+https://live.radyofenomen.com/fenomenturk/abr/playlist.m3u8
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Slow Türk
+https://radyo.duhnet.tv/slowturk
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Pal Station
+http://shoutcast.radyogrup.com:1020/;
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,POP 90
+http://provisioning.streamtheworld.com/pls/POP90AAC.pls
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Retro Türk
+http://provisioning.streamtheworld.com/pls/RETROTURKAAC.pls
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Radio Mydonose
+http://provisioning.streamtheworld.com/pls/SC010_SO1AAC.pls
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Pal Nostalji
+http://shoutcast.radyogrup.com:1010/;
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Radyo 45lik
+https://stream.radyo45lik.com:4545/stream
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Baba Radyo
+http://37.247.98.7:80/;stream.mp3
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Vav Radyo
+https://trkvz-radyolar.ercdn.net/radyovav/playlist.m3u8
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Lalegül FM
+http://icecast.netmedya.net/lalegulfm
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Semerkand Radyo
+https://semerkandradyo.com.tr/canli-yayin
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Erkam Radyo
+https://yayin2.canliyayin.org:10910/;
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Diyanet Radyo
+https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3c1171d7d2a.smil/playlist.m3u8
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Akra FM
+https://d3r5bwwuab2v60.cloudfront.net/akracanli2/_definst_/livestream_aac/playlist.m3u8
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Kafa Radyo
+https://moondigitaledge2.radyotvonline.net/kafaradyo/playlist.m3u8
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Alem FM
+http://turkmedya.radyotvonline.com/turkmedya/alemfm.stream/playlist.m3u8
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Radyo Seymen
+https://yayin.radyoseymen.com.tr:1070/stream
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Küpe FM
+https://icecast.netmedya.net/kupefm
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,İmbat FM
+http://38.96.148.39:8788/
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,İstanbul FM
+http://45.32.154.169:9300/;
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Kordon FM
+http://38.96.148.39:8588
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Radyo Dejavu
+https://radyodejavu.80.yayin.com.tr
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Radyo Kordelya
+http://38.96.148.39:8488/
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Radyo Ege
+http://stream2.taksimbilisim.com:8010/;
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Radyo FG FM
+http://37.1.145.21:9001/;stream.mp3
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Radyo ODTÜ
+http://stream.radyoodtu.com.tr/rock;
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Radyo Pause
+http://radyopause.ozelip.com.tr:8040/
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Radyo Trafik
+http://46.20.3.201:80/
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Radyo Trio
+http://radyotrio.radyotvonline.net/radyotrio
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Radyo Turkuvaz
+https://trkvz-radyolar.ercdn.net/radyoturkuvaz/playlist.m3u8
