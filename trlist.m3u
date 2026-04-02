@@ -802,3 +802,13 @@ http://46.20.3.201:80/
 http://radyotrio.radyotvonline.net/radyotrio
 #EXTINF:-1 group-title="Radyo" tvg-logo="" ,Radyo Turkuvaz
 https://trkvz-radyolar.ercdn.net/radyoturkuvaz/playlist.m3u8
+#EXTINF:-1 tvg-id="rahatlamaseans" tvg-name="Relax Video" tvg-logo="https://yt3.googleusercontent.com/lyUMCjkrkgDMTt8LjZ0w6nBg5QWI7HxNeydcyzcvlknIclBzSiWGgJ1oeOeurH79SAF6ijrb=s160-c-k-c0x00ffffff-no-rj" group-title="Dinlenme Vakti",Relax Video
+http://87.121.104.29:1798/rahatlamaseans/stream.m3u8
+#EXTINF:-1 tvg-id="okyanus" tvg-name="Okyanus Sesleri" tvg-logo="https://yt3.googleusercontent.com/-NCv9pGDDs4mIhznDQrpRUb_8HHt7MxyK0RzfnnXkL8rFkZ2bog9lZHNGh2t8U4IinRd9wrH=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj" group-title="Dinlenme Vakti",Okyanus Sesleri
+http://87.121.104.29:1798/okyanus/stream.m3u8
+#EXTINF:-1 tvg-id="somine" tvg-name="Şömine" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaTqhDOMt4sRBXclx0Iob8F6bhZ8bWLVg4tA&s" group-title="Dinlenme Vakti",Şömine
+http://87.121.104.29:1798/somine/stream.m3u8
+#EXTINF:-1 tvg-id="rahatlaticises" tvg-name="Rahatlatıcı Sesler" tvg-logo="https://yt3.googleusercontent.com/cM2oNS3DZxfhTKrT5pNwCCRIYnaIJQyrVVeuH3KnHX89pHW2zqqKc5wur3MS0Z7Ld7kdJsoZ=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj" group-title="Dinlenme Vakti",Rahatlatıcı Sesler
+http://87.121.104.29:1798/rahatlaticises/stream.m3u8
+#EXTINF:-1 tvg-id="ormansesleri" tvg-name="Orman Sesleri" tvg-logo="https://i.ytimg.com/vi/hUC6wx0Zui4/hqdefault.jpg?v=68d35751&sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAUk2TrO0lALYRbJmOZdO89nDO7QA" group-title="Dinlenme Vakti",Orman Sesleri
+http://87.121.104.29:1798/ormansesleri/stream.m3u8
