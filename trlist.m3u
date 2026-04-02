@@ -127,8 +127,6 @@ https://streams.uzunmuhalefet.com/stream/4542f8b9-5c6c-4ef1-aa87-48c0f991fe73.m3
 https://streams.uzunmuhalefet.com/stream/dc23a8ec-c62f-47a2-ae23-e823a9851a1a.m3u8
 #EXTINF:0 CUID="65" tvg-name="TRT Spor Yıldız" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/02ef58a4-349a-49a6-8df2-82fb71c6554d.png" group-title="Spor",TRT Spor Yıldız
 https://streams.uzunmuhalefet.com/stream/978e9210-f530-44ae-99c8-8bdfc998b071.m3u8
-#EXTINF:0 CUID="66" tvg-name="TRT 3 Spor" tvg-logo="https://cdn.technettv.com/channel/20770/logo_256_1699963394.png" group-title="Spor",TRT 3 Spor
-https://streams.uzunmuhalefet.com/stream/82cce5b2-d998-4108-85d8-db0728722c4a.m3u8
 #EXTINF:0 CUID="67" tvg-name="A Spor" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/a-spor-tr.png" group-title="Spor",A Spor
 https://streams.uzunmuhalefet.com/stream/0d7bcd25-1301-4ebf-bc8f-ccb7dec31577.m3u8
 #EXTINF:0 CUID="68" tvg-name="HT Spor" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiFZOKcoVeRqlfcwUBNXoQZGZPguNXzdDz9w&s" group-title="Spor",HT Spor
