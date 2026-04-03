@@ -1,4 +1,4 @@
-"Beleş Radyo: Kesintisiz müzik ve eğlence!",
-"Sunar Games iyi dinlemeler diler...",
-"Favori kanallarını basılı tutarak en başa taşı!",
+"Beleş Radyo: Kesintisiz müzik ve eğlence!"
+"Sunar Games iyi dinlemeler diler..."
+"Favori kanallarını basılı tutarak en başa taşı!"
 "Radyo keyfini arkadaşlarınla paylaşmayı unutma!"
