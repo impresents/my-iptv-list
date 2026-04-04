@@ -704,7 +704,7 @@ https://trkvz-radyolar.ercdn.net/asporradyo/playlist.m3u8
 http://live4.radyotvonline.com:8160/;
 #EXTINF:-1 group-title="Radyo" tvg-logo="" ,Lig Radyo
 https://turkmedya.radyotvonline.com/turkmedya/ligradyo.stream/playlist.m3u8
-#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Meteorolojinin Sesi Radyosu
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Meteorolojinin Sesi
 https://radyomgm.canliyayinda.com/;
 #EXTINF:-1 group-title="Radyo" tvg-logo="" ,Süper FM
 https://playerservices.streamtheworld.com/api/livestream-redirect/SUPER_FM.mp3
@@ -720,6 +720,8 @@ https://listen.powerapp.com.tr/powerpop/abr/playlist.m3u8
 https://playerservices.streamtheworld.com/api/livestream-redirect/METRO_FM.mp3
 #EXTINF:-1 group-title="Radyo" tvg-logo="" ,Virgin Radio Türkiye
 https://playerservices.streamtheworld.com/api/livestream-redirect/VIRGIN_RADIO.mp3
+#EXTINF:-1 group-title="Radyo" tvg-logo="" ,Radyo 7
+https://moondigitaledge.radyotvonline.net/radyo7/playlist.m3u8
 #EXTINF:-1 group-title="Radyo" tvg-logo="" ,Kral FM
 http://46.20.3.220/;
 #EXTINF:-1 group-title="Radyo" tvg-logo="" ,Kral Pop
@@ -779,5 +781,3 @@ https://trkvz-radyolar.ercdn.net/radyoturkuvaz/playlist.m3u8
 
 #EXTINF:-1 tvg-id="somine" tvg-name="Şömine" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaTqhDOMt4sRBXclx0Iob8F6bhZ8bWLVg4tA&s" group-title="Dinlenme Vakti",Şömine
 http://87.121.104.29:1798/somine/stream.m3u8
-
-http://87.121.104.29:1798/ormansesleri/stream.m3u8
