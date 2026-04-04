@@ -676,17 +676,17 @@ https://boncuktvv.doymuyorsan-buyugu-var.workers.dev/musicazerbaycanhit
 https://boncuktvv.doymuyorsan-buyugu-var.workers.dev/tmbtv
 #EXTINF:-1 group-title="AZERBAYCAN" tvg-id="MyzTV.tr" tvg-logo="https://cdn.technettv.com/channel/33020/logo_256.png" ,MyzTV
 https://boncuktvv.doymuyorsan-buyugu-var.workers.dev/myztv
-#EXTINF:-1 group-title="Radyo" tvg-logo="" ,TRT FM
+#EXTINF:-1 group-title="Radyo" tvg-logo="https://www.trt.net.tr/_nuxt/img/trt-fm-radyo-kanali.f4fa31f.png" ,TRT FM
 https://rd-trtfm.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="Radyo" tvg-logo="" ,TRT Türkü
+#EXTINF:-1 group-title="Radyo" tvg-logo="https://www.trt.net.tr/_nuxt/img/trt-turku-radyo-kanali.7cd2153.png" ,TRT Türkü
 https://rd-trtturku.medya.trt.com.tr/master_128.m3u8
-#EXTINF:-1 group-title="Radyo" tvg-logo="" ,TRT Nagme
+#EXTINF:-1 group-title="Radyo" tvg-logo="https://www.trt.net.tr/_nuxt/img/trt-nagme-radyo-kanali.287afc0.png" ,TRT Nagme
 https://rd-trtnagme.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="Radyo" tvg-logo="" ,TRT Radyo 1
+#EXTINF:-1 group-title="Radyo" tvg-logo="https://www.trt.net.tr/_nuxt/img/trt-radyo-1-radyo-kanali.1dc612f.png" ,TRT Radyo 1
 https://trt.radyotvonline.net/trt1
-#EXTINF:-1 group-title="Radyo" tvg-logo="" ,TRT Radyo Haber
+#EXTINF:-1 group-title="Radyo" tvg-logo="https://www.trt.net.tr/_nuxt/img/trt-radyo-haber-radyo-kanali.4efd784.png" ,TRT Radyo Haber
 https://rd-trtradyohaber.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="Radyo" tvg-logo="" ,TRT Radyo 3
+#EXTINF:-1 group-title="Radyo" tvg-logo="https://www.trt.net.tr/_nuxt/img/trt-radyo-3-radyo-kanali.101a3cf.png" ,TRT Radyo 3
 https://rd-trtradyo3.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="Radyo" tvg-logo="" ,Türkiye Polis Radyosu
 https://rd-trtradyohaber.medya.trt.com.tr/master.m3u8
