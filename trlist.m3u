@@ -715,7 +715,7 @@ https://live.powerapp.com.tr/powerturk/abr/playlist.m3u8
 #EXTINF:-1 group-title="Radyo" tvg-logo="https://cdn.powergroup.com.tr/powerapp/channels/big/powerPop.png" ,Power Pop
 https://listen.powerapp.com.tr/powerpop/abr/playlist.m3u8
 #EXTINF:-1 group-title="Radyo" tvg-logo="https://www.canliradyodinle.fm/wp-content/uploads/metro-fm.jpg" ,Metro FM
-https://playerservices.streamtheworld.com/api/livestream-redirect/METRO_FM.mp3
+https://playerservices.streamtheworld.com/api/livestream-redirect/METRO_FM_ITUNES.mp3
 #EXTINF:-1 group-title="Radyo" tvg-logo="https://www.canliradyodinle.fm/wp-content/uploads/virgin-radio.jpg" ,Virgin Radio Türkiye
 https://playerservices.streamtheworld.com/api/livestream-redirect/VIRGIN_RADIO_ITUNES.mp3
 #EXTINF:-1 group-title="Radyo" tvg-logo="https://www.canliradyodinle.fm/wp-content/uploads/radyo-7.jpg" ,Radyo 7
