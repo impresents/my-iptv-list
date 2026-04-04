@@ -719,7 +719,7 @@ https://listen.powerapp.com.tr/powerpop/abr/playlist.m3u8
 #EXTINF:-1 group-title="Radyo" tvg-logo="" ,Metro FM
 https://playerservices.streamtheworld.com/api/livestream-redirect/METRO_FM.mp3
 #EXTINF:-1 group-title="Radyo" tvg-logo="" ,Virgin Radio Türkiye
-https://playerservices.streamtheworld.com/api/livestream-redirect/VIRGIN_RADIO.mp3
+https://playerservices.streamtheworld.com/api/livestream-redirect/VIRGIN_RADIO_ITUNES.mp3
 #EXTINF:-1 group-title="Radyo" tvg-logo="" ,Radyo 7
 https://moondigitaledge.radyotvonline.net/radyo7/playlist.m3u8
 #EXTINF:-1 group-title="Radyo" tvg-logo="" ,Kral FM
