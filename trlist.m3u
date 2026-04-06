@@ -706,6 +706,8 @@ https://turkmedya.radyotvonline.com/turkmedya/ligradyo.stream/playlist.m3u8
 https://radyomgm.canliyayinda.com/;
 #EXTINF:-1 group-title="Radyo" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/f/ff/S%C3%BCper_FM_logo.png" ,Süper FM
 https://playerservices.streamtheworld.com/api/livestream-redirect/SUPER_FM.mp3
+#EXTINF:-1 group-title="Radyo" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/f/ff/S%C3%BCper_FM_logo.png" ,Süper 2 FM
+https://playerservices.streamtheworld.com/api/livestream-redirect/SUPER2_ITUNES.mp3
 #EXTINF:-1 group-title="Radyo" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/6/6c/Power_FM_logo.png" ,Power FM
 https://listen.powerapp.com.tr/powerfm/mpeg/icecast.audio
 #EXTINF:-1 group-title="Radyo" tvg-logo="https://media.giphy.com/avatars/alemfm/JBnuJVfQAhJ4.png" ,Alem FM
