@@ -782,6 +782,100 @@ http://46.20.3.201:80/
 http://radyotrio.radyotvonline.net/radyotrio
 #EXTINF:-1 group-title="Radyo" tvg-logo="https://i.tmgrup.com.tr/rt/site/v2/c/i/radio/radyo-turkuvaz.png" ,Radyo Turkuvaz
 https://trkvz-radyolar.ercdn.net/radyoturkuvaz/playlist.m3u8
-
 #EXTINF:-1 tvg-id="somine" tvg-name="Şömine" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaTqhDOMt4sRBXclx0Iob8F6bhZ8bWLVg4tA&s" group-title="Dinlenme Vakti",Şömine
 http://87.121.104.29:1798/somine/stream.m3u8
+#EXTINF:-1 tvg-id="rahatlamaseans" tvg-name="Relax Video" tvg-logo="https://yt3.googleusercontent.com/lyUMCjkrkgDMTt8LjZ0w6nBg5QWI7HxNeydcyzcvlknIclBzSiWGgJ1oeOeurH79SAF6ijrb=s160-c-k-c0x00ffffff-no-rj" group-title="Dinlenme Vakti",Relax Video
+http://87.121.104.29:1798/rahatlamaseans/stream.m3u8
+#EXTINF:-1 tvg-id="okyanus" tvg-name="Okyanus Sesleri" tvg-logo="https://yt3.googleusercontent.com/-NCv9pGDDs4mIhznDQrpRUb_8HHt7MxyK0RzfnnXkL8rFkZ2bog9lZHNGh2t8U4IinRd9wrH=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj" group-title="Dinlenme Vakti",Okyanus Sesleri
+http://87.121.104.29:1798/okyanus/stream.m3u8
+#EXTINF:-1 tvg-id="rahatlaticises" tvg-name="Rahatlatıcı Sesler" tvg-logo="https://yt3.googleusercontent.com/cM2oNS3DZxfhTKrT5pNwCCRIYnaIJQyrVVeuH3KnHX89pHW2zqqKc5wur3MS0Z7Ld7kdJsoZ=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj" group-title="Dinlenme Vakti",Rahatlatıcı Sesler
+http://87.121.104.29:1798/rahatlaticises/stream.m3u8
+#EXTINF:-1 tvg-id="ormansesleri" tvg-name="Orman Sesleri" tvg-logo="https://i.ytimg.com/vi/hUC6wx0Zui4/hqdefault.jpg?v=68d35751&sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAUk2TrO0lALYRbJmOZdO89nDO7QA" group-title="Dinlenme Vakti",Orman Sesleri
+http://87.121.104.29:1798/ormansesleri/stream.m3u8
+#EXTINF:-1 tvg-id="askinevayt" tvg-name="Aşk-ı Neva" tvg-logo="https://yt3.googleusercontent.com/f5POobR9VwXrL7HJ6NTBaN_QSjN8M-jvTdDfeEMXPgbyEEZDGIFdNelUYbcoVTZjjmSfMB6axnI=s160-c-k-c0x00ffffff-no-rj" group-title="Dini",Aşk-ı Neva
+http://87.121.104.29:1798/askinevayt/stream.m3u8
+#EXTINF:-1 tvg-id="huzurpinariyt" tvg-name="Huzur Pinari Tv" tvg-logo="https://yt3.googleusercontent.com/ZK8nsLnz1StMpGKezOm6tQ69FBoXDKC8CdjdVVWd3uweqwO9i10-lMKd9pCySAc4ud0MadRVxS4=s160-c-k-c0x00ffffff-no-rj" group-title="Dini",Huzur Pinari Tv
+http://87.121.104.29:1798/huzurpinariyt/stream.m3u8
+#EXTINF:-1 tvg-id="trtcocukyt" tvg-name="TRT Çocuk YouTube - Rafadan Tayfa" tvg-logo="https://yt3.googleusercontent.com/6_jhTr2aolmOP8qNq24ReRalaiu8LNSX-OD4fh9wWcIALv67la_kYKHDe-2QjmGJ3GqH8UULVQ=s160-c-k-c0x00ffffff-no-rj" group-title="Çocuk",Rafadan Tayfa
+http://87.121.104.29:1798/trtcocukyt/stream.m3u8
+#EXTINF:-1 tvg-id="neselidunyam" tvg-name="Neşeli Dünyam" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_l3kNwTi1WBn4EDPvRSjt4jcNSBZ5GFzJXWhlwpk4FWSPY=s160-c-k-c0x00ffffff-no-rj" group-title="Çocuk",Neşeli Dünyam
+http://87.121.104.29:1798/neselidunyam/stream.m3u8
+#EXTINF:-1 tvg-id="guldurguldur" tvg-name="Güldür Güldür 7/24" tvg-logo="https://yt3.ggpht.com/i2TaaYn_QBW_W0xsJ79qFQ58bw28wKxlopm9Cocq6O_Ws-Z0C84ap3DI3Q5zm-2o22_Pru4YNQ=s176-c-k-c0x00ffffff-no-rj-mo" group-title="7/24 Dizi-Film",Güldür Güldür 7/24
+http://87.121.104.29:1798/guldurguldur/stream.m3u8
+#EXTINF:-1 tvg-id="cgh2" tvg-name="ÇGH2 7/24" tvg-logo="https://yt3.ggpht.com/9t3sdfGSLrbjII4g10IJhrDt1N2xtYrFavOGQq2IQSizJYlt6Z1x-COMZvPKJmySl_aU-Mkl=s176-c-k-c0x00ffffff-no-rj-mo" group-title="7/24 Dizi-Film",ÇGH2 7/24
+http://87.121.104.29:1798/cgh2/stream.m3u8
+#EXTINF:-1 tvg-id="arkadasimhosgeldin" tvg-name="Arkadaşım Hoş Geldin 7/24" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_lDPRI2u9ZNAS0OG2TEB54VNVJf8jjquCGZPuJ6IKjGGg=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Dizi-Film",Arkadaşım Hoş Geldin 7/24
+http://87.121.104.29:1798/arkadasimhosgeldin/stream.m3u8
+#EXTINF:-1 tvg-id="tolgshow" tvg-name="Tolgshow 7/24" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_lDPRI2u9ZNAS0OG2TEB54VNVJf8jjquCGZPuJ6IKjGGg=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Dizi-Film",Tolgshow 7/24
+http://87.121.104.29:1798/tolgshow/stream.m3u8
+#EXTINF:-1 tvg-id="kurtlarvadisi" tvg-name="Kurtlar Vadisi 7/24" tvg-logo="https://yt3.googleusercontent.com/3pcRtdw7lKM3-d8rPyBn1mET0GTstFOx4EUqswlp4sGVFchaf31GXPcz3AjFgIssfvI-6Mgus-M=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Dizi-Film",Kurtlar Vadisi 7/24
+http://87.121.104.29:1798/kurtlarvadisi/stream.m3u8
+#EXTINF:-1 tvg-id="kurtlarvadisipusu" tvg-name="Kurtlar Vadisi Pusu 7/24" tvg-logo="https://yt3.ggpht.com/tql8fK5S3O4w5ONQcdlOqYkpy_BKAq1wcTt7GilOGf3GpkhdeqIw5f55YI1ZDo_p5_DcoDyB1A=s176-c-k-c0x00ffffff-no-rj-mo" group-title="7/24 Dizi-Film",Kurtlar Vadisi Pusu 7/24
+http://87.121.104.29:1798/kurtlarvadisipusu/stream.m3u8
+#EXTINF:-1 tvg-id="edho" tvg-name="Eşkıya Dünyaya Hükümdar Olmaz 7/24" tvg-logo="https://yt3.googleusercontent.com/TxAX1j0TdUlpfhmsbkCqtdFrM3AFV2DZGb6kef8TH80oOMDFEz2J2id5-SiWtDTcpH2mZhYGTg=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Dizi-Film",Eşkıya Dünyaya Hükümdar Olmaz 7/24
+http://87.121.104.29:1798/edho/stream.m3u8
+#EXTINF:-1 tvg-id="behzatc" tvg-name="Behzat Ç. 7/24" tvg-logo="https://yt3.googleusercontent.com/Z8zZMS4sIhD7JJi20qr1fMFtHlJ7-liknZqqCzPg-0PfQGhgRv4sMxvUfT4x11U5QnFp1VbmYg=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Dizi-Film",Behzat Ç. 7/24
+http://87.121.104.29:1798/behzatc/stream.m3u8
+#EXTINF:-1 tvg-id="soz" tvg-name="Söz 7/24" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_nJXAIa1X-ajL3YEj1hR9cXTnjqa6_G4UoQPpUylwpgbv8=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Dizi-Film",Söz 7/24
+http://87.121.104.29:1798/soz/stream.m3u8
+#EXTINF:-1 tvg-id="kuzeygunay" tvg-name="Kuzey Güney 7/24" tvg-logo="https://yt3.googleusercontent.com/IYSskFu8LkkcG-tQjZT06DC3h598njGnWaubpOkA2nlTETHyIjIr0vTreVbBsGmVdrG80PGk=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Dizi-Film",Kuzey Güney 7/24
+http://87.121.104.29:1798/kuzeygunay/stream.m3u8
+#EXTINF:-1 tvg-id="adanalı" tvg-name="Adanalı 7/24" tvg-logo="https://yt3.googleusercontent.com/2bi7q6AcVbEQwlxZSvTthnHUTK-83MKOSuuSwvLA3uwuki8sYv0HfBN27TJjL7CM8zuMH3HzDg=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Dizi-Film",Adanalı 7/24
+http://87.121.104.29:1798/adanalı/stream.m3u8
+#EXTINF:-1 tvg-id="sakaryafirat" tvg-name="Sakarya Fırat 7/24" tvg-logo="https://yt3.googleusercontent.com/uWY07vykFzXT_mCT7Iz1xelhFK7HnhjGhIGAZlJk6stWVcaPBnJeZioRr_8DIHTEDwHBtWCm=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Dizi-Film",Sakarya Fırat 7/24
+http://87.121.104.29:1798/sakaryafirat/stream.m3u8
+#EXTINF:-1 tvg-id="askimemnu" tvg-name="Aşk-ı Memnu 7/24" tvg-logo="https://yt3.googleusercontent.com/PDEALCyyxr3iZ2OpX4_vl5lQ5-7FaoRvihttV9R_gQcKCF7Q1RR7bGozobj9Ghh6ltkb_t8I=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Dizi-Film",Aşk-ı Memnu 7/24
+http://87.121.104.29:1798/askimemnu/stream.m3u8
+#EXTINF:-1 tvg-id="medcezir" tvg-name="Medcezir 7/24" tvg-logo="https://yt3.ggpht.com/cfOW7mgPB708zO99P5xl87WNMYFOnUZ5HBhwzHREGwjB2tNhpMC0nee5F1FP3dwBaARXCdZP8Q=s176-c-k-c0x00ffffff-no-rj-mo" group-title="7/24 Dizi-Film",Medcezir 7/24
+http://87.121.104.29:1798/medcezir/stream.m3u8
+#EXTINF:-1 tvg-id="yaprakdokumu" tvg-name="Yaprak Dökümü 7/24" tvg-logo="https://yt3.googleusercontent.com/haTDIRamfCjs53RVuK8hHLD4V0z0Y5ZKrf20BEzGvZExlGa9D89RZkeD7Cx_XsbJnPHBC9qTxQ=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Dizi-Film",Yaprak Dökümü 7/24
+http://87.121.104.29:1798/yaprakdokumu/stream.m3u8
+#EXTINF:-1 tvg-id="kemalsunal" tvg-name="Kemal Sunal 7/24" tvg-logo="https://yt3.googleusercontent.com/-ymD4Yk5B67ZHKsffxetYiFvZQB9Ckq-9Ft7gfk0JpietBDtGIIqGJQeloIasQy_DHIo_8jJYQ=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Dizi-Film",Kemal Sunal 7/24
+http://87.121.104.29:1798/kemalsunal/stream.m3u8
+#EXTINF:-1 tvg-id="arzufilm" tvg-name="Arzu Film Yeşilçam 7/24" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_m_vVKzWpm_LEriWFQTewLrMlSp0Et6frUrXP7qagTrpGE=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Dizi-Film",Arzu Film Yeşilçam 7/24
+http://87.121.104.29:1798/arzufilm/stream.m3u8
+#EXTINF:-1 tvg-id="gulsahfilm" tvg-name="Gülşah Film 7/24" tvg-logo="https://yt3.googleusercontent.com/jHfMww520ZaX-PZ6CB5sqE5scVs0sl7Kgwc3rzzbzwa3IzXJy8iOyJM9WjLktwtLFgCbvpeZk9Q=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj" group-title="7/24 Dizi-Film",Gülşah Film 7/24
+http://87.121.104.29:1798/gulsahfilm/stream.m3u8
+#EXTINF:-1 tvg-id="avrupayakasi" tvg-name="Avrupa Yakası 7/24" tvg-logo="https://yt3.googleusercontent.com/5bkS9MmbYWqBp6L5YLW2GKbUHg3ccliSqtZPTEDIKyATdaixag3ZWtvzloxX3elaJ1fmta-Gsg=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Dizi-Film",Avrupa Yakası 7/24
+http://87.121.104.29:1798/avrupayakasi/stream.m3u8
+#EXTINF:-1 tvg-id="yalandunyayt" tvg-name="Yalan Dünya 7/24" tvg-logo="https://yt3.googleusercontent.com/-YDPepLyRkCMnen3OV6-QRAuvJcqzOWB3igTxkuPbIdXcvFBpZ_i3LpPqXxjMHjAV-aAiSPKow=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Dizi-Film",Yalan Dünya 7/24
+http://87.121.104.29:1798/yalandunyayt/stream.m3u8
+#EXTINF:-1 tvg-id="cocuklarduymasin" tvg-name="Çocuklar Duymasın 7/24" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_k2yAMqqZek-afJ0iWS-gMNfDR-1T_wWcjajhmZWMF3Kw=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Dizi-Film",Çocuklar Duymasın 7/24
+http://87.121.104.29:1798/cocuklarduymasin/stream.m3u8
+#EXTINF:-1 tvg-id="seksenleryt" tvg-name="Seksenler 7/24" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_nZ3O2m76f5kZZZLC5XKkAgUzq4AaEEuT7UyquE2EVgBw=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Dizi-Film",Seksenler 7/24
+http://87.121.104.29:1798/seksenleryt/stream.m3u8
+#EXTINF:-1 tvg-id="leylamecnun" tvg-name="Leyla ile Mecnun 7/24" tvg-logo="https://yt3.googleusercontent.com/VvAVptRyVwMZ45DzlzEz2HJ738mBWncwZgb-xzuQQjqy9L7O649tKHOT-ujUBCixGQFMnBhUwQ=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Dizi-Film",Leyla ile Mecnun 7/24
+http://87.121.104.29:1798/leylamecnun/stream.m3u8
+#EXTINF:-1 tvg-id="cennetmahallesi" tvg-name="Cennet Mahallesi 7/24" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_mKu0mjHEszLFRezgQr1A06wDsDZkvTnaNXbPn5_d0ZUA=s176-c-k-c0x00ffffff-no-rj-mo" group-title="7/24 Dizi-Film",Cennet Mahallesi 7/24
+http://87.121.104.29:1798/cennetmahallesi/stream.m3u8
+#EXTINF:-1 tvg-id="zenginkfakiro" tvg-name="Zengin Kız Fakir Oğlan 7/24" tvg-logo="https://yt3.ggpht.com/1YUINSwuuns9oNLOmYEQLkS9aNI_bE-hdOFTDF3S56Oq6rRBUWO_kd1ew2NkWmbj_4LznHe3V5M=s176-c-k-c0x00ffffff-no-rj-mo" group-title="7/24 Dizi-Film",Zengin Kız Fakir Oğlan 7/24
+http://87.121.104.29:1798/zenginkfakiro/stream.m3u8
+#EXTINF:-1 tvg-id="aleminkiraliyt" tvg-name="Alemin Kıralı 7/24" tvg-logo="https://yt3.googleusercontent.com/HXSuS7IOMucLzbl-UC6OeH_PV8ID9FoMdg54gufdfTaf-gLZf8X9XGLFa8hPwEsacfpmABy4gg=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Dizi-Film",Alemin Kıralı 7/24
+http://87.121.104.29:1798/aleminkiraliyt/stream.m3u8
+#EXTINF:-1 tvg-id="yedinumarayt" tvg-name="Yedi Numara 7/24" tvg-logo="https://yt3.googleusercontent.com/f-uSffpGIqYV1DDww_6wa8wtgNvH3ujCNzCeDyk8jpTqvU-aazkDwSg59DolP5kRmyr6gqSs=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Dizi-Film",Yedi Numara 7/24
+http://87.121.104.29:1798/yedinumarayt/stream.m3u8
+#EXTINF:-1 tvg-id="fatmagulyt" tvg-name="Fatmagül'ün Suçu Ne ? 7/24" tvg-logo="https://yt3.googleusercontent.com/H-nesJNqryOe9c4afu5y7DBxOjLRPtU0bPnrXDoaJT3N-gwkP2QNBrY423mLwGZF8yA_EVxUrQ=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Dizi-Film",Fatmagül'ün Suçu Ne ? 7/24
+http://87.121.104.29:1798/fatmagulyt/stream.m3u8
+#EXTINF:-1 tvg-id="gullergunahlar" tvg-name="Güller ve Günahlar 7/24" tvg-logo="https://yt3.ggpht.com/JXJiwiydpEJxMhGq8aHtafCXE4ME_tbyrtpI5DS1SumFK5QKTvwwC3XDfIBvQWh7LFuPHsjGCw=s176-c-k-c0x00ffffff-no-rj-mo" group-title="7/24 Dizi-Film",Güller ve Günahlar 7/24
+http://87.121.104.29:1798/gullergunahlar/stream.m3u8
+#EXTINF:-1 tvg-id="trtnostalji" tvg-name="TRT Nostalji 7/24" tvg-logo="https://yt3.googleusercontent.com/aTkDrJ4-tvQBycXJkhMgBBfX-o4iw0AMykmjfRCSiixpXIxmPj3spULmpXtKvSxn0aQeNfWNOQ=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Dizi-Film",TRT Nostalji 7/24
+http://87.121.104.29:1798/trtnostalji/stream.m3u8
+#EXTINF:-1 tvg-id="yesildenizyt" tvg-name="Yeşil Deniz 7/24" tvg-logo="https://yt3.googleusercontent.com/7X6QCeS0W93_Npl02OhYrpe4qx_9NfIka_lV_HdViwj0rxd452YmPchMwvVuj2tCgujcaTO7MA=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Dizi-Film",Yeşil Deniz 7/24
+http://87.121.104.29:1798/yesildenizyt/stream.m3u8
+#EXTINF:-1 tvg-id="gonuldagiyt" tvg-name="Gönül Dağı 7/24" tvg-logo="https://yt3.googleusercontent.com/zz6PtK-i5xDLSEID9h3fyAjJBVm0P3bdDtNWnldXYTYhvhMt0W9XdqC_VLL6uXlDpBp57EbNqg=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Dizi-Film",Gönül Dağı 7/24
+http://87.121.104.29:1798/gonuldagiyt/stream.m3u8
+#EXTINF:-1 tvg-id="tasacakdenizyt" tvg-name="Taşacak Bu Deniz 7/24" tvg-logo="https://yt3.googleusercontent.com/Cwpsz_Ra5vtrHpiI8KCtr6LhbBPqFHQ0vDHfRe0kXXNwbigVGFvjz4Qv_XxMru0DDji4thfBIQU=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Dizi-Film",Taşacak Bu Deniz 7/24
+http://87.121.104.29:1798/tasacakdenizyt/stream.m3u8
+#EXTINF:-1 tvg-id="sihirliannem" tvg-name="Sihirli Annem 7/24" tvg-logo="https://yt3.googleusercontent.com/P54859eAfyuolskOUg4icbpgTTJV3meue0MwVlMSiPOUpUAzF_Hff3G-7O0bFoAfF1N2e1Pb=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Dizi-Film",Sihirli Annem 7/24
+http://87.121.104.29:1798/sihirliannem/stream.m3u8
+#EXTINF:-1 tvg-id="bizimevyt" tvg-name="Bizim Ev - YT" tvg-logo="https://yt3.googleusercontent.com/5KLD4QmX3I_Hwc4wrTpdqkcoVdTJfj86ABhRIkEV1ZtJ2jXNGWnqL-CLOjuC3MHM6hQLCgL4=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Dizi-Film",Bizim Ev
+http://87.121.104.29:1798/bizimevyt/stream.m3u8
+#EXTINF:-1 tvg-id="trtnstaljiyt" tvg-name="Bizimkiler 7/24" tvg-logo="https://yt3.googleusercontent.com/aTkDrJ4-tvQBycXJkhMgBBfX-o4iw0AMykmjfRCSiixpXIxmPj3spULmpXtKvSxn0aQeNfWNOQ=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Dizi-Film",Bizimkiler 7/24
+http://87.121.104.29:1798/trtnostalji/stream2.m3u8
+#EXTINF:-1 tvg-id="hzyusufyt" tvg-name="Hz. Yusuf 7/24" tvg-logo="https://yt3.googleusercontent.com/D3GSWb8PhVI6qvxe2pjY-CgyRfQk-pRlFigUMDb6_Ogndk5RFyJjmPR-2DT-jOFL4s5eyYyK=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Dizi-Film",Hz. Yusuf 7/24
+http://87.121.104.29:1798/hzyusufyt/stream.m3u8
+
+
+
+
+
