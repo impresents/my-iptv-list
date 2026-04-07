@@ -142,7 +142,7 @@ https://streams.uzunmuhalefet.com/stream/e71f5266-932f-4348-a530-ee3a48520e3e.m3
 #EXTINF:0 CUID="70" tvg-name="Tivibu Spor" tvg-logo="https://i1.sndcdn.com/avatars-000335394613-kvru7x-t1080x1080.jpg" group-title="Spor",Tivibu Spor
 https://trn03.tulix.tv/gt-tivibuspor1/index.m3u8
 #EXTINF:0 CUID="71" tvg-name="Sports TV" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/ce3a853a-b638-44b8-b4f4-9728aec137d3.png" group-title="Spor",Sports TV
-https://streams.uzunmuhalefet.com/stream/fc7e93e6-d5e1-4a66-a1ad-5eaefaee388d.m3u8
+http://tv.smartglwiz.workers.dev/?ID=SportsTV_HD
 #EXTINF:0 CUID="72" tvg-name="FB TV" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/0/01/Fenerbah%C3%A7e_TV_Logo.jpg" group-title="Spor",FB TV
 https://streams.uzunmuhalefet.com/stream/aefc429a-87c3-44f1-9caa-6687f04515b8.m3u8
 #EXTINF:0 CUID="73" tvg-name="Sıfır TV" tvg-logo="https://sifirtv.com/sifir-tv-logo.png" group-title="Spor",Sıfır TV
