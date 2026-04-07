@@ -61,6 +61,8 @@ https://streams.uzunmuhalefet.com/stream/e12ae805-19c9-4c7f-ac92-cdd89d953d10.m3
 http://87.121.104.29:1798/flashhaberyt/stream.m3u8
 #EXTINF:0 CUID="31" tvg-name="Lider Haber TV" tvg-logo="https://liderhabercomtr.teimg.com/liderhaber-com-tr/uploads/2025/10/lider-4-2.png" group-title="Haber",Lider Haber TV
 https://streams.uzunmuhalefet.com/stream/5b8db41e-b662-4652-bd8a-fc198ceb33f4.m3u8
+#EXTINF:-1 tvg-logo="https://static.ssportplus.com/wp-content/uploads/2025/09/kanallar_bikanal.png" group-title="Ulusal",Bi Kanal
+http://live.cdn-vizi.workers.dev/?ID=103
 #EXTINF:0 CUID="32" tvg-name="Neo Haber" tvg-logo="https://www.digiturkburada.com.tr/kanal3/kanal-buyuk/neo-haber-buyuk.png" group-title="Haber",Neo Haber
 https://streams.uzunmuhalefet.com/stream/b2afa8c0-ab41-4111-a988-38e6db9e0d87.m3u8
 #EXTINF:0 CUID="32" tvg-name="TeleNews" tvg-logo="https://telenews.com.tr/wp-content/uploads/2025/08/telenews-logo.png" group-title="Haber",TeleNews Tv Haber
