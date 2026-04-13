@@ -197,6 +197,8 @@ https://streams.uzunmuhalefet.com/stream/45d6ce7c-87a1-46a3-b1ac-efddd14838e0.m3
 https://streams.uzunmuhalefet.com/stream/031834d1-2c3c-4e76-9f54-bb8a6471bcb2.m3u8
 #EXTINF:0 CUID="97" tvg-name="Müzik TV" tvg-logo="https://images.seeklogo.com/logo-png/42/1/apple-music-logo-png_seeklogo-426386.png" group-title="Müzik",Müzik TV
 https://streams.uzunmuhalefet.com/stream/ba3f9a6d-85a8-4100-b716-95b98a2a3ab3.m3u8
+#EXTINF:0 CUID="97" tvg-name="Slow Karadeniz TV" tvg-logo="https://www.isfirmarehberi.com/upload/slow-karadeniz-tv-7943.jpg" group-title="Müzik",Slow Karadeniz TV
+https://streams.uzunmuhalefet.com/stream/3772f7d1-1c05-4469-a817-0cd926815748.m3u8
 #EXTINF:0 CUID="99" tvg-name="TRT Belgesel" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/trt-belgesel-tr.png" group-title="Belgesel",TRT Belgesel
 https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
 #EXTINF:0 CUID="100" tvg-name="TGRT Belgesel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/TGRT_Belgesel_logo.png/960px-TGRT_Belgesel_logo.png" group-title="Belgesel",TGRT Belgesel
@@ -874,6 +876,12 @@ http://87.121.104.29:1798/sihirliannem/stream.m3u8
 http://87.121.104.29:1798/trtnostalji/stream2.m3u8
 #EXTINF:-1 tvg-id="hzyusufyt" tvg-name="Hz. Yusuf 7/24" tvg-logo="https://yt3.googleusercontent.com/D3GSWb8PhVI6qvxe2pjY-CgyRfQk-pRlFigUMDb6_Ogndk5RFyJjmPR-2DT-jOFL4s5eyYyK=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Hz. Yusuf 7/24
 http://87.121.104.29:1798/hzyusufyt/stream.m3u8
+#EXTINF:-1 group-title="7/24 Youtube" tvg-logo="https://assets.uzunmuhalefet.com/logos/83825540-7881-4d5e-b5bb-de2634f4e385.png" tvg-url="https://www.kanald.com.tr/" tvg-id="SiyahBeyazAsk.tr",Siyah Beyaz Aşk
+https://streams.uzunmuhalefet.com/stream/729d9730-a07d-4fd0-9df8-32684fc9d14b.m3u8
+#EXTINF:-1 group-title="7/24 Youtube" tvg-logo="https://assets.uzunmuhalefet.com/logos/bf8dd53d-362a-4444-a621-4bfa9fb46b2c.png" tvg-url="https://www.kanald.com.tr/" tvg-id="TatliIntikam.tr",Tatlı İntikam
+https://streams.uzunmuhalefet.com/stream/ca1b4f72-25ac-405f-bde7-b2ca6f151df0.m3u8
+#EXTINF:-1 group-title="7/24 Youtube" tvg-logo="https://assets.uzunmuhalefet.com/logos/3c65106e-fb53-445c-b9c5-d4d2823f7c83.png" tvg-url="https://www.kanald.com.tr/" tvg-id="ZalimIstanbul.tr",Zalim İstanbul
+https://streams.uzunmuhalefet.com/stream/c2bd18c5-013b-4621-bab6-3eb9093008e1.m3u8
 
 
 
