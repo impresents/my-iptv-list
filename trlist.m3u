@@ -226,7 +226,7 @@ https://streams.uzunmuhalefet.com/stream/9d940976-31c8-4570-92e6-a684e49bea46.m3
 #EXTINF:0 CUID="111" tvg-name="Çizgi Film TV" tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/052/548/183/small_2x/kids-tv-logo-design-free-vector.jpg" group-title="Çocuk",Çizgi Film TV
 https://streams.uzunmuhalefet.com/stream/f18c5afc-97bb-4790-b124-dd17c70b6217.m3u8
 #EXTINF:-1 tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/kabe_tv_h0h.png" group-title="Dini",KabeTV
-http://live.cdn-vizi.workers.dev/?ID=66
+http://m.live.net.sa:1935/live/quran/playlist.m3u8
 #EXTINF:0 CUID="112" tvg-name="Çocuklara Özel TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/34388388-0510-4d4e-84ed-a9c6cc298742.png" group-title="Dini",Çocuklara Özel TV
 https://streams.uzunmuhalefet.com/stream/65620b64-3756-4edc-82e9-6784dd532d1c.m3u8
 #EXTINF:0 CUID="113" tvg-name="Diyanet TV" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/c9fac001-ce36-4712-9eaa-786ec2465171.png" group-title="Dini",Diyanet TV
