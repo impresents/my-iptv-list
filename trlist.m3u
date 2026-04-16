@@ -28,7 +28,7 @@ https://streams.uzunmuhalefet.com/stream/aa1ae31d-1d61-44b2-b675-b74e3ff5c7fc.m3
 #EXTINF:0 CUID="14" tvg-name="A Haber" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7c/Ahaber_Logo.png" group-title="Haber",A Haber
 https://streams.uzunmuhalefet.com/stream/b4f7a5e9-fcae-4258-83eb-cc37b6a68696.m3u8
 #EXTINF:0 CUID="15" tvg-name="CNN Türk" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/cnn-turk-tr.png" group-title="Haber",CNN Türk
-http://104.238.23.221/dsgo.php?id=245940
+http://87.121.104.29:1453/cnnytcanli/stream.m3u8
 #EXTINF:0 CUID="16" tvg-name="TGRT Haber" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/tgrt-haber-tr.png" group-title="Haber",TGRT Haber
 https://streams.uzunmuhalefet.com/stream/bd9ebc63-8243-43d6-83a2-eeef100f7e20.m3u8
 #EXTINF:0 CUID="17" tvg-name="Habertürk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Habert%C3%BCrk_logo.svg/1200px-Habert%C3%BCrk_logo.svg.png" group-title="Haber",Habertürk
