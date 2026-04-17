@@ -68,7 +68,7 @@ https://streams.uzunmuhalefet.com/stream/b2afa8c0-ab41-4111-a988-38e6db9e0d87.m3
 #EXTINF:0 CUID="32" tvg-name="TeleNews" tvg-logo="https://telenews.com.tr/wp-content/uploads/2025/08/telenews-logo.png" group-title="Haber",TeleNews Tv Haber
 https://cdn-telenews.yayin.com.tr/telenews/index.m3u8
 #EXTINF:0 CUID="32" tvg-name="KRT TV" tvg-logo="https://media-cdn.t24.com.tr/media/library/2023/12/1703778981680-krt-tv.jpg" group-title="Haber",KRT TV
-https://trn03.tulix.tv/gt-krt--tv/tracks-v1a1/mono.m3u8
+https://live.cdn-vizi.workers.dev/?ID=41
 #EXTINF:0 CUID="33" tvg-name="TBMM TV" tvg-logo="https://images.seeklogo.com/logo-png/61/3/tbmm-tv-logo-png_seeklogo-612581.png" group-title="Haber",TBMM TV
 https://streams.uzunmuhalefet.com/stream/5fa3931d-88db-42b1-aac9-1006708bd3e8.m3u8
 #EXTINF:0 CUID="34" tvg-name="BHA TV" tvg-logo="https://www.kulis.tv/images/haberler/2024/11/timbir-ve-bha-ya-yonelik-yorum-asilsiz-cikti-tekzip-geldi-5669.jpg" group-title="Haber",BHA TV
