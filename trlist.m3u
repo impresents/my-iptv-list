@@ -127,6 +127,8 @@ https://streams.uzunmuhalefet.com/stream/b63b0c43-c0c7-4d4c-bce1-add3c10ac09d.m3
 https://streams.uzunmuhalefet.com/stream/7c09700e-871b-4282-8f5d-c5046b46a888.m3u8
 #EXTINF:0 CUID="61" tvg-name="Super Türk TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/233e84b7-239e-433a-8234-6059c8141ab4.png" group-title="Eğlence",Super Türk TV
 https://streams.uzunmuhalefet.com/stream/6a6bce48-2365-49c8-bfb2-3fccdac9372e.m3u8
+#EXTINF:0 CUID="62" tvg-name="Cine 1" tvg-logo="https://cine1.com.tr/img/cine1loogo.png" group-title="Eğlence",Cine 1
+https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3_output_0.m3u8
 #EXTINF:0 CUID="62" tvg-name="Kuzeymax" tvg-logo="https://assets.uzunmuhalefet.com/logos/8ae9a3c0-cc01-4dbd-a8c6-175c8b0dd287.png" group-title="Eğlence",Kuzeymax
 http://75.119.144.48/KuzeyMAX_HD_Stream/index.m3u8
 #EXTINF:0 CUID="64" tvg-name="beIN SPORTS HABER" tvg-logo="https://yt3.ggpht.com/_vs7K9u3pS-C7flO0cVIkxqgLsIkjElGL6izCYFzI0COAYKda5g2J9DRB9-EHsfTXwA_ayi72g" group-title="SPOR",beIN SPORTS HABER
