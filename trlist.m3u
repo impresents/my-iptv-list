@@ -90,7 +90,7 @@ https://streams.uzunmuhalefet.com/stream/49c9a96d-f9c0-474e-b2f7-5e62bbdd0290.m3
 #EXTINF:0 CUID="42" tvg-name="Kanal Avrupa" tvg-logo="https://assets.uzunmuhalefet.com/logos/ba21c671-ff84-4bf0-97b5-8b326291d36b.png" group-title="Ulusal - Yurt Dışı",Kanal Avrupa
 https://streams.uzunmuhalefet.com/stream/92ccdd1d-1d3e-47eb-b84b-e75effe16829.m3u8
 #EXTINF:0 CUID="43" tvg-name="A Para" tvg-logo="https://play-lh.googleusercontent.com/BCV0M24ufvt6FzjW_eLpETj6LTWGyHrPvcPZhWToH1wJF6dEgYEdshr-xNYbZUGdtA" group-title="Ekonomi",A Para
-http://129.151.204.207/ATVGroup.php?ID=apara
+https://live.cdn-vizi.workers.dev/?ID=49
 #EXTINF:0 CUID="44" tvg-name="Bloomberg HT" tvg-logo="https://cdn.technettv.com/channel/20322/logo_256_1699957451.png" group-title="Ekonomi",Bloomberg HT
 https://streams.uzunmuhalefet.com/stream/36931c3c-b36b-45eb-89c8-ffdcea8a9329.m3u8
 #EXTINF:0 CUID="45" tvg-name="Ekotürk" tvg-logo="https://www.ekoturk.com/wp-content/themes/eko-news/images/ekoturk-logo-v2.png" group-title="Ekonomi",Ekotürk
@@ -709,7 +709,7 @@ http://ntvrdwmp.radyotvonline.com/;
 #EXTINF:-1 group-title="Radyo" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/archive/d/d5/20200820184850%21Cnnturkradyo.jpg" ,CNN Türk Radyo
 https://moondigitaledge2.radyotvonline.net/cnnturk/playlist.m3u8
 #EXTINF:-1 group-title="Radyo" tvg-logo="https://www.radio.net/300/aspor.png" ,A Spor Radyo
-https://trkvz-radyolar.ercdn.net/asporradyo/playlist.m3u8
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
 #EXTINF:-1 group-title="Radyo" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/0/07/Radyospor-logo.PNG" ,Radyo Spor
 http://live4.radyotvonline.com:8160/;
 #EXTINF:-1 group-title="Radyo" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/a/ac/Lig_Radyo_logo.png" ,Lig Radyo
