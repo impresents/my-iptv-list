@@ -527,7 +527,7 @@ https://streams.uzunmuhalefet.com/stream/eb8b9300-8df9-423b-ac01-abb231d905d6.m3
 https://streams.uzunmuhalefet.com/stream/a72319f1-0c82-497e-afc4-16e89b0f4810.m3u8
 #EXTINF:0 CUID="259" tvg-name="Kastamonu TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/98251a7c-ceee-4d00-b15d-b583418e50e6.png" group-title="Yerel",Kastamonu TV
 https://streams.uzunmuhalefet.com/stream/c0d93c06-82ab-49e5-bdd6-2fa66ef2e4eb.m3u8
-#EXTINF:0 CUID="260" tvg-name="Kay TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/5abb3a3a-0162-4ade-93a7-9c4b8c13c866.png" group-title="Yerel",Kay TV
+#EXTINF:0 CUID="260" tvg-name="Kay TV" tvg-logo="https://assets.uzunmuhalefet.com/loezel3a-0162-4ade-93a7-9c4b8c13c866.png" group-title="Yerel",Kay TV
 https://streams.uzunmuhalefet.com/stream/605e53af-8d7d-4a2b-93a8-5fb8a883c9c6.m3u8
 #EXTINF:0 CUID="261" tvg-name="Kent 64 TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/167afdbb-3037-4710-9aa5-4f2d2e23a8e0.png" group-title="Yerel",Kent 64 TV
 https://streams.uzunmuhalefet.com/stream/e064b963-610b-4c3b-b0f9-2219fcc93ec3.m3u8
@@ -824,9 +824,9 @@ http://87.121.104.29:1453/kurtlarvadisi/stream.m3u8
 http://87.121.104.29:1453/kurtlarvadisipusu/stream.m3u8
 #EXTINF:-1 tvg-id="edho" tvg-name="Eşkıya Dünyaya Hükümdar Olmaz 7/24" tvg-logo="https://yt3.googleusercontent.com/TxAX1j0TdUlpfhmsbkCqtdFrM3AFV2DZGb6kef8TH80oOMDFEz2J2id5-SiWtDTcpH2mZhYGTg=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Eşkıya Dünyaya Hükümdar Olmaz 7/24
 http://87.121.104.29:1453/edho/stream.m3u8
-#EXTINF:-1 tvg-id="ezelyt" tvg-name="Ezel 7/24" tvg-logo="https://yt3.googleusercontent.com/jFbStgWNl1hsQlGU2dk8d-e6YlXtzL6d84CIlcDtGvBUY_tw3_bNGKBe75SIgm4yDor2-EkjkQ=s160-c-k-c0x00ffffff-no-rj" group-title="YouTube Dizi - Film",Ezel 7/24
+#EXTINF:-1 tvg-id="ezelyt" tvg-name="Ezel 7/24" tvg-logo="https://yt3.googleusercontent.com/jFbStgWNl1hsQlGU2dk8d-e6YlXtzL6d84CIlcDtGvBUY_tw3_bNGKBe75SIgm4yDor2-EkjkQ=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Ezel 7/24
 http://87.121.104.29:1453/ezelyt/stream.m3u8
-#EXTINF:-1 tvg-id="muhtesemyuzyil" tvg-name="Muhteşem Yüzyıl 7/24" tvg-logo="https://yt3.googleusercontent.com/epBgDKt7X076kstrFPsFyBPg1qKh1g3t6TC58kMitJvnDUiHd2XGFUuVJz1Ons0YIywZo5v-uQ=s160-c-k-c0x00ffffff-no-rj" group-title="YouTube Dizi - Film",Muhteşem Yüzyıl 7/24
+#EXTINF:-1 tvg-id="muhtesemyuzyil" tvg-name="Muhteşem Yüzyıl 7/24" tvg-logo="https://yt3.googleusercontent.com/epBgDKt7X076kstrFPsFyBPg1qKh1g3t6TC58kMitJvnDUiHd2XGFUuVJz1Ons0YIywZo5v-uQ=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Muhteşem Yüzyıl 7/24
 http://87.121.104.29:1453/muhtesemyuzyil/stream.m3u8
 #EXTINF:-1 tvg-id="behzatc" tvg-name="Behzat Ç. 7/24" tvg-logo="https://yt3.googleusercontent.com/Z8zZMS4sIhD7JJi20qr1fMFtHlJ7-liknZqqCzPg-0PfQGhgRv4sMxvUfT4x11U5QnFp1VbmYg=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Behzat Ç. 7/24
 http://87.121.104.29:1453/behzatc/stream.m3u8
@@ -848,7 +848,7 @@ http://87.121.104.29:1453/yaprakdokumu/stream.m3u8
 http://87.121.104.29:1453/kemalsunal/stream.m3u8
 #EXTINF:-1 tvg-id="gulsahfilm" tvg-name="Gülşah Film 7/24" tvg-logo="https://yt3.googleusercontent.com/jHfMww520ZaX-PZ6CB5sqE5scVs0sl7Kgwc3rzzbzwa3IzXJy8iOyJM9WjLktwtLFgCbvpeZk9Q=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj" group-title="7/24 Youtube",Gülşah Film 7/24
 http://87.121.104.29:1453/gulsahfilm/stream.m3u8
-#EXTINF:-1 tvg-id="emretkomutanimyt" tvg-name="Emret Komutanım 7/24" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_km2n7rZBTorgl2Ql0Ts5-JWXd1jtIzfeKbVioXgjdpFkI=s160-c-k-c0x00ffffff-no-rj" group-title="YouTube Dizi - Film",Emret Komutanım 7/24
+#EXTINF:-1 tvg-id="emretkomutanimyt" tvg-name="Emret Komutanım 7/24" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_km2n7rZBTorgl2Ql0Ts5-JWXd1jtIzfeKbVioXgjdpFkI=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Emret Komutanım 7/24
 http://87.121.104.29:1453/emretkomutanimyt/stream.m3u8
 #EXTINF:-1 tvg-id="avrupayakasi" tvg-name="Avrupa Yakası 7/24" tvg-logo="https://yt3.googleusercontent.com/5bkS9MmbYWqBp6L5YLW2GKbUHg3ccliSqtZPTEDIKyATdaixag3ZWtvzloxX3elaJ1fmta-Gsg=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Avrupa Yakası 7/24
 http://87.121.104.29:1453/avrupayakasi/stream.m3u8
