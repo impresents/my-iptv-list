@@ -647,45 +647,51 @@ https://streams.uzunmuhalefet.com/stream/975e6a82-279a-4b00-a9b4-85c92f480803.m3
 https://tv-trtgenc.medya.trt.com.tr/master.m3u8
 #EXTM3U
 #EXTINF:-1 group-title="AZERBAYCAN" tvg-id="XezerTV.tr" tvg-logo="https://cdn.technettv.com/channel/10423/logo_256_1659589825.jpeg" ,Xəzər TV
-https://boncuktvv.seni-hinzir-seni.workers.dev/xezertv
+https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/xezer-tv.m3u8
+#EXTINF:-1 group-title="AZERBAYCAN" tvg-id="ITV.tr" tvg-logo="https://cdn.technettv.com/channel/10422/logo_256.png" ,Ictimai Televiziya
+https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/ictimai-tv.m3u8
+#EXTINF:-1 group-title="AZERBAYCAN" tvg-id="ARB.tr" tvg-logo="https://cdn.technettv.com/channel/14680/logo_256_1659591816.png" ,ARB
+https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/arb.m3u8
+#EXTINF:-1 group-title="AZERBAYCAN" tvg-id="CBC.tr" tvg-logo="https://cdn.technettv.com/channel/10421/logo_256_1660800461.png" ,CBC
+https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/cbc.m3u8
+#EXTINF:-1 group-title="AZERBAYCAN" tvg-id="ARB24.tr" tvg-logo="https://cdn.technettv.com/channel/14687/logo_256_1659591924.jpg" ,ARB 24
+https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/arb-24.m3u8
+#EXTINF:-1 group-title="AZERBAYCAN" tvg-id="BakuTV.tr" tvg-logo="https://cdn.technettv.com/channel/33027/logo_256.png" ,BakuTV
+https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/baku-tv.m3u8
+#EXTINF:-1 group-title="AZERBAYCAN" tvg-id="SpaceTV.tr" tvg-logo="https://cdn.technettv.com/channel/14743/logo_256_1659592875.png" ,Space TV
+https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/space-tv.m3u8
+#EXTINF:-1 group-title="AZERBAYCAN" tvg-id="RealTV.tr" tvg-logo="https://cdn.technettv.com/channel/14736/logo_256_1659592776.png" ,Real TV
+https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/real-tv.m3u8
+#EXTINF:-1 group-title="AZERBAYCAN" tvg-id="ARBGunes.tr" tvg-logo="https://cdn.technettv.com/channel/14694/logo_256_1659592213.jpg" ,ARB Günəş
+https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/arb-gunes.m3u8
+#EXTINF:-1 group-title="AZERBAYCAN" tvg-id="MedeniyyetTV.tr" tvg-logo="https://cdn.technettv.com/channel/14715/logo_256_1659592459.png" ,Mədəniyyət TV
+https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/medeniyet-tv.m3u8
+#EXTINF:-1 group-title="AZERBAYCAN" tvg-id="DunyaTV.tr" tvg-logo="https://cdn.technettv.com/channel/14757/logo_256_1659593250.png" ,Dünya TV
+https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/dunya-tv.m3u8
+#EXTINF:-1 group-title="AZERBAYCAN" tvg-id="KanalS.tr" tvg-logo="https://cdn.technettv.com/channel/14701/logo_256_1659592190.png" ,Kanal S
+https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/kanal-s.m3u8
+#EXTINF:-1 group-title="AZERBAYCAN" tvg-id="TMBTV.tr" tvg-logo="https://cdn.technettv.com/channel/14764/logo_256_1659593394.png" ,TMB TV
+https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/tmb-tv.m3u8
+#EXTINF:-1 group-title="AZERBAYCAN" tvg-id="MTV.tr" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/a1/MTV_Azerbaijan_Logo.png" ,MTV
+https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/mtv-azerbaycan.m3u8
+#EXTINF:-1 group-title="AZERBAYCAN" tvg-id="MTV.tr" tvg-logo="https://tmb.tv/wp-content/themes/techvio/assets/images/logo.png" ,TMB AZERBAYCAN
+https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/tmb-azerbaycan.m3u8
+#EXTINF:-1 group-title="AZERBAYCAN" tvg-id="MTV.tr" tvg-logo="---" ,VIP
+https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/vip.m3u8
+#EXTINF:-1 group-title="AZERBAYCAN" tvg-id="LiveTvAZ.tr" tvg-logo="https://cdn.technettv.com/channel/33048/logo_256.png" ,LivetvAZ
+https://boncuktvv.seni-hinzir-seni.workers.dev/livetvaz
+#EXTINF:-1 group-title="AZERBAYCAN" tvg-id="MyzTV.tr" tvg-logo="https://cdn.technettv.com/channel/33020/logo_256.png" ,MyzTV
+https://boncuktvv.seni-hinzir-seni.workers.dev/myztv
 #EXTINF:-1 group-title="AZERBAYCAN" tvg-id="ATVAz.tr" tvg-logo="https://cdn.technettv.com/channel/10424/logo_256.jpeg" ,ATV Azerbaycan
 https://boncuktvv.seni-hinzir-seni.workers.dev/atvaz
 #EXTINF:-1 group-title="AZERBAYCAN" tvg-id="AZTV.tr" tvg-logo="https://cdn.technettv.com/channel/14722/logo_256.png" ,Azərbaycan Televiziyası
 https://boncuktvv.seni-hinzir-seni.workers.dev/aztv
-#EXTINF:-1 group-title="AZERBAYCAN" tvg-id="ITV.tr" tvg-logo="https://cdn.technettv.com/channel/10422/logo_256.png" ,Ictimai Televiziya
-https://boncuktvv.seni-hinzir-seni.workers.dev/itv
-#EXTINF:-1 group-title="AZERBAYCAN" tvg-id="ARB.tr" tvg-logo="https://cdn.technettv.com/channel/14680/logo_256_1659591816.png" ,ARB
-https://boncuktvv.seni-hinzir-seni.workers.dev/arb
-#EXTINF:-1 group-title="AZERBAYCAN" tvg-id="CBC.tr" tvg-logo="https://cdn.technettv.com/channel/10421/logo_256_1660800461.png" ,CBC
-https://boncuktvv.seni-hinzir-seni.workers.dev/cbc
-#EXTINF:-1 group-title="AZERBAYCAN" tvg-id="ARB24.tr" tvg-logo="https://cdn.technettv.com/channel/14687/logo_256_1659591924.jpg" ,ARB 24
-https://boncuktvv.seni-hinzir-seni.workers.dev/arb24
-#EXTINF:-1 group-title="AZERBAYCAN" tvg-id="BakuTV.tr" tvg-logo="https://cdn.technettv.com/channel/33027/logo_256.png" ,BakuTV
-https://boncuktvv.seni-hinzir-seni.workers.dev/bakutv
-#EXTINF:-1 group-title="AZERBAYCAN" tvg-id="SpaceTV.tr" tvg-logo="https://cdn.technettv.com/channel/14743/logo_256_1659592875.png" ,Space TV
-https://boncuktvv.seni-hinzir-seni.workers.dev/spacetv
-#EXTINF:-1 group-title="AZERBAYCAN" tvg-id="RealTV.tr" tvg-logo="https://cdn.technettv.com/channel/14736/logo_256_1659592776.png" ,Real TV
-https://boncuktvv.seni-hinzir-seni.workers.dev/realtv
-#EXTINF:-1 group-title="AZERBAYCAN" tvg-id="ARBGunes.tr" tvg-logo="https://cdn.technettv.com/channel/14694/logo_256_1659592213.jpg" ,ARB Günəş
-https://boncuktvv.seni-hinzir-seni.workers.dev/arbgunes
-#EXTINF:-1 group-title="AZERBAYCAN" tvg-id="MedeniyyetTV.tr" tvg-logo="https://cdn.technettv.com/channel/14715/logo_256_1659592459.png" ,Mədəniyyət TV
-https://boncuktvv.seni-hinzir-seni.workers.dev/medeniyyettv
-#EXTINF:-1 group-title="AZERBAYCAN" tvg-id="DunyaTV.tr" tvg-logo="https://cdn.technettv.com/channel/14757/logo_256_1659593250.png" ,Dünya TV
-https://boncuktvv.seni-hinzir-seni.workers.dev/dunyatv
-#EXTINF:-1 group-title="AZERBAYCAN" tvg-id="KanalS.tr" tvg-logo="https://cdn.technettv.com/channel/14701/logo_256_1659592190.png" ,Kanal S
-https://boncuktvv.seni-hinzir-seni.workers.dev/kanals
 #EXTINF:-1 group-title="AZERBAYCAN" tvg-id="GunAzTV.tr" tvg-logo="https://cdn.technettv.com/channel/14778/logo_256_1659593579.png" ,GunAz TV
 https://boncuktvv.seni-hinzir-seni.workers.dev/gunaztv
-#EXTINF:-1 group-title="AZERBAYCAN" tvg-id="LiveTvAZ.tr" tvg-logo="https://cdn.technettv.com/channel/33048/logo_256.png" ,LivetvAZ
-https://boncuktvv.seni-hinzir-seni.workers.dev/livetvaz
 #EXTINF:-1 group-title="AZERBAYCAN" tvg-id="MusicAzerbaycan.tr" tvg-logo="https://cdn.technettv.com/channel/32194/logo_256.jpg" ,Music Azerbaycan
 https://boncuktvv.seni-hinzir-seni.workers.dev/musicazerbaycan
 #EXTINF:-1 group-title="AZERBAYCAN" tvg-id="MusicAzerbaycanHit.tr" tvg-logo="https://cdn.technettv.com/channel/33090/logo_256.jpg" ,Music Azerbaycan Hit
 https://boncuktvv.seni-hinzir-seni.workers.dev/musicazerbaycanhit
-#EXTINF:-1 group-title="AZERBAYCAN" tvg-id="TMBTV.tr" tvg-logo="https://cdn.technettv.com/channel/14764/logo_256_1659593394.png" ,TMB TV
-https://boncuktvv.seni-hinzir-seni.workers.dev/tmbtv
-#EXTINF:-1 group-title="AZERBAYCAN" tvg-id="MyzTV.tr" tvg-logo="https://cdn.technettv.com/channel/33020/logo_256.png" ,MyzTV
-https://boncuktvv.seni-hinzir-seni.workers.dev/myztv
 #EXTINF:-1 group-title="Radyo" tvg-logo="https://www.trt.net.tr/_nuxt/img/trt-fm-radyo-kanali.f4fa31f.png" ,TRT FM
 https://rd-trtfm.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="Radyo" tvg-logo="https://www.trt.net.tr/_nuxt/img/trt-turku-radyo-kanali.7cd2153.png" ,TRT Türkü
