@@ -71,8 +71,8 @@ def main():
                 for name, data in target_map.items():
                     if not data["found"] and (name.lower().replace(" ", "") in d_name or any(a in d_name for a in ALIAS_MAP.get(name, []))):
                         data["found"] = True
-                        ET.SubElement(new_tv, "channel", id=data["epg_id"]).append(ET.fromstring(f'<display-name>{name}</display-name>'))
-                        matched_channels[m_id] = data["epg_id"]
+                        ET.SubElement(new_tv, "channel", id=name).append(ET.fromstring(f'<display-name>{name}</display-name>'))
+                        matched_channels[m_id] = name
             
             for prog in root.findall('programme'):
                 m_cid = prog.get('channel')
