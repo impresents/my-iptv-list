@@ -40,7 +40,7 @@ CHANNELS_DATA = {
 # Kaynaktaki isim eşleştirmeleri
 ALIAS_MAP = {
     "NOW": ["fox", "nowtv", "fox tv"], "TV8.5": ["tv85", "tv 8,5", "tv8bucuk", "tv 8.5"],
-    "Sözcü TV": ["szctv", "sozcu"],"Akit TV": ["AKİT TV HD", "akit"], "TRT Spor Yıldız": ["trtyildiz", "trtspor2"]
+    "Sözcü TV": ["szctv", "sozcu"], "TRT Spor Yıldız": ["trtyildiz", "trtspor2"]
 }
 
 MASTER_URLS = ["https://www.open-epg.com/app/download.php?file=turkey3.xml"]
