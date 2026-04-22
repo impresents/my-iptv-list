@@ -645,6 +645,8 @@ https://streams.uzunmuhalefet.com/stream/9dde3626-6984-4f64-9683-dc3b3d0a843d.m3
 https://streams.uzunmuhalefet.com/stream/975e6a82-279a-4b00-a9b4-85c92f480803.m3u8
 #EXTINF:0 CUID="1" tvg-name="TRT GENÇ" tvg-logo="https://pbs.twimg.com/profile_images/2009963534021459968/JwBVdge0_400x400.jpg" group-title="Ulusal",TRT GENÇ
 https://tv-trtgenc.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TRT 4K" tvg-logo="https://images.seeklogo.com/logo-png/40/2/trt-4k-logo-png_seeklogo-405551.png" group-title="Ulusal ",TRT 4K
+http://patlak303.xyz:8080/5070122848/07.09.2022/333042
 #EXTM3U
 #EXTINF:-1 group-title="AZERBAYCAN" tvg-id="XezerTV.tr" tvg-logo="https://cdn.technettv.com/channel/10423/logo_256_1659589825.jpeg" ,Xəzər TV
 https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/xezer-tv.m3u8
