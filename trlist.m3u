@@ -15,7 +15,7 @@ https://streams.uzunmuhalefet.com/stream/710fb148-7b3d-4ca2-b6c2-743097885a45.m3
 https://yurhnwtpys.turknet.ercdn.net/cvmbjbpmdx/kanal7/kanal7_1080p.m3u8
 #EXTINF:0 CUID="8" tvg-name="TV8" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/6/68/Tv8_Yeni_Logo.png" group-title="Ulusal",TV8
 https://streams.uzunmuhalefet.com/stream/e93b8e86-e4fc-450a-81d4-2188eda7dda0.m3u8
-#EXTINF:0 CUID="9" tvg-name="Star TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Logo_Star_TV_%282011-2017%29.svg/960px-Logo_Star_TV_%282011-2017%29.svg.png" group-title="Ulusal",Star TV
+#EXTINF:0 CUID="9" tvg-name="Star TV" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/Y/Sk/245994/logo.png" group-title="Ulusal",Star TV
 http://dygvideo.dygdigital.com/live/hls/startv4puhu?m3u8
 #EXTINF:0 CUID="10" tvg-name="360 TV" tvg-logo="https://gitlatte.github.io/m3ueditor/images/kanal-gorselleri/turkiye/360-tr.png" group-title="Ulusal",360 TV
 https://streams.uzunmuhalefet.com/stream/90fefbea-4a78-4f02-962f-2e1e4ad22f98.m3u8
@@ -87,7 +87,7 @@ http://208.79.153.167/inim03/live1/tgrteu/playlist.m3u8
 https://streams.uzunmuhalefet.com/stream/16e43b9b-e175-482c-a105-2253c06515c9.m3u8
 #EXTINF:0 CUID="41" tvg-name="Kanal 7 Avrupa" tvg-logo="https://cdn.kanal7.com/kanal7/wp-content/themes/kanal7avrupa/images/kanal7avrupa_logo.png" group-title="Ulusal - Yurt Dışı",Kanal 7 Avrupa
 https://streams.uzunmuhalefet.com/stream/49c9a96d-f9c0-474e-b2f7-5e62bbdd0290.m3u8
-#EXTINF:0 CUID="42" tvg-name="Kanal Avrupa" tvg-logo="https://assets.uzunmuhalefet.com/logos/ba21c671-ff84-4bf0-97b5-8b326291d36b.png" group-title="Ulusal - Yurt Dışı",Kanal Avrupa
+#EXTINF:0 CUID="42" tvg-name="Kanal Avrupa" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/kanal_avrupa_NgH.png" group-title="Ulusal - Yurt Dışı",Kanal Avrupa
 https://streams.uzunmuhalefet.com/stream/92ccdd1d-1d3e-47eb-b84b-e75effe16829.m3u8
 #EXTINF:0 CUID="43" tvg-name="A Para" tvg-logo="https://play-lh.googleusercontent.com/BCV0M24ufvt6FzjW_eLpETj6LTWGyHrPvcPZhWToH1wJF6dEgYEdshr-xNYbZUGdtA" group-title="Ekonomi",A Para
 https://live.cdn-vizi.workers.dev/?ID=49
