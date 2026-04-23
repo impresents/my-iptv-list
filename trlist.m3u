@@ -58,7 +58,7 @@ https://streams.uzunmuhalefet.com/stream/e8b425ad-571d-475d-a657-37bca8985836.m3
 #EXTINF:0 CUID="29" tvg-name="TV 5" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/a/a5/TV5.jpg" group-title="Haber",TV 5
 https://streams.uzunmuhalefet.com/stream/e12ae805-19c9-4c7f-ac92-cdd89d953d10.m3u8
 #EXTINF:0 CUID="30" tvg-name="Flash Haber TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/23/Flash_haber_tv_2025.png" group-title="Haber",Flash Haber TV
-http://87.121.104.29:1453/flashhaberyt/stream.m3u8
+http://87.121.104.29:1071/flashhaberyt/stream.m3u8
 #EXTINF:0 CUID="31" tvg-name="Lider Haber TV" tvg-logo="https://liderhabercomtr.teimg.com/liderhaber-com-tr/uploads/2025/10/lider-4-2.png" group-title="Haber",Lider Haber TV
 https://streams.uzunmuhalefet.com/stream/5b8db41e-b662-4652-bd8a-fc198ceb33f4.m3u8
 #EXTINF:-1 tvg-logo="https://static.ssportplus.com/wp-content/uploads/2025/09/kanallar_bikanal.png" group-title="Ulusal",Bi Kanal
@@ -132,7 +132,7 @@ https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3_outpu
 #EXTINF:0 CUID="62" tvg-name="Kuzeymax" tvg-logo="https://assets.uzunmuhalefet.com/logos/8ae9a3c0-cc01-4dbd-a8c6-175c8b0dd287.png" group-title="Eğlence",Kuzeymax
 http://75.119.144.48/KuzeyMAX_HD_Stream/index.m3u8
 #EXTINF:0 CUID="64" tvg-name="beIN SPORTS HABER" tvg-logo="https://yt3.ggpht.com/_vs7K9u3pS-C7flO0cVIkxqgLsIkjElGL6izCYFzI0COAYKda5g2J9DRB9-EHsfTXwA_ayi72g" group-title="SPOR",beIN SPORTS HABER
-http://87.121.104.29:1453/bshaberyt/stream.m3u8
+http://87.121.104.29:1071/bshaberyt/stream.m3u8
 #EXTINF:0 CUID="63" tvg-name="TRT Spor" tvg-logo="https://cdn.technettv.com/channel/20770/logo_256_1699963394.png" group-title="Spor",TRT Spor
 https://streams.uzunmuhalefet.com/stream/dc23a8ec-c62f-47a2-ae23-e823a9851a1a.m3u8
 #EXTINF:0 CUID="65" tvg-name="TRT Spor Yıldız" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/02ef58a4-349a-49a6-8df2-82fb71c6554d.png" group-title="Spor",TRT Spor Yıldız
@@ -296,7 +296,7 @@ https://streams.uzunmuhalefet.com/stream/ad9354e2-2403-488d-a708-59e84822b6ae.m3
 #EXTINF:0 CUID="145" tvg-name="Beğen TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/b74b51a2-0659-45a5-8c82-2f3ed680eca4.png" group-title="Diğer",Beğen TV
 https://streams.uzunmuhalefet.com/stream/ed581547-9735-4ad1-804d-8ab925446060.m3u8
 #EXTINF:-1 tvg-id="bizimevyt" tvg-name="Bizim Ev - YT" tvg-logo="https://yt3.googleusercontent.com/5KLD4QmX3I_Hwc4wrTpdqkcoVdTJfj86ABhRIkEV1ZtJ2jXNGWnqL-CLOjuC3MHM6hQLCgL4=s160-c-k-c0x00ffffff-no-rj" group-title="Diğer",Bizim Ev
-http://87.121.104.29:1453/bizimevyt/stream.m3u8
+http://87.121.104.29:1071/bizimevyt/stream.m3u8
 #EXTINF:0 CUID="146" tvg-name="Bizim Ocak TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/b901ba7e-2e39-4d70-996e-7df966779a05.png" group-title="Diğer",Bizim Ocak TV
 https://streams.uzunmuhalefet.com/stream/4428c9dd-2714-4705-a025-e3eaf7b8fd6e.m3u8
 #EXTINF:0 CUID="147" tvg-name="Cansuyu TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/b0c4eabe-d127-41e6-abc7-5180bb7000df.png" group-title="Diğer",Cansuyu TV
@@ -797,99 +797,99 @@ http://radyotrio.radyotvonline.net/radyotrio
 #EXTINF:-1 group-title="Radyo" tvg-logo="https://i.tmgrup.com.tr/rt/site/v2/c/i/radio/radyo-turkuvaz.png" ,Radyo Turkuvaz
 https://trkvz-radyolar.ercdn.net/radyoturkuvaz/playlist.m3u8
 #EXTINF:-1 tvg-id="somine" tvg-name="Şömine" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaTqhDOMt4sRBXclx0Iob8F6bhZ8bWLVg4tA&s" group-title="Dinlenme Vakti",Şömine
-http://87.121.104.29:1453/somine/stream.m3u8
+http://87.121.104.29:1071/somine/stream.m3u8
 #EXTINF:-1 tvg-id="rahatlamaseans" tvg-name="Relax Video" tvg-logo="https://yt3.googleusercontent.com/lyUMCjkrkgDMTt8LjZ0w6nBg5QWI7HxNeydcyzcvlknIclBzSiWGgJ1oeOeurH79SAF6ijrb=s160-c-k-c0x00ffffff-no-rj" group-title="Dinlenme Vakti",Relax Video
-http://87.121.104.29:1453/rahatlamaseans/stream.m3u8
+http://87.121.104.29:1071/rahatlamaseans/stream.m3u8
 #EXTINF:-1 tvg-id="okyanus" tvg-name="Okyanus Sesleri" tvg-logo="https://yt3.googleusercontent.com/-NCv9pGDDs4mIhznDQrpRUb_8HHt7MxyK0RzfnnXkL8rFkZ2bog9lZHNGh2t8U4IinRd9wrH=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj" group-title="Dinlenme Vakti",Okyanus Sesleri
-http://87.121.104.29:1453/okyanus/stream.m3u8
+http://87.121.104.29:1071/okyanus/stream.m3u8
 #EXTINF:-1 tvg-id="rahatlaticises" tvg-name="Rahatlatıcı Sesler" tvg-logo="https://yt3.googleusercontent.com/cM2oNS3DZxfhTKrT5pNwCCRIYnaIJQyrVVeuH3KnHX89pHW2zqqKc5wur3MS0Z7Ld7kdJsoZ=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj" group-title="Dinlenme Vakti",Rahatlatıcı Sesler
-http://87.121.104.29:1453/rahatlaticises/stream.m3u8
+http://87.121.104.29:1071/rahatlaticises/stream.m3u8
 #EXTINF:-1 tvg-id="ormansesleri" tvg-name="Orman Sesleri" tvg-logo="https://i.ytimg.com/vi/hUC6wx0Zui4/hqdefault.jpg?v=68d35751&sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAUk2TrO0lALYRbJmOZdO89nDO7QA" group-title="Dinlenme Vakti",Orman Sesleri
-http://87.121.104.29:1453/ormansesleri/stream.m3u8
+http://87.121.104.29:1071/ormansesleri/stream.m3u8
 #EXTINF:-1 tvg-id="askinevayt" tvg-name="Aşk-ı Neva" tvg-logo="https://yt3.googleusercontent.com/f5POobR9VwXrL7HJ6NTBaN_QSjN8M-jvTdDfeEMXPgbyEEZDGIFdNelUYbcoVTZjjmSfMB6axnI=s160-c-k-c0x00ffffff-no-rj" group-title="Dini",Aşk-ı Neva
-http://87.121.104.29:1453/askinevayt/stream.m3u8
+http://87.121.104.29:1071/askinevayt/stream.m3u8
 #EXTINF:-1 tvg-id="huzurpinariyt" tvg-name="Huzur Pinari Tv" tvg-logo="https://yt3.googleusercontent.com/ZK8nsLnz1StMpGKezOm6tQ69FBoXDKC8CdjdVVWd3uweqwO9i10-lMKd9pCySAc4ud0MadRVxS4=s160-c-k-c0x00ffffff-no-rj" group-title="Dini",Huzur Pinari Tv
-http://87.121.104.29:1453/huzurpinariyt/stream.m3u8
+http://87.121.104.29:1071/huzurpinariyt/stream.m3u8
 #EXTINF:-1 tvg-id="trtcocukyt" tvg-name="TRT Çocuk YouTube - Rafadan Tayfa" tvg-logo="https://yt3.googleusercontent.com/6_jhTr2aolmOP8qNq24ReRalaiu8LNSX-OD4fh9wWcIALv67la_kYKHDe-2QjmGJ3GqH8UULVQ=s160-c-k-c0x00ffffff-no-rj" group-title="Çocuk",Rafadan Tayfa
-http://87.121.104.29:1453/trtcocukyt/stream.m3u8
+http://87.121.104.29:1071/trtcocukyt/stream.m3u8
 #EXTINF:-1 tvg-id="neselidunyam" tvg-name="Neşeli Dünyam" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_l3kNwTi1WBn4EDPvRSjt4jcNSBZ5GFzJXWhlwpk4FWSPY=s160-c-k-c0x00ffffff-no-rj" group-title="Çocuk",Neşeli Dünyam
-http://87.121.104.29:1453/neselidunyam/stream.m3u8
+http://87.121.104.29:1071/neselidunyam/stream.m3u8
 #EXTINF:-1 tvg-id="guldurguldur" tvg-name="Güldür Güldür 7/24" tvg-logo="https://yt3.ggpht.com/i2TaaYn_QBW_W0xsJ79qFQ58bw28wKxlopm9Cocq6O_Ws-Z0C84ap3DI3Q5zm-2o22_Pru4YNQ=s176-c-k-c0x00ffffff-no-rj-mo" group-title="7/24 Youtube",Güldür Güldür 7/24
-http://87.121.104.29:1453/guldurguldur/stream.m3u8
+http://87.121.104.29:1071/guldurguldur/stream.m3u8
 #EXTINF:-1 tvg-id="cgh2" tvg-name="ÇGH2 7/24" tvg-logo="https://yt3.ggpht.com/9t3sdfGSLrbjII4g10IJhrDt1N2xtYrFavOGQq2IQSizJYlt6Z1x-COMZvPKJmySl_aU-Mkl=s176-c-k-c0x00ffffff-no-rj-mo" group-title="7/24 Youtube",ÇGH2 7/24
-http://87.121.104.29:1453/cgh2/stream.m3u8
+http://87.121.104.29:1071/cgh2/stream.m3u8
 #EXTINF:-1 tvg-id="arkadasimhosgeldin" tvg-name="Arkadaşım Hoş Geldin 7/24" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_lDPRI2u9ZNAS0OG2TEB54VNVJf8jjquCGZPuJ6IKjGGg=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Arkadaşım Hoş Geldin 7/24
-http://87.121.104.29:1453/arkadasimhosgeldin/stream.m3u8
+http://87.121.104.29:1071/arkadasimhosgeldin/stream.m3u8
 #EXTINF:-1 tvg-id="tolgshow" tvg-name="Tolgshow 7/24" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_lDPRI2u9ZNAS0OG2TEB54VNVJf8jjquCGZPuJ6IKjGGg=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Tolgshow 7/24
-http://87.121.104.29:1453/tolgshow/stream.m3u8
+http://87.121.104.29:1071/tolgshow/stream.m3u8
 #EXTINF:-1 tvg-id="kurtlarvadisi" tvg-name="Kurtlar Vadisi 7/24" tvg-logo="https://yt3.googleusercontent.com/3pcRtdw7lKM3-d8rPyBn1mET0GTstFOx4EUqswlp4sGVFchaf31GXPcz3AjFgIssfvI-6Mgus-M=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Kurtlar Vadisi 7/24
-http://87.121.104.29:1453/kurtlarvadisi/stream.m3u8
+http://87.121.104.29:1071/kurtlarvadisi/stream.m3u8
 #EXTINF:-1 tvg-id="kurtlarvadisipusu" tvg-name="Kurtlar Vadisi Pusu 7/24" tvg-logo="https://yt3.ggpht.com/tql8fK5S3O4w5ONQcdlOqYkpy_BKAq1wcTt7GilOGf3GpkhdeqIw5f55YI1ZDo_p5_DcoDyB1A=s176-c-k-c0x00ffffff-no-rj-mo" group-title="7/24 Youtube",Kurtlar Vadisi Pusu 7/24
-http://87.121.104.29:1453/kurtlarvadisipusu/stream.m3u8
+http://87.121.104.29:1071/kurtlarvadisipusu/stream.m3u8
 #EXTINF:-1 tvg-id="edho" tvg-name="Eşkıya Dünyaya Hükümdar Olmaz 7/24" tvg-logo="https://yt3.googleusercontent.com/TxAX1j0TdUlpfhmsbkCqtdFrM3AFV2DZGb6kef8TH80oOMDFEz2J2id5-SiWtDTcpH2mZhYGTg=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Eşkıya Dünyaya Hükümdar Olmaz 7/24
-http://87.121.104.29:1453/edho/stream.m3u8
+http://87.121.104.29:1071/edho/stream.m3u8
 #EXTINF:-1 tvg-id="ezelyt" tvg-name="Ezel 7/24" tvg-logo="https://yt3.googleusercontent.com/jFbStgWNl1hsQlGU2dk8d-e6YlXtzL6d84CIlcDtGvBUY_tw3_bNGKBe75SIgm4yDor2-EkjkQ=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Ezel 7/24
-http://87.121.104.29:1453/ezelyt/stream.m3u8
+http://87.121.104.29:1071/ezelyt/stream.m3u8
 #EXTINF:-1 tvg-id="muhtesemyuzyil" tvg-name="Muhteşem Yüzyıl 7/24" tvg-logo="https://yt3.googleusercontent.com/epBgDKt7X076kstrFPsFyBPg1qKh1g3t6TC58kMitJvnDUiHd2XGFUuVJz1Ons0YIywZo5v-uQ=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Muhteşem Yüzyıl 7/24
-http://87.121.104.29:1453/muhtesemyuzyil/stream.m3u8
+http://87.121.104.29:1071/muhtesemyuzyil/stream.m3u8
 #EXTINF:-1 tvg-id="behzatc" tvg-name="Behzat Ç. 7/24" tvg-logo="https://yt3.googleusercontent.com/Z8zZMS4sIhD7JJi20qr1fMFtHlJ7-liknZqqCzPg-0PfQGhgRv4sMxvUfT4x11U5QnFp1VbmYg=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Behzat Ç. 7/24
-http://87.121.104.29:1453/behzatc/stream.m3u8
+http://87.121.104.29:1071/behzatc/stream.m3u8
 #EXTINF:-1 tvg-id="soz" tvg-name="Söz 7/24" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_nJXAIa1X-ajL3YEj1hR9cXTnjqa6_G4UoQPpUylwpgbv8=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Söz 7/24
-http://87.121.104.29:1453/soz/stream.m3u8
+http://87.121.104.29:1071/soz/stream.m3u8
 #EXTINF:-1 tvg-id="kuzeygunay" tvg-name="Kuzey Güney 7/24" tvg-logo="https://yt3.googleusercontent.com/IYSskFu8LkkcG-tQjZT06DC3h598njGnWaubpOkA2nlTETHyIjIr0vTreVbBsGmVdrG80PGk=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Kuzey Güney 7/24
-http://87.121.104.29:1453/kuzeygunay/stream.m3u8
+http://87.121.104.29:1071/kuzeygunay/stream.m3u8
 #EXTINF:-1 tvg-id="adanalı" tvg-name="Adanalı 7/24" tvg-logo="https://yt3.googleusercontent.com/2bi7q6AcVbEQwlxZSvTthnHUTK-83MKOSuuSwvLA3uwuki8sYv0HfBN27TJjL7CM8zuMH3HzDg=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Adanalı 7/24
-http://87.121.104.29:1453/adanalı/stream.m3u8
+http://87.121.104.29:1071/adanalı/stream.m3u8
 #EXTINF:-1 tvg-id="sakaryafirat" tvg-name="Sakarya Fırat 7/24" tvg-logo="https://yt3.googleusercontent.com/uWY07vykFzXT_mCT7Iz1xelhFK7HnhjGhIGAZlJk6stWVcaPBnJeZioRr_8DIHTEDwHBtWCm=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Sakarya Fırat 7/24
-http://87.121.104.29:1453/sakaryafirat/stream.m3u8
+http://87.121.104.29:1071/sakaryafirat/stream.m3u8
 #EXTINF:-1 tvg-id="askimemnu" tvg-name="Aşk-ı Memnu 7/24" tvg-logo="https://yt3.googleusercontent.com/PDEALCyyxr3iZ2OpX4_vl5lQ5-7FaoRvihttV9R_gQcKCF7Q1RR7bGozobj9Ghh6ltkb_t8I=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Aşk-ı Memnu 7/24
-http://87.121.104.29:1453/askimemnu/stream.m3u8
+http://87.121.104.29:1071/askimemnu/stream.m3u8
 #EXTINF:-1 tvg-id="medcezir" tvg-name="Medcezir 7/24" tvg-logo="https://yt3.ggpht.com/cfOW7mgPB708zO99P5xl87WNMYFOnUZ5HBhwzHREGwjB2tNhpMC0nee5F1FP3dwBaARXCdZP8Q=s176-c-k-c0x00ffffff-no-rj-mo" group-title="7/24 Youtube",Medcezir 7/24
-http://87.121.104.29:1453/medcezir/stream.m3u8
+http://87.121.104.29:1071/medcezir/stream.m3u8
 #EXTINF:-1 tvg-id="yaprakdokumu" tvg-name="Yaprak Dökümü 7/24" tvg-logo="https://yt3.googleusercontent.com/haTDIRamfCjs53RVuK8hHLD4V0z0Y5ZKrf20BEzGvZExlGa9D89RZkeD7Cx_XsbJnPHBC9qTxQ=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Yaprak Dökümü 7/24
-http://87.121.104.29:1453/yaprakdokumu/stream.m3u8
+http://87.121.104.29:1071/yaprakdokumu/stream.m3u8
 #EXTINF:-1 tvg-id="kemalsunal" tvg-name="Kemal Sunal 7/24" tvg-logo="https://yt3.googleusercontent.com/-ymD4Yk5B67ZHKsffxetYiFvZQB9Ckq-9Ft7gfk0JpietBDtGIIqGJQeloIasQy_DHIo_8jJYQ=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Kemal Sunal 7/24
-http://87.121.104.29:1453/kemalsunal/stream.m3u8
+http://87.121.104.29:1071/kemalsunal/stream.m3u8
 #EXTINF:-1 tvg-id="gulsahfilm" tvg-name="Gülşah Film 7/24" tvg-logo="https://yt3.googleusercontent.com/jHfMww520ZaX-PZ6CB5sqE5scVs0sl7Kgwc3rzzbzwa3IzXJy8iOyJM9WjLktwtLFgCbvpeZk9Q=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj" group-title="7/24 Youtube",Gülşah Film 7/24
-http://87.121.104.29:1453/gulsahfilm/stream.m3u8
+http://87.121.104.29:1071/gulsahfilm/stream.m3u8
 #EXTINF:-1 tvg-id="emretkomutanimyt" tvg-name="Emret Komutanım 7/24" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_km2n7rZBTorgl2Ql0Ts5-JWXd1jtIzfeKbVioXgjdpFkI=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Emret Komutanım 7/24
-http://87.121.104.29:1453/emretkomutanimyt/stream.m3u8
+http://87.121.104.29:1071/emretkomutanimyt/stream.m3u8
 #EXTINF:-1 tvg-id="avrupayakasi" tvg-name="Avrupa Yakası 7/24" tvg-logo="https://yt3.googleusercontent.com/5bkS9MmbYWqBp6L5YLW2GKbUHg3ccliSqtZPTEDIKyATdaixag3ZWtvzloxX3elaJ1fmta-Gsg=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Avrupa Yakası 7/24
-http://87.121.104.29:1453/avrupayakasi/stream.m3u8
+http://87.121.104.29:1071/avrupayakasi/stream.m3u8
 #EXTINF:-1 tvg-id="yalandunyayt" tvg-name="Yalan Dünya 7/24" tvg-logo="https://yt3.googleusercontent.com/-YDPepLyRkCMnen3OV6-QRAuvJcqzOWB3igTxkuPbIdXcvFBpZ_i3LpPqXxjMHjAV-aAiSPKow=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Yalan Dünya 7/24
-http://87.121.104.29:1453/yalandunyayt/stream.m3u8
+http://87.121.104.29:1071/yalandunyayt/stream.m3u8
 #EXTINF:-1 tvg-id="cocuklarduymasin" tvg-name="Çocuklar Duymasın 7/24" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_k2yAMqqZek-afJ0iWS-gMNfDR-1T_wWcjajhmZWMF3Kw=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Çocuklar Duymasın 7/24
-http://87.121.104.29:1453/cocuklarduymasin/stream.m3u8
+http://87.121.104.29:1071/cocuklarduymasin/stream.m3u8
 #EXTINF:-1 tvg-id="seksenleryt" tvg-name="Seksenler 7/24" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_nZ3O2m76f5kZZZLC5XKkAgUzq4AaEEuT7UyquE2EVgBw=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Seksenler 7/24
-http://87.121.104.29:1453/seksenleryt/stream.m3u8
+http://87.121.104.29:1071/seksenleryt/stream.m3u8
 #EXTINF:-1 tvg-id="leylamecnun" tvg-name="Leyla ile Mecnun 7/24" tvg-logo="https://yt3.googleusercontent.com/VvAVptRyVwMZ45DzlzEz2HJ738mBWncwZgb-xzuQQjqy9L7O649tKHOT-ujUBCixGQFMnBhUwQ=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Leyla ile Mecnun 7/24
-http://87.121.104.29:1453/leylamecnun/stream.m3u8
+http://87.121.104.29:1071/leylamecnun/stream.m3u8
 #EXTINF:-1 tvg-id="cennetmahallesi" tvg-name="Cennet Mahallesi 7/24" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_mKu0mjHEszLFRezgQr1A06wDsDZkvTnaNXbPn5_d0ZUA=s176-c-k-c0x00ffffff-no-rj-mo" group-title="7/24 Youtube",Cennet Mahallesi 7/24
-http://87.121.104.29:1453/cennetmahallesi/stream.m3u8
+http://87.121.104.29:1071/cennetmahallesi/stream.m3u8
 #EXTINF:-1 tvg-id="zenginkfakiro" tvg-name="Zengin Kız Fakir Oğlan 7/24" tvg-logo="https://yt3.ggpht.com/1YUINSwuuns9oNLOmYEQLkS9aNI_bE-hdOFTDF3S56Oq6rRBUWO_kd1ew2NkWmbj_4LznHe3V5M=s176-c-k-c0x00ffffff-no-rj-mo" group-title="7/24 Youtube",Zengin Kız Fakir Oğlan 7/24
-http://87.121.104.29:1453/zenginkfakiro/stream.m3u8
+http://87.121.104.29:1071/zenginkfakiro/stream.m3u8
 #EXTINF:-1 tvg-id="aleminkiraliyt" tvg-name="Alemin Kıralı 7/24" tvg-logo="https://yt3.googleusercontent.com/HXSuS7IOMucLzbl-UC6OeH_PV8ID9FoMdg54gufdfTaf-gLZf8X9XGLFa8hPwEsacfpmABy4gg=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Alemin Kıralı 7/24
-http://87.121.104.29:1453/aleminkiraliyt/stream.m3u8
+http://87.121.104.29:1071/aleminkiraliyt/stream.m3u8
 #EXTINF:-1 tvg-id="yedinumarayt" tvg-name="Yedi Numara 7/24" tvg-logo="https://yt3.googleusercontent.com/f-uSffpGIqYV1DDww_6wa8wtgNvH3ujCNzCeDyk8jpTqvU-aazkDwSg59DolP5kRmyr6gqSs=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Yedi Numara 7/24
-http://87.121.104.29:1453/yedinumarayt/stream.m3u8
+http://87.121.104.29:1071/yedinumarayt/stream.m3u8
 #EXTINF:-1 tvg-id="fatmagulyt" tvg-name="Fatmagül'ün Suçu Ne ? 7/24" tvg-logo="https://yt3.googleusercontent.com/H-nesJNqryOe9c4afu5y7DBxOjLRPtU0bPnrXDoaJT3N-gwkP2QNBrY423mLwGZF8yA_EVxUrQ=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Fatmagül'ün Suçu Ne ? 7/24
-http://87.121.104.29:1453/fatmagulyt/stream.m3u8
+http://87.121.104.29:1071/fatmagulyt/stream.m3u8
 #EXTINF:-1 tvg-id="gullergunahlar" tvg-name="Güller ve Günahlar 7/24" tvg-logo="https://yt3.ggpht.com/JXJiwiydpEJxMhGq8aHtafCXE4ME_tbyrtpI5DS1SumFK5QKTvwwC3XDfIBvQWh7LFuPHsjGCw=s176-c-k-c0x00ffffff-no-rj-mo" group-title="7/24 Youtube",Güller ve Günahlar 7/24
-http://87.121.104.29:1453/gullergunahlar/stream.m3u8
+http://87.121.104.29:1071/gullergunahlar/stream.m3u8
 #EXTINF:-1 tvg-id="trtnostalji" tvg-name="TRT Nostalji 7/24" tvg-logo="https://yt3.googleusercontent.com/aTkDrJ4-tvQBycXJkhMgBBfX-o4iw0AMykmjfRCSiixpXIxmPj3spULmpXtKvSxn0aQeNfWNOQ=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",TRT Nostalji 7/24
-http://87.121.104.29:1453/trtnostalji/stream.m3u8
+http://87.121.104.29:1071/trtnostalji/stream.m3u8
 #EXTINF:-1 tvg-id="yesildenizyt" tvg-name="Yeşil Deniz 7/24" tvg-logo="https://yt3.googleusercontent.com/7X6QCeS0W93_Npl02OhYrpe4qx_9NfIka_lV_HdViwj0rxd452YmPchMwvVuj2tCgujcaTO7MA=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Yeşil Deniz 7/24
-http://87.121.104.29:1453/yesildenizyt/stream.m3u8
+http://87.121.104.29:1071/yesildenizyt/stream.m3u8
 #EXTINF:-1 tvg-id="gonuldagiyt" tvg-name="Gönül Dağı 7/24" tvg-logo="https://yt3.googleusercontent.com/zz6PtK-i5xDLSEID9h3fyAjJBVm0P3bdDtNWnldXYTYhvhMt0W9XdqC_VLL6uXlDpBp57EbNqg=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Gönül Dağı 7/24
-http://87.121.104.29:1453/gonuldagiyt/stream.m3u8
+http://87.121.104.29:1071/gonuldagiyt/stream.m3u8
 #EXTINF:-1 tvg-id="tasacakdenizyt" tvg-name="Taşacak Bu Deniz 7/24" tvg-logo="https://yt3.googleusercontent.com/Cwpsz_Ra5vtrHpiI8KCtr6LhbBPqFHQ0vDHfRe0kXXNwbigVGFvjz4Qv_XxMru0DDji4thfBIQU=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Taşacak Bu Deniz 7/24
-http://87.121.104.29:1453/tasacakdenizyt/stream.m3u8
+http://87.121.104.29:1071/tasacakdenizyt/stream.m3u8
 #EXTINF:-1 tvg-id="sihirliannem" tvg-name="Sihirli Annem 7/24" tvg-logo="https://yt3.googleusercontent.com/P54859eAfyuolskOUg4icbpgTTJV3meue0MwVlMSiPOUpUAzF_Hff3G-7O0bFoAfF1N2e1Pb=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Sihirli Annem 7/24
-http://87.121.104.29:1453/sihirliannem/stream.m3u8
+http://87.121.104.29:1071/sihirliannem/stream.m3u8
 #EXTINF:-1 tvg-id="trtnstaljiyt" tvg-name="Bizimkiler 7/24" tvg-logo="https://yt3.googleusercontent.com/aTkDrJ4-tvQBycXJkhMgBBfX-o4iw0AMykmjfRCSiixpXIxmPj3spULmpXtKvSxn0aQeNfWNOQ=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Bizimkiler 7/24
-http://87.121.104.29:1453/trtnostalji/stream2.m3u8
+http://87.121.104.29:1071/trtnostalji/stream2.m3u8
 #EXTINF:-1 tvg-id="hzyusufyt" tvg-name="Hz. Yusuf 7/24" tvg-logo="https://yt3.googleusercontent.com/D3GSWb8PhVI6qvxe2pjY-CgyRfQk-pRlFigUMDb6_Ogndk5RFyJjmPR-2DT-jOFL4s5eyYyK=s160-c-k-c0x00ffffff-no-rj" group-title="7/24 Youtube",Hz. Yusuf 7/24
-http://87.121.104.29:1453/hzyusufyt/stream.m3u8
+http://87.121.104.29:1071/hzyusufyt/stream.m3u8
 #EXTINF:-1 group-title="7/24 Youtube" tvg-logo="https://yazarokur-dizi-2025.s3.eu-central-1.amazonaws.com/siyah-beyaz-ask.jpg" tvg-url="https://www.kanald.com.tr/" tvg-id="SiyahBeyazAsk.tr",Siyah Beyaz Aşk
 https://streams.uzunmuhalefet.com/stream/729d9730-a07d-4fd0-9df8-32684fc9d14b.m3u8
 #EXTINF:-1 group-title="7/24 Youtube" tvg-logo="https://image.kanald.com.tr/i/kanald/100/0x0/57a07fdfcbbf362c78dc1149.jpg" tvg-url="https://www.kanald.com.tr/" tvg-id="TatliIntikam.tr",Tatlı İntikam
