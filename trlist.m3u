@@ -11,7 +11,7 @@ http://tv.smartglwiz.workers.dev/?ID=Now_HD
 https://streams.uzunmuhalefet.com/stream/0ed1c367-312d-4a42-9772-ef257a36b775.m3u8
 #EXTINF:0 CUID="6" tvg-name="Beyaz TV" tvg-logo="https://gitlatte.github.io/m3ueditor/images/kanal-gorselleri/turkiye/beyaz-tv-tr.png" group-title="Ulusal",Beyaz TV
 https://streams.uzunmuhalefet.com/stream/710fb148-7b3d-4ca2-b6c2-743097885a45.m3u8
-#EXTINF:0 CUID="7" tvg-name="Kanal 7" tvg-logo="https://cdn.technettv.com/channel/29485/logo_256_1733831753.png" group-title="Ulusal",Kanal 7
+#EXTINF:0 CUID="7" tvg-name="Kanal 7" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/c1414195-4807-4bbc-95b5-5f7c4c639b02.png" group-title="Ulusal",Kanal 7
 https://yurhnwtpys.turknet.ercdn.net/cvmbjbpmdx/kanal7/kanal7_1080p.m3u8
 #EXTINF:0 CUID="8" tvg-name="TV8" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/6/68/Tv8_Yeni_Logo.png" group-title="Ulusal",TV8
 https://streams.uzunmuhalefet.com/stream/e93b8e86-e4fc-450a-81d4-2188eda7dda0.m3u8
@@ -135,7 +135,7 @@ https://streams.uzunmuhalefet.com/stream/dc23a8ec-c62f-47a2-ae23-e823a9851a1a.m3
 https://streams.uzunmuhalefet.com/stream/978e9210-f530-44ae-99c8-8bdfc998b071.m3u8
 #EXTINF:0 CUID="67" tvg-name="A Spor" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/a-spor-tr.png" group-title="Spor",A Spor
 https://streams.uzunmuhalefet.com/stream/0d7bcd25-1301-4ebf-bc8f-ccb7dec31577.m3u8
-#EXTINF:0 CUID="68" tvg-name="HT Spor" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiFZOKcoVeRqlfcwUBNXoQZGZPguNXzdDz9w&s" group-title="Spor",HT Spor
+#EXTINF:0 CUID="68" tvg-name="HT Spor" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/f5c5d725-eb83-4749-a0aa-a418196ef10f.png" group-title="Spor",HT Spor
 https://streams.uzunmuhalefet.com/stream/3aae30d4-6a42-46f1-9e7b-7524748a940b.m3u8
 #EXTINF:0 CUID="69" tvg-name="Ekol Sports" tvg-logo="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250815850937.png" group-title="Spor",Ekol Sports
 https://ekoltv-live.ercdn.net/ekolsport/ekolsport_1080p.m3u8?autoplay=1
@@ -143,7 +143,7 @@ https://ekoltv-live.ercdn.net/ekolsport/ekolsport_1080p.m3u8?autoplay=1
 http://50.7.144.122:1935/live/tivibuspor.stream/playlist.m3u8?hash=1454e5f5a216d97ff597cef7d0bab7b2
 #EXTINF:0 CUID="71" tvg-name="Sports TV" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/ce3a853a-b638-44b8-b4f4-9728aec137d3.png" group-title="Spor",Sports TV
 http://tv.smartglwiz.workers.dev/?ID=SportsTV_HD
-#EXTINF:0 CUID="72" tvg-name="FB TV" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/0/01/Fenerbah%C3%A7e_TV_Logo.jpg" group-title="Spor",FB TV
+#EXTINF:0 CUID="72" tvg-name="FB TV" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/42f616f7-bcad-4967-8409-9577b9c14319.png" group-title="Spor",FB TV
 https://streams.uzunmuhalefet.com/stream/aefc429a-87c3-44f1-9caa-6687f04515b8.m3u8
 #EXTINF:0 CUID="73" tvg-name="Sıfır TV" tvg-logo="https://sifirtv.com/sifir-tv-logo.png" group-title="Spor",Sıfır TV
 https://streams.uzunmuhalefet.com/stream/d1208b47-c4c7-48d2-8c1a-d36cdadf5467.m3u8
@@ -603,7 +603,7 @@ https://streams.uzunmuhalefet.com/stream/5b0139af-aed0-4c08-8805-ad38555fd3a5.m3
 https://streams.uzunmuhalefet.com/stream/edd365b2-72a9-4140-85fc-3389abc3bd71.m3u8
 #EXTINF:0 CUID="300" tvg-name="TRT Kürdi" tvg-logo="https://assets.uzunmuhalefet.com/logos/94a22cf9-0e2b-4013-b073-255c2ec91fe0.png" group-title="Yerel",TRT Kürdi
 https://streams.uzunmuhalefet.com/stream/9f1577c7-fec7-4220-9e50-48f3e19942cf.m3u8
-#EXTINF:0 CUID="301" tvg-name="Türkhaber TV" tvg-logo="https://www.turkhabertv.com/wp-content/uploads/2024/06/Logo164x50.png" group-title="Yerel",Türkhaber TV
+#EXTINF:0 CUID="301" tvg-name="Türkhaber TV" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/e408b08e-5c90-4d58-91cd-0dc5cc550ab7.png" group-title="Yerel",Türkhaber TV
 https://streams.uzunmuhalefet.com/stream/335a70f2-e7fb-4012-99f9-a4014c305140.m3u8
 #EXTINF:0 CUID="302" tvg-name="Tuzla Haberleri TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/4d3d1cc5-cf02-4067-8d1b-392350f58c18.png" group-title="Yerel",Tuzla Haberleri TV
 https://streams.uzunmuhalefet.com/stream/974d4a99-8a1d-4a13-93ee-e615ab7881c5.m3u8
