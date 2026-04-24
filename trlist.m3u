@@ -21,7 +21,7 @@ http://dygvideo.dygdigital.com/live/hls/startv4puhu?m3u8
 https://streams.uzunmuhalefet.com/stream/90fefbea-4a78-4f02-962f-2e1e4ad22f98.m3u8
 #EXTINF:0 CUID="11" tvg-name="TV 100" tvg-logo="https://play-lh.googleusercontent.com/k5wrikGyT1yvqKKf3k_7MoUNUaAYARF0rGDX1I_PBppuczYoT-eP52LUTuW6xZbpGvY" group-title="Ulusal",TV 100
 https://streams.uzunmuhalefet.com/stream/d95e9a1b-3955-4643-8327-413da9a1ce60.m3u8
-#EXTINF:0 CUID="12" tvg-name="TYT Türk" tvg-logo="https://tytturk.com/uploads/medya/tyt-logo.png" group-title="Haber",TYT Türk
+#EXTINF:0 CUID="12" tvg-name="TYT Türk" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/5eb025b3-2e0b-495f-ba36-1eca546ddd1e.png" group-title="Haber",TYT Türk
 https://streams.uzunmuhalefet.com/stream/7ca72bbc-449a-4521-80e2-b891f1964493.m3u8
 #EXTINF:0 CUID="13" tvg-name="TRT Haber" tvg-logo="https://cdn.technettv.com/channel/20623/logo_256_1699961936.png" group-title="Haber",TRT Haber
 https://streams.uzunmuhalefet.com/stream/aa1ae31d-1d61-44b2-b675-b74e3ff5c7fc.m3u8
