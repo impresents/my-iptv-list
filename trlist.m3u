@@ -33,7 +33,7 @@ http://104.238.23.221/dsgo.php?id=245940
 https://streams.uzunmuhalefet.com/stream/bd9ebc63-8243-43d6-83a2-eeef100f7e20.m3u8
 #EXTINF:0 CUID="17" tvg-name="Habertürk" tvg-logo="https://images.seeklogo.com/logo-png/30/1/haberturk-tv-ve-gazete-logo-png_seeklogo-307034.png" group-title="Haber",Habertürk
 https://streams.uzunmuhalefet.com/stream/0c0bc91d-ce3a-49cc-9054-1cff110967c4.m3u8
-#EXTINF:0 CUID="18" tvg-name="Haber Global" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/haber-global-tr.png" group-title="Haber",Haber Global
+#EXTINF:0 CUID="18" tvg-name="Haber Global" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/9eadc435-f9b8-4284-bf32-61a3e13893a3.png" group-title="Haber",Haber Global
 https://live.cdn-vizi.workers.dev/?ID=38
 #EXTINF:0 CUID="19" tvg-name="Ülke TV" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/745cabe5-d7e2-4400-bbc6-61716baf129e.png" group-title="Haber",Ülke TV
 https://streams.uzunmuhalefet.com/stream/b94c88b7-3a36-48ce-9e04-19bc2b3921f9.m3u8
@@ -47,7 +47,7 @@ https://streams.uzunmuhalefet.com/stream/35b6fa6f-7915-4303-8198-30c2d7b82929.m3
 https://raw.githubusercontent.com/tecotv2025/tecotv/refs/heads/main/playlist/Sozcu_Tv.m3u8
 #EXTINF:0 CUID="24" tvg-name="Ekol TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/62/Ekol_TV_Kanal%C4%B1n%C4%B1n_Logosu.png" group-title="Haber",Ekol TV
 https://streams.uzunmuhalefet.com/stream/0665560a-c8a8-4087-bee6-9af26f226c90.m3u8
-#EXTINF:0 CUID="25" tvg-name="TVNET" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/be/Tvnet_logo.png" group-title="Haber",TVNET
+#EXTINF:0 CUID="25" tvg-name="TVNET" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/95349dc9-278a-4117-889a-1e471723c64b.png" group-title="Haber",TVNET
 https://streams.uzunmuhalefet.com/stream/9006885e-a09b-41e5-a19d-3273c30a74e9.m3u8
 #EXTINF:0 CUID="26" tvg-name="TELE1" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/4/43/Tele1_logosu.png" group-title="Haber",TELE1
 https://streams.uzunmuhalefet.com/stream/edba8b19-4745-4c5c-a235-b23a06d83eda.m3u8
