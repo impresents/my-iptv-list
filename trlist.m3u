@@ -639,7 +639,7 @@ https://streams.uzunmuhalefet.com/stream/87fee393-281a-499c-97c3-18ff5c7b2289.m3
 https://streams.uzunmuhalefet.com/stream/9dde3626-6984-4f64-9683-dc3b3d0a843d.m3u8
 #EXTINF:0 CUID="318" tvg-name="Ada TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/8d64858c-5307-409d-9c62-dcc98589c043.png" group-title="Kıbrıs",Ada TV
 https://streams.uzunmuhalefet.com/stream/975e6a82-279a-4b00-a9b4-85c92f480803.m3u8
-#EXTINF:0 CUID="1" tvg-name="TRT GENÇ" tvg-logo="https://pbs.twimg.com/profile_images/2009963534021459968/JwBVdge0_400x400.jpg" group-title="Ulusal",TRT GENÇ
+#EXTINF:0 CUID="1" tvg-name="TRT GENÇ" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1adb913f-2b00-4886-92e8-0cbdb4cf8aed.png" group-title="Ulusal",TRT GENÇ
 https://tv-trtgenc.medya.trt.com.tr/master.m3u8
 #EXTM3U
 #EXTINF:-1 group-title="AZERBAYCAN" tvg-id="XezerTV.tr" tvg-logo="https://cdn.technettv.com/channel/10423/logo_256_1659589825.jpeg" ,Xəzər TV
