@@ -141,6 +141,8 @@ https://streams.uzunmuhalefet.com/stream/3aae30d4-6a42-46f1-9e7b-7524748a940b.m3
 https://ekoltv-live.ercdn.net/ekolsport/ekolsport_1080p.m3u8?autoplay=1
 #EXTINF:0 CUID="70" tvg-name="Tivibu Spor" tvg-logo="https://i1.sndcdn.com/avatars-000335394613-kvru7x-t1080x1080.jpg" group-title="Spor",Tivibu Spor
 http://50.7.144.122:1935/live/tivibuspor.stream/playlist.m3u8?hash=1454e5f5a216d97ff597cef7d0bab7b2
+#EXTINF:0 CUID="70" tvg-name="Tivibu Spor" tvg-logo="https://i1.sndcdn.com/avatars-000335394613-kvru7x-t1080x1080.jpg" group-title="Spor",Tivibu Spor Yedek
+http://schwarzer-1903.com:8080/sezerozturkTR/88637jj37hh/114868
 #EXTINF:0 CUID="71" tvg-name="Sports TV" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/ce3a853a-b638-44b8-b4f4-9728aec137d3.png" group-title="Spor",Sports TV
 http://tv.smartglwiz.workers.dev/?ID=SportsTV_HD
 #EXTINF:0 CUID="72" tvg-name="FB TV" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/42f616f7-bcad-4967-8409-9577b9c14319.png" group-title="Spor",FB TV
@@ -892,8 +894,6 @@ https://streams.uzunmuhalefet.com/stream/729d9730-a07d-4fd0-9df8-32684fc9d14b.m3
 https://streams.uzunmuhalefet.com/stream/ca1b4f72-25ac-405f-bde7-b2ca6f151df0.m3u8
 #EXTINF:-1 group-title="7/24 Youtube" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x0/5c98b8c0e50aa91390984270.jpg" tvg-url="https://www.kanald.com.tr/" tvg-id="ZalimIstanbul.tr",Zalim İstanbul
 https://streams.uzunmuhalefet.com/stream/c2bd18c5-013b-4621-bab6-3eb9093008e1.m3u8
-#EXTINF:-1 group-title="7/24 Youtube" tvg-id="PofidixSinema3.tr" tvg-logo="https://st3.depositphotos.com/6741230/13306/v/450/depositphotos_133068056-stock-illustration-cinema-label-vector-illustration.jpg" ,Pati Tv
-http://104.238.23.182/d/live/out.m3u8?checkedby:MyWay
 #EXTINF:-1 group-title="7/24 Youtube" tvg-id="SDMSinema.tr" tvg-logo="https://www.sdmtv.com.tr/images/sdm-tv-sinema-keyfi.png" ,S D M Sinema Keyfi
 https://host.onlineradyotv.net:8081/sdmtv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="BenguturkTV.tr" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/9a5263de-ad43-49c9-8ad4-dc38e252873c.png" group-title="Haber",BENGÜTÜRK
