@@ -898,8 +898,11 @@ https://streams.uzunmuhalefet.com/stream/c2bd18c5-013b-4621-bab6-3eb9093008e1.m3
 https://host.onlineradyotv.net:8081/sdmtv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="BenguturkTV.tr" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/9a5263de-ad43-49c9-8ad4-dc38e252873c.png" group-title="Haber",BENGÜTÜRK
 https://tv.ensonhaber.com/benguturk/benguturk.m3u8
-
-
-
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/2c/97/15/2c971516cfe68fe2671ee137434b27c3.jpg" group-title="7/24 Youtube",Yeşilçam Komedi
+http://live.cdn-vizi.workers.dev/?ID=10
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/2c/97/15/2c971516cfe68fe2671ee137434b27c3.jpg" group-title="7/24 Youtube",Yeşilçam Klasik
+http://live.cdn-vizi.workers.dev/?ID=11
+#EXTINF:-1 tvg-logo="https://www.nicepng.com/png/detail/809-8093519_movies-instagram-highlights-icon-yellow.png" group-title="7/24 Youtube",Sinema
+http://live.cdn-vizi.workers.dev/?ID=94
 
 
