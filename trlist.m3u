@@ -58,7 +58,7 @@ https://streams.uzunmuhalefet.com/stream/e8b425ad-571d-475d-a657-37bca8985836.m3
 #EXTINF:0 CUID="29" tvg-name="TV 5" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/a/a5/TV5.jpg" group-title="Haber",TV 5
 https://streams.uzunmuhalefet.com/stream/e12ae805-19c9-4c7f-ac92-cdd89d953d10.m3u8
 #EXTINF:0 CUID="30" tvg-name="Flash Haber TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/23/Flash_haber_tv_2025.png" group-title="Haber",Flash Haber TV
-https://live.cdn-vizi.workers.dev/?ID=40
+http://live.yt-hls.workers.dev/UCNcjCb2RnA3eMMhTZSxZu3A.m3u8
 #EXTINF:0 CUID="31" tvg-name="Lider Haber TV" tvg-logo="https://liderhabercomtr.teimg.com/liderhaber-com-tr/uploads/2025/10/lider-4-2.png" group-title="Haber",Lider Haber TV
 https://streams.uzunmuhalefet.com/stream/5b8db41e-b662-4652-bd8a-fc198ceb33f4.m3u8
 #EXTINF:-1 tvg-logo="https://static.ssportplus.com/wp-content/uploads/2025/09/kanallar_bikanal.png" group-title="Ulusal",Bi Kanal
@@ -898,11 +898,6 @@ https://streams.uzunmuhalefet.com/stream/c2bd18c5-013b-4621-bab6-3eb9093008e1.m3
 https://host.onlineradyotv.net:8081/sdmtv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="BenguturkTV.tr" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/9a5263de-ad43-49c9-8ad4-dc38e252873c.png" group-title="Haber",BENGÜTÜRK
 https://tv.ensonhaber.com/benguturk/benguturk.m3u8
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/2c/97/15/2c971516cfe68fe2671ee137434b27c3.jpg" group-title="7/24 Youtube",Yeşilçam Komedi
-http://live.cdn-vizi.workers.dev/?ID=10
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/2c/97/15/2c971516cfe68fe2671ee137434b27c3.jpg" group-title="7/24 Youtube",Yeşilçam Klasik
-http://live.cdn-vizi.workers.dev/?ID=11
-#EXTINF:-1 tvg-logo="https://www.nicepng.com/png/detail/809-8093519_movies-instagram-highlights-icon-yellow.png" group-title="7/24 Youtube",Sinema
-http://live.cdn-vizi.workers.dev/?ID=94
+
 
 
