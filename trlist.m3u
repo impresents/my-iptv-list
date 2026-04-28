@@ -675,13 +675,13 @@ https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/tmb-azer
 #EXTINF:-1 group-title="AZERBAYCAN" tvg-id="MTV.tr" tvg-logo="---" ,VIP
 https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/vip.m3u8
 #EXTINF:-1 group-title="AZERBAYCAN" tvg-id="LiveTvAZ.tr" tvg-logo="https://cdn.technettv.com/channel/33048/logo_256.png" ,LivetvAZ
-https://boncuktvv.seni-hinzir-seni.workers.dev/livetvaz
+https://boncuksetvv.yalniz-senmi-zekisin.workers.dev/livetvaz
 #EXTINF:-1 group-title="AZERBAYCAN" tvg-id="MyzTV.tr" tvg-logo="https://cdn.technettv.com/channel/33020/logo_256.png" ,MyzTV
-https://boncuktvv.yalniz-senmi-zekisin.workers.dev/myztv
+https://boncuksetvv.yalniz-senmi-zekisin.workers.dev/myztv
 #EXTINF:-1 group-title="AZERBAYCAN" tvg-id="ATVAz.tr" tvg-logo="https://cdn.technettv.com/channel/10424/logo_256.jpeg" ,ATV Azerbaycan
 https://boncuktvv.yalniz-senmi-zekisin.workers.dev/atvaz
 #EXTINF:-1 group-title="AZERBAYCAN" tvg-id="AZTV.tr" tvg-logo="https://cdn.technettv.com/channel/14722/logo_256.png" ,Azərbaycan Televiziyası
-https://boncuktvv.seni-hinzir-seni.workers.dev/aztv
+https://boncuktvv.yalniz-senmi-zekisin.workers.dev/aztv
 #EXTINF:-1 group-title="AZERBAYCAN" tvg-id="GunAzTV.tr" tvg-logo="https://cdn.technettv.com/channel/14778/logo_256_1659593579.png" ,GunAz TV
 https://boncuktvv.yalniz-senmi-zekisin.workers.dev/gunaztv
 #EXTINF:-1 group-title="AZERBAYCAN" tvg-id="MusicAzerbaycan.tr" tvg-logo="https://cdn.technettv.com/channel/32194/logo_256.jpg" ,Music Azerbaycan
