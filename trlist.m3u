@@ -804,6 +804,10 @@ https://streams.uzunmuhalefet.com/stream/b63b0c43-c0c7-4d4c-bce1-add3c10ac09d.m3
 https://host.onlineradyotv.net:8081/sdmtv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="BenguturkTV.tr" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/9a5263de-ad43-49c9-8ad4-dc38e252873c.png" group-title="Haber",BENGÜTÜRK
 https://tv.ensonhaber.com/benguturk/benguturk.m3u8
+#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_lqsLV-ZBCcJfoLsGQHBkrQCknqf8ZDXFHX7Nxna3PS82I" group-title="7/24 Youtube",Yeşilçam 1
+http://live.cdn-vizi.workers.dev/?ID=10
+#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_lqsLV-ZBCcJfoLsGQHBkrQCknqf8ZDXFHX7Nxna3PS82I" group-title="7/24 Youtube",Yeşilçam 2
+http://live.cdn-vizi.workers.dev/?ID=11
 #EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_m_vVKzWpm_LEriWFQTewLrMlSp0Et6frUrXP7qagTrpGE" group-title="7/24 Youtube",YEŞİLÇAM ARZU FİLM 7/24
 http://live.yt-hls.workers.dev/UCUALYmnkEmx8vlxIbpr2gmw.m3u8
 #EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kKB21USxEgVZCcJsgoXGh1qx1DQgSgfn6hz3r-1HDv9dI" group-title="7/24 Youtube",KEMAL SUNAL GÜLŞAH FİLM 7/24
@@ -816,5 +820,6 @@ http://live.yt-hls.workers.dev/UCmw7e_6j2TSWCKeaZALjyuA.m3u8
 http://live.yt-hls.workers.dev/UC0LzwfdVoZSQDtauDjJS8_A.m3u8
 #EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_nO7M2e_I7Q4rk-xv0J6UGIiw9Ju7sYa_rKsFVpDTbxoA" group-title="7/24 Youtube",İbrahim Tatlıses Filmleri
 http://live.yt-hls.workers.dev/UCUd3o920A_ijCRaTRRg8LSg.m3u8
-
+#EXTINF:0 CUID="54" tvg-name="HABITAT TV HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/94/HABITAT_SIYAH_LOGO_10.2020.jpg" group-title="Belgesel"
+http://live.cdn-vizi.workers.dev/?ID=129
 
