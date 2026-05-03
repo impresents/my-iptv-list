@@ -675,9 +675,9 @@ https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/tmb-azer
 #EXTINF:-1 group-title="AZERBAYCAN" tvg-id="MTV.tr" tvg-logo="---" ,VIP
 https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/vip.m3u8
 #EXTINF:-1 group-title="AZERBAYCAN" tvg-id="LiveTvAZ.tr" tvg-logo="https://cdn.technettv.com/channel/33048/logo_256.png" ,LivetvAZ
-https://ataktvm3u.atakan-1983.workers.dev/livetvaz
+https://boncuktvv.yalniz-senmi-zekisin.workers.dev/livetvaz
 #EXTINF:-1 group-title="AZERBAYCAN" tvg-id="MyzTV.tr" tvg-logo="https://cdn.technettv.com/channel/33020/logo_256.png" ,MyzTV
-https://ataktvm3u.atakan-1983.workers.dev/myztv
+https://boncuktvv.yalniz-senmi-zekisin.workers.dev/myztv
 #EXTINF:-1 group-title="AZERBAYCAN" tvg-id="ATVAz.tr" tvg-logo="https://cdn.technettv.com/channel/10424/logo_256.jpeg" ,ATV Azerbaycan
 https://lives.atv.az:5443/ATV_TV_STREAM/streams/atvcanli.m3u8
 #EXTINF:-1 group-title="AZERBAYCAN" tvg-id="AZTV.tr" tvg-logo="https://cdn.technettv.com/channel/14722/logo_256.png" ,Azərbaycan Televiziyası
