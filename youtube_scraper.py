@@ -1,15 +1,20 @@
 import yt_dlp
 import datetime
+import os
+
+# Cookie dosyasını oluştur
+cookie_content = os.environ.get('YOUTUBE_COOKIES', '')
+if cookie_content:
+    with open('cookies.txt', 'w') as f:
+        f.write(cookie_content)
 
 channels = {
-    # HABER
     "HaberTürk": ("https://www.youtube.com/watch?v=RNVNlJSUFoE", "Haber"),
     "CNN Türk": ("https://www.youtube.com/watch?v=ztmY_cCtUl0", "Haber"),
     "NTV": ("https://www.youtube.com/watch?v=pqq5c6k70kk", "Haber"),
     "A Haber": ("https://www.youtube.com/watch?v=nmY9i63t6qo", "Haber"),
     "Halk TV": ("https://www.youtube.com/watch?v=8uNelFh0oz4", "Haber"),
     "Sözcü TV": ("https://www.youtube.com/watch?v=ztmY_cCtUl0", "Haber"),
-    # DİZİ
     "Yalı Çapkını": ("https://www.youtube.com/watch?v=GiWeH1H1bDU", "7/24 Dizi/Film"),
     "Çocuklar Duymasın": ("https://www.youtube.com/watch?v=4SrvTqYmHvM", "7/24 Dizi/Film"),
     "Selena": ("https://www.youtube.com/watch?v=1lyLi6l74fs", "7/24 Dizi/Film"),
@@ -25,6 +30,7 @@ ydl_opts = {
     'extract_flat': False,
     'geo_bypass': True,
     'nocheckcertificate': True,
+    'cookiefile': 'cookies.txt' if os.path.exists('cookies.txt') else None,
     'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
     'http_headers': {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
