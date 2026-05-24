@@ -1,31 +1,26 @@
 name: YouTube M3U Guncelleyici
-
 on:
   schedule:
-    - cron: '0 */3 * * *' # Her 3 saatte bir çalışır
-  workflow_dispatch: # Manuel tetikleme butonu
-
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
     - name: Repoyu Klonla
       uses: actions/checkout@v3
-
     - name: Python Kurulumu
       uses: actions/setup-python@v4
       with:
         python-version: '3.10'
-
     - name: Kütüphaneleri Yükle
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-
     - name: YouTube Scriptini Çalıştır
+      env:
+        YOUTUBE_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
       run: python youtube_scraper.py
-
     - name: Yeni YouTube Listesini Kaydet (Push)
       run: |
         git config --local user.email "action@github.com"
