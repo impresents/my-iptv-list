@@ -2,7 +2,6 @@ import yt_dlp
 import datetime
 import os
 
-# Cookie dosyasını oluştur
 cookie_content = os.environ.get('YOUTUBE_COOKIES', '')
 if cookie_content:
     with open('cookies.txt', 'w') as f:
@@ -38,7 +37,7 @@ ydl_opts = {
     },
     'extractor_args': {
         'youtube': {
-            'player_client': ['web'],
+            'player_client': ['tv_embedded'],
         }
     }
 }
