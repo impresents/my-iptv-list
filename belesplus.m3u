@@ -1,0 +1,3 @@
+#EXTM3U 
+#EXTINF:-1 tvg-id="KanalD" tvg-name="Kanal D" group-title="ULUSAL" tvg-logo="https://tvlogolar.xyz/europa/turkey/kanald.png",Kanal D
+https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web
