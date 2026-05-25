@@ -1,3 +1,7 @@
 #EXTM3U 
 #EXTINF:-1 tvg-id="KanalD" tvg-name="Kanal D" group-title="ULUSAL" tvg-logo="https://tvlogolar.xyz/europa/turkey/kanald.png",Kanal D
 https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web
+#EXTINF:-1 tvg-id="Teve2 " tvg-name="Teve2 " group-title="ULUSAL" tvg-logo="https://tvlogolar.xyz/europa/turkey/teve2-tr.png",Teve2
+https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/teve2/teve2_1080p.m3u8
+#EXTINF:-1 tvg-id="Cnn Türk" tvg-name="Cnn Türk" group-title="HABER" tvg-logo="https://tvlogolar.xyz/europa/turkey/cnn-turk-tr.png",Cnn Türk
+https://dmxtl.testworkery0.workers.dev/izle/cnnturkhd.m3u8
