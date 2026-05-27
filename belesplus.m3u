@@ -17,8 +17,7 @@ https://nord.ayakkabiparti.lol/docubox/index.m3u8
 https://proud-river-e20b.pantonum1.workers.dev/viasathistory.m3u8
 #EXTINF:-1 tvg-id="Discovery" tvg-name="Discovery" group-title="BELGESEL" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002E9L1W.png?lock=720x540",Discovery Channel
 https://proud-river-e20b.pantonum1.workers.dev/discovery.m3u8
-#EXTINF:-1 tvg-id="lovenature" tvg-name="lovenature" group-title="BELGESEL" tvg-logo="	
-https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png",Love Nature
+#EXTINF:-1 tvg-id="lovenature" tvg-name="lovenature" group-title="BELGESEL" tvg-logo="https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png",Love Nature 
 https://proud-river-e20b.pantonum1.workers.dev/lovenature.m3u8
 #EXTINF:-1 tvg-id="Disney Jr" tvg-name="Disney Jr" group-title="ÇOCUK" tvg-logo="https://tvlogolar.xyz/europa/turkey/disneyjunior.png",Disney Jr
 https://saran-live.ercdn.net/disneyjunior/index.m3u8
