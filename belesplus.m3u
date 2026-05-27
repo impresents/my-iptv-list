@@ -5,3 +5,19 @@ https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web
 https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/teve2/teve2_1080p.m3u8
 #EXTINF:-1 tvg-id="Cnn Türk" tvg-name="Cnn Türk" group-title="HABER" tvg-logo="https://tvlogolar.xyz/europa/turkey/cnn-turk-tr.png",Cnn Türk
 https://dmxtl.testworkery0.workers.dev/izle/cnnturkhd.m3u8
+#EXTINF:-1 tvg-id="Natgeo" tvg-name="Natgeo" group-title="BELGESEL" tvg-logo="	
+https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png",National Geographic
+https://tatataliscaa.testworker0y.workers.dev/channel/TmF0aW9uYWwgR2VvZ3JhcGhpYw==
+#EXTINF:-1 tvg-id="Natgeowild" tvg-name="Natgeowild" group-title="BELGESEL" tvg-logo="https://avatars.mds.yandex.net/i?id=c33008f4627c5248a57c03648349c9cf3207fd9a-4395607-images-thumbs&n=13",Natgeo Wild
+https://tatataliscaa.testworker0y.workers.dev/channel/TmF0aW9uYWwgR2VvIFdJTEQ=
+#EXTINF:-1 tvg-id="Bbc Earth" tvg-name="Bbc Earth" group-title="BELGESEL" tvg-logo="https://tvlogolar.xyz/europa/turkey/bbcearth.png",Bbc Earth
+https://proud-river-e20b.pantonum1.workers.dev/bbc.m3u8
+#EXTINF:-1 tvg-id="DocuScreen" tvg-name="DocuScreen" group-title="BELGESEL" tvg-logo="https://tvlogolar.xyz/europa/turkey/docuscreen.png",DocuScreen
+https://nord.ayakkabiparti.lol/docubox/index.m3u8
+#EXTINF:-1 tvg-id="Viasathistory" tvg-name="Viasathistory" group-title="BELGESEL" tvg-logo="https://avatars.mds.yandex.net/i?id=b4edf6ed0cf240e5ff111efc7bd5e4f94ae97e4a-5243845-images-thumbs&n=13",Viasathistory
+https://proud-river-e20b.pantonum1.workers.dev/viasathistory.m3u8
+#EXTINF:-1 tvg-id="Discovery" tvg-name="Discovery" group-title="BELGESEL" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002E9L1W.png?lock=720x540",Discovery Channel
+https://proud-river-e20b.pantonum1.workers.dev/discovery.m3u8
+#EXTINF:-1 tvg-id="lovenature" tvg-name="lovenature" group-title="BELGESEL" tvg-logo="	
+https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png",Love Nature
+https://proud-river-e20b.pantonum1.workers.dev/lovenature.m3u8
