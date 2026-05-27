@@ -22,3 +22,7 @@ https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_co
 https://proud-river-e20b.pantonum1.workers.dev/lovenature.m3u8
 #EXTINF:-1 tvg-id="Disney Jr" tvg-name="Disney Jr" group-title="ÇOCUK" tvg-logo="https://tvlogolar.xyz/europa/turkey/disneyjunior.png",Disney Jr
 https://saran-live.ercdn.net/disneyjunior/index.m3u8
+#EXTINF:-1 tvg-id="Mezzo" tvg-name="Mezzo" group-title="Müzik" tvg-logo="https://i.imgur.com/auNdGeW.png",MEZZO
+https://vavoo-iptv.umitm0d.workers.dev/play/umitmod0918467a
+#EXTINF:-1 tvg-id="Mezzolive" tvg-name="Mezzolive" group-title="Müzik" tvg-logo="https://i.imgur.com/H9ytKPN.png",MEZZO LIVE
+https://vavoo-iptv.umitm0d.workers.dev/play/umitmod3a7e1fb2
