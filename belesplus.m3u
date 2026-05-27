@@ -2,7 +2,7 @@
 #EXTINF:-1 tvg-id="KanalD" tvg-name="Kanal D" group-title="ULUSAL" tvg-logo="https://i.imgur.com/9o1atM6.png",Kanal D
 https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web
 #EXTINF:-1 tvg-id="Teve2 " tvg-name="Teve2 " group-title="ULUSAL" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/a/ae/Tv2_logo_%282026%29.png",Tv2
-https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/teve2/teve2_1080p.m3u8
+https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/teve2/teve2.m3u8
 #EXTINF:-1 tvg-id="Cnn Türk" tvg-name="Cnn Türk" group-title="HABER" tvg-logo="https://tvlogolar.xyz/europa/turkey/cnn-turk-tr.png",Cnn Türk
 https://dmxtl.testworkery0.workers.dev/izle/cnnturkhd.m3u8
 #EXTINF:-1 tvg-id="Natgeo" tvg-name="Natgeo" group-title="BELGESEL" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.png",National Geographic
