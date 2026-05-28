@@ -25,3 +25,27 @@ https://saran-live.ercdn.net/disneyjunior/index.m3u8
 https://vavoo-iptv.umitm0d.workers.dev/play/umitmod0918467a
 #EXTINF:-1 tvg-id="Mezzolive" tvg-name="Mezzolive" group-title="Müzik" tvg-logo="https://i.imgur.com/H9ytKPN.png",MEZZO LIVE
 https://vavoo-iptv.umitm0d.workers.dev/play/umitmod3a7e1fb2
+#EXTINF:-1 tvg-id="Sinemaaile" tvg-name="Sinemaaile" group-title="7/24 Youtube" tvg-logo="https://tvlogolar.xyz/europa/turkey/sinema-aile-tr.png",Sinema Aile
+https://midnightblue.denek1544.workers.dev/channel/U2luZW1hIFRWIEFpbGU=.m3u8
+#EXTINF:-1 tvg-id="Sinemaaksiyon" tvg-name="Sinemaaksiyon" group-title="7/24 Youtube" tvg-logo="https://tvlogolar.xyz/europa/turkey/sinema-aksiyon-tr.png",Sinema Aksiyon
+https://midnightblue.denek1544.workers.dev/channel/U2luZW1hIFRWIEFrc2l5b24=.m3u8
+#EXTINF:-1 tvg-id="Sinemaaksiyon2" tvg-name="Sinemaaksiyon2" group-title="7/24 Youtube" tvg-logo="https://tvlogolar.xyz/europa/turkey/sinema-aksiyon-tr.png",Sinema Aksiyon 2
+https://midnightblue.denek1544.workers.dev/channel/U2luZW1hIFRWIEFrc2l5b24gMg==.m3u8
+#EXTINF:-1 tvg-id="Sinema Yerli" tvg-name="Sinema Yerli" group-title="7/24 Youtube" tvg-logo="https://tvlogolar.xyz/europa/turkey/sinema-yerli-tr.png",Sinema Yerli
+https://k.testworkery0.workers.dev/sinemayerli?key=patr0n
+#EXTINF:-1 tvg-id="Sinema Yerli2" tvg-name="Sinema Yerli2" group-title="7/24 Youtube" tvg-logo="https://tvlogolar.xyz/europa/turkey/sinema-yerli2-tr.png",Sinema Yerli 2
+https://nord.ayakkabiparti.lol/sinemayerli2/index.m3u8?token=BF0rEit1gRv96ks_7WF4wA&tms=1778944192
+#EXTINF:-1 tvg-id="Sinemakomedi2" tvg-name="Sinemakomedi2" group-title="7/24 Youtube" tvg-logo="https://tvlogolar.xyz/europa/turkey/sinema-komedi-tr.png",Sinema Komedi
+https://midnightblue.denek1544.workers.dev/channel/U2luZW1hIFR2IEtvbWVkaQ==.m3u8
+#EXTINF:-1 tvg-id="Sinemakomedi2" tvg-name="Sinemakomedi2" group-title="7/24 Youtube" tvg-logo="https://tvlogolar.xyz/europa/turkey/sinema-komedi-tr.png",Sinema Komedi 2
+https://nord.ayakkabiparti.lol/sinemakomedi/index.m3u8
+#EXTINF:-1 tvg-id="Sinematv" tvg-name="Sinematv" group-title="7/24 Youtube" tvg-logo="https://tvlogolar.xyz/europa/turkey/sinema-tv-tr.png",Sinema Tv
+https://midnightblue.denek1544.workers.dev/channel/U2luZW1hIFRW.m3u8
+#EXTINF:-1 tvg-id="Sinematv2" tvg-name="Sinematv2" group-title="7/24 Youtube" tvg-logo="https://tvlogolar.xyz/europa/turkey/sinema-tv-tr.png",Sinema Tv 2
+https://nord.ayakkabiparti.lol/sinema2/index.m3u8
+#EXTINF:-1 tvg-id="Sinema1001" tvg-name="Sinema1001" group-title="7/24 Youtube" tvg-logo="https://tvlogolar.xyz/europa/turkey/sinema-1001-tr.png",Sinema1001
+https://nord.ayakkabiparti.lol/sinema1001/index.m3u8
+#EXTINF:-1 tvg-id="Sinema1002" tvg-name="Sinema1002" group-title="7/24 Youtube" tvg-logo="https://tvlogolar.xyz/europa/turkey/sinema-1002-tr.png",Sinema1002
+https://midnightblue.denek1544.workers.dev/channel/U2luZW1hIFRWIDEwMDI=.m3u8
+#EXTINF:-1 tvg-id="Fx" tvg-name="Fx" group-title="7/24 Youtube" tvg-logo="https://tvlogolar.xyz/europa/turkey/fx-tr.png",Fx
+https://saran-live.ercdn.net/fx/index.m3u8
