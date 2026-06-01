@@ -5,10 +5,12 @@ https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web
 https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/teve2/teve2.m3u8
 #EXTINF:-1 tvg-id="Cnn Türk" tvg-name="Cnn Türk" group-title="HABER" tvg-logo="https://tvlogolar.xyz/europa/turkey/cnn-turk-tr.png",Cnn Türk
 https://dmxtl.testworkery0.workers.dev/izle/cnnturkhd.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TARIH TV" tvg-logo=" https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Tarih-tv-logo-siyah-1080x1080.png/500px-Tarih-tv-logo-siyah-1080x1080.png"group-title="BELGESEL",Tarih Tv
+https://cdn.lokkeweb.workers.dev/385695705243789b6f2c45.m3u8
 #EXTINF:-1 tvg-id="Natgeo" tvg-name="Natgeo" group-title="BELGESEL" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.png",National Geographic
-https://tatataliscaa.testworker0y.workers.dev/channel/TmF0aW9uYWwgR2VvZ3JhcGhpYw==
+https://nord.ayakkabiparti.lol/natgeo/index.m3u8
 #EXTINF:-1 tvg-id="Natgeowild" tvg-name="Natgeowild" group-title="BELGESEL" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.png",Natgeo Wild
-https://tatataliscaa.testworker0y.workers.dev/channel/TmF0aW9uYWwgR2VvIFdJTEQ=
+https://nord.ayakkabiparti.lol/natgeowild/index.m3u8
 #EXTINF:-1 tvg-id="Bbc Earth" tvg-name="Bbc Earth" group-title="BELGESEL" tvg-logo="https://tvlogolar.xyz/europa/turkey/bbcearth.png",Bbc Earth
 https://proud-river-e20b.pantonum1.workers.dev/bbc.m3u8
 #EXTINF:-1 tvg-id="DocuScreen" tvg-name="DocuScreen" group-title="BELGESEL" tvg-logo="https://tvlogolar.xyz/europa/turkey/docuscreen.png",DocuScreen
@@ -49,3 +51,22 @@ https://nord.ayakkabiparti.lol/sinema1001/index.m3u8
 https://midnightblue.denek1544.workers.dev/channel/U2luZW1hIFRWIDEwMDI=.m3u8
 #EXTINF:-1 tvg-id="Fx" tvg-name="Fx" group-title="7/24 Dizi/Film" tvg-logo="https://tvlogolar.xyz/europa/turkey/fx-tr.png",Fx
 https://saran-live.ercdn.net/fx/index.m3u8
+#EXTINF:-1 tvg-id="B Movies Türk" tvg-name="B Movies Türk" group-title="7/24 Dizi/Film" tvg-logo="https://tvlogolar.xyz/europa/turkey/bein-movies-turk-hd-tr.png",B Movies Türk
+https://cr.denek1544.workers.dev/izle/bsturk-75.m3u8
+#EXTINF:-1 tvg-id="B Stars" tvg-name="B Stars" group-title="7/24 Dizi/Film" tvg-logo="https://tvlogolar.xyz/europa/turkey/bein-movies-stars-hd-tr.png",B Stars
+https://nord.ayakkabiparti.lol/bsstars/index.m3u8
+#EXTINF:-1 tvg-id="B Box Office 1" tvg-name="B Box Office 1" group-title="7/24 Dizi/Film" tvg-logo="https://tvlogolar.xyz/europa/turkey/bein-box-office-1-tr.png",B Box Office 1
+https://cr.denek1544.workers.dev/izle/bsboxoffice1-70.m3u8
+#EXTINF:-1 tvg-id="Epic Drama" tvg-name="Epic Drama" group-title="SİNEMA" tvg-logo="https://image.pngaaa.com/398/2715398-middle.png",Epic Drama
+https://k.testworkery0.workers.dev/epicdrama?key=patr0n
+#EXTINF:-1 group-title="7/24 Dizi/Film" tvg-logo="http://zdi2vdd5r0wt.merlincdn.net/content/B/IQ/246150/logo.png",MovieSmart Classic
+https://izle.dattavav.workers.dev/?id=1337239933.m3u8
+#EXTINF:-1 group-title="7/24 Dizi/Film" tvg-logo="http://zdi2vdd5r0wt.merlincdn.net/content/x/8J/246018/logo.png",DiziSmart Premium
+https://izle.dattavav.workers.dev/?id=1195429280.m3u8
+#EXTINF:-1 tvg-id="3"tvg-logo="https://dn710207.ca.archive.org/0/items/huseyin-cevik_202605/YANSIMA%20TV_thumb.jpg"group-title="7/24 Dizi/Film",YANSIMA TV SİNEMA
+http://162.212.179.32/akamaissh101/ssh101/ysmtvmedya/chunks.m3u8
+#EXTINF:-1 tvg-id="S Sport 1" tvg-name="S Sport 1" group-title="SPOR" tvg-logo="https://tvlogolar.xyz/europa/turkey/ssport1.png",S Sport 1
+https://izle.dattavav.workers.dev/?id=2123273598.m3u8
+#EXTINF:-1 tvg-id="S Sport 2" tvg-name="S Sport 2" group-title="SPOR" tvg-logo="https://tvlogolar.xyz/europa/turkey/ssport2.png",S Sport 2
+https://tinyurl.com/Fiat-linea-multijet/yula/ceydus2.m3u8
+
