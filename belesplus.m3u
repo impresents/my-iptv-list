@@ -71,8 +71,6 @@ https://cr.denek1544.workers.dev/izle/bsturk-75.m3u8
 https://nord.ayakkabiparti.lol/bsstars/index.m3u8
 #EXTINF:-1 tvg-id="B Box Office 1" tvg-name="B Box Office 1" group-title="7/24 Dizi/Film" tvg-logo="https://tvlogolar.xyz/europa/turkey/bein-box-office-1-tr.png",B Box Office 1
 https://cr.denek1544.workers.dev/izle/bsboxoffice1-70.m3u8
-#EXTINF:-1 tvg-id="Epic Drama" tvg-name="Epic Drama" group-title="SİNEMA" tvg-logo="https://image.pngaaa.com/398/2715398-middle.png",Epic Drama
-https://k.testworkery0.workers.dev/epicdrama?key=patr0n
 #EXTINF:-1 group-title="7/24 Dizi/Film" tvg-logo="http://zdi2vdd5r0wt.merlincdn.net/content/B/IQ/246150/logo.png",MovieSmart Classic
 https://izle.dattavav.workers.dev/?id=1337239933.m3u8
 #EXTINF:-1 group-title="7/24 Dizi/Film" tvg-logo="http://zdi2vdd5r0wt.merlincdn.net/content/x/8J/246018/logo.png",DiziSmart Premium
@@ -193,3 +191,50 @@ http://cdn.catcast.workers.dev/50852.m3u8
 http://cdn.catcast.workers.dev/50903.m3u8
 #EXTINF:-1 tvg-id="50168" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Yesilcam TV
 http://cdn.catcast.workers.dev/50168.m3u8
+
+
+
+#EXTINF:-1 tvg-id="Youtube" tvg-name="Youtube" group-title="YouTube" tvg-logo="https://image.tmdb.org/t/p/original/aWo4bjV3nS1EEIvAeC7v5of5uxy.png",Kurtlar Vadisi
+https://yt3.sayezec.workers.dev/@KurtlarVadisiOfficial
+#EXTINF:-1 tvg-id="Youtube" tvg-name="Youtube" group-title="YouTube" tvg-logo="https://image.tmdb.org/t/p/original/iSDRpfySTEXvcEdhnGW9OUVsdNb.png",Kurtlar Vadisi Pusu
+https://yt3.sayezec.workers.dev/@KurtlarVadisi
+#EXTINF:-1 tvg-id="Youtube" tvg-name="Youtube" group-title="YouTube" tvg-logo="https://mo.ciner.com.tr/showtv/iu/180x180/cukur.png",Çukur
+https://yt3.sayezec.workers.dev/@Cukur
+#EXTINF:-1 tvg-id="Youtube" tvg-name="Youtube" group-title="YouTube" tvg-logo="https://intermedya.tv/wp-content/uploads/2019/10/behzat-c-logo.png",Behzat Ç.
+https://yt3.sayezec.workers.dev/@Behzatc.
+#EXTINF:-1 tvg-id="Youtube" tvg-name="Youtube" group-title="YouTube" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/e/e4/Cocuklar_Duymasin_logo.png",Çocuklar Duymasın
+https://yt3.sayezec.workers.dev/@CocuklarDuymasin‬
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
