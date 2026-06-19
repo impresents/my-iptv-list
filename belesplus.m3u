@@ -23,24 +23,6 @@ https://proud-river-e20b.pantonum1.workers.dev/discovery.m3u8
 https://proud-river-e20b.pantonum1.workers.dev/lovenature.m3u8
 #EXTINF:-1 tvg-id="Disney Jr" tvg-name="Disney Jr" group-title="ÇOCUK" tvg-logo="https://tvlogolar.xyz/europa/turkey/disneyjunior.png",Disney Jr
 https://saran-live.ercdn.net/disneyjunior/index.m3u8
-#EXTINF:-1 tvg-id="Mezzo" tvg-name="Mezzo" group-title="Müzik" tvg-logo="https://i.imgur.com/auNdGeW.png",MEZZO
-https://vavoo-iptv.umitm0d.workers.dev/play/umitmod0918467a
-#EXTINF:-1 tvg-id="Mezzolive" tvg-name="Mezzolive" group-title="Müzik" tvg-logo="https://i.imgur.com/H9ytKPN.png",MEZZO LIVE
-https://vavoo-iptv.umitm0d.workers.dev/play/umitmod3a7e1fb2
-#EXTINF:-1 tvg-id="S Sport 1" tvg-name="S Sport 1" group-title="SPOR" tvg-logo="https://tvlogolar.xyz/europa/turkey/ssport1.png",S Sport 1
-https://izle.dattavav.workers.dev/?id=2123273598.m3u8
-#EXTINF:-1 tvg-id="S Sport 2" tvg-name="S Sport 2" group-title="SPOR" tvg-logo="https://tvlogolar.xyz/europa/turkey/ssport2.png",S Sport 2
-https://tinyurl.com/Fiat-linea-multijet/yula/ceydus2.m3u8
-#EXTINF:-1 tvg-id="50489" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Komedi Cennet Mahallesi
-http://cdn.catcast.workers.dev/50489.m3u8
-#EXTINF:-1 tvg-id="50501" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Komedi Cennet Mahallesi 2
-http://cdn.catcast.workers.dev/50501.m3u8
-#EXTINF:-1 tvg-id="50433" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Komedi Kemal Sunal
-http://cdn.catcast.workers.dev/50433.m3u8
-#EXTINF:-1 tvg-id="50432" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Komedi Kemal Sunal 2
-http://cdn.catcast.workers.dev/50432.m3u8
-#EXTINF:-1 tvg-id="50563" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Komedi Kemal Sunal 3
-http://cdn.catcast.workers.dev/50563.m3u8
 #EXTINF:-1 tvg-id="Sinemaaile" tvg-name="Sinemaaile" group-title="7/24 Dizi/Film" tvg-logo="https://tvlogolar.xyz/europa/turkey/sinema-aile-tr.png",Sinema Aile
 https://midnightblue.denek1544.workers.dev/channel/U2luZW1hIFRWIEFpbGU=.m3u8
 #EXTINF:-1 tvg-id="Sinemaaksiyon" tvg-name="Sinemaaksiyon" group-title="7/24 Dizi/Film" tvg-logo="https://tvlogolar.xyz/europa/turkey/sinema-aksiyon-tr.png",Sinema Aksiyon
@@ -65,124 +47,12 @@ https://nord.ayakkabiparti.lol/sinema1001/index.m3u8
 https://midnightblue.denek1544.workers.dev/channel/U2luZW1hIFRWIDEwMDI=.m3u8
 #EXTINF:-1 tvg-id="Fx" tvg-name="Fx" group-title="7/24 Dizi/Film" tvg-logo="https://tvlogolar.xyz/europa/turkey/fx-tr.png",Fx
 https://saran-live.ercdn.net/fx/index.m3u8
-#EXTINF:-1 tvg-id="B Movies Türk" tvg-name="B Movies Türk" group-title="7/24 Dizi/Film" tvg-logo="https://tvlogolar.xyz/europa/turkey/bein-movies-turk-hd-tr.png",B Movies Türk
-https://cr.denek1544.workers.dev/izle/bsturk-75.m3u8
-#EXTINF:-1 tvg-id="B Stars" tvg-name="B Stars" group-title="7/24 Dizi/Film" tvg-logo="https://tvlogolar.xyz/europa/turkey/bein-movies-stars-hd-tr.png",B Stars
-https://nord.ayakkabiparti.lol/bsstars/index.m3u8
-#EXTINF:-1 tvg-id="B Box Office 1" tvg-name="B Box Office 1" group-title="7/24 Dizi/Film" tvg-logo="https://tvlogolar.xyz/europa/turkey/bein-box-office-1-tr.png",B Box Office 1
-https://cr.denek1544.workers.dev/izle/bsboxoffice1-70.m3u8
 #EXTINF:-1 group-title="7/24 Dizi/Film" tvg-logo="http://zdi2vdd5r0wt.merlincdn.net/content/B/IQ/246150/logo.png",MovieSmart Classic
 https://izle.dattavav.workers.dev/?id=1337239933.m3u8
 #EXTINF:-1 group-title="7/24 Dizi/Film" tvg-logo="http://zdi2vdd5r0wt.merlincdn.net/content/x/8J/246018/logo.png",DiziSmart Premium
 https://izle.dattavav.workers.dev/?id=1195429280.m3u8
 #EXTINF:-1 tvg-id="3"tvg-logo="https://dn710207.ca.archive.org/0/items/huseyin-cevik_202605/YANSIMA%20TV_thumb.jpg" group-title="7/24 Dizi/Film",YANSIMA TV SİNEMA
 http://162.212.179.32/akamaissh101/ssh101/ysmtvmedya/chunks.m3u8
-#EXTINF:-1 tvg-id="50785" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema  MARVEL 3
-http://cdn.catcast.workers.dev/50785.m3u8
-#EXTINF:-1 tvg-id="50534" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema Action 2
-http://cdn.catcast.workers.dev/50534.m3u8
-#EXTINF:-1 tvg-id="50554" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema Action 3
-http://cdn.catcast.workers.dev/50554.m3u8
-#EXTINF:-1 tvg-id="50675" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema ALICE 1
-http://cdn.catcast.workers.dev/50675.m3u8
-#EXTINF:-1 tvg-id="50676" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema ALICE 2
-http://cdn.catcast.workers.dev/50676.m3u8
-#EXTINF:-1 tvg-id="50677" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema ALICE 3
-http://cdn.catcast.workers.dev/50677.m3u8
-#EXTINF:-1 tvg-id="50726" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema ANTONIO BANDERAS
-http://cdn.catcast.workers.dev/50726.m3u8
-#EXTINF:-1 tvg-id="50718" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema BOYKA
-http://cdn.catcast.workers.dev/50718.m3u8
-#EXTINF:-1 tvg-id="50734" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema BRUS LEE
-http://cdn.catcast.workers.dev/50734.m3u8
-#EXTINF:-1 tvg-id="50678" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema CEHENNEM MELEKLERI
-http://cdn.catcast.workers.dev/50678.m3u8
-#EXTINF:-1 tvg-id="50749" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema GODZILLA
-http://cdn.catcast.workers.dev/50749.m3u8
-#EXTINF:-1 tvg-id="50392" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema Hind Filmleri
-http://cdn.catcast.workers.dev/50392.m3u8
-#EXTINF:-1 tvg-id="50892" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema Hind Filmleri 2
-http://cdn.catcast.workers.dev/50892.m3u8
-#EXTINF:-1 tvg-id="50893" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema Hind Filmleri 3
-http://cdn.catcast.workers.dev/50893.m3u8
-#EXTINF:-1 tvg-id="50895" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema Hind Filmleri 5
-http://cdn.catcast.workers.dev/50895.m3u8
-#EXTINF:-1 tvg-id="50897" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema Hind Filmleri 6
-http://cdn.catcast.workers.dev/50897.m3u8
-#EXTINF:-1 tvg-id="50782" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema HORUMCEK ADAM
-http://cdn.catcast.workers.dev/50782.m3u8
-#EXTINF:-1 tvg-id="50754" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema IP MAN
-http://cdn.catcast.workers.dev/50754.m3u8
-#EXTINF:-1 tvg-id="50750" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema JET LEE
-http://cdn.catcast.workers.dev/50750.m3u8
-#EXTINF:-1 tvg-id="50520" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema John Wick
-http://cdn.catcast.workers.dev/50520.m3u8
-#EXTINF:-1 tvg-id="50733" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema JOHN WICK HD
-http://cdn.catcast.workers.dev/50733.m3u8
-#EXTINF:-1 tvg-id="50783" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema MARVEL
-http://cdn.catcast.workers.dev/50783.m3u8
-#EXTINF:-1 tvg-id="50680" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema MATRIX
-http://cdn.catcast.workers.dev/50680.m3u8
-#EXTINF:-1 tvg-id="50748" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema MAYMUNLAR
-http://cdn.catcast.workers.dev/50748.m3u8
-#EXTINF:-1 tvg-id="50722" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema MORTAL COMBAT
-http://cdn.catcast.workers.dev/50722.m3u8
-#EXTINF:-1 tvg-id="50691" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema Ölüm Yarışı
-http://cdn.catcast.workers.dev/50691.m3u8
-#EXTINF:-1 tvg-id="50732" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema PREMIUM 1
-http://cdn.catcast.workers.dev/50732.m3u8
-#EXTINF:-1 tvg-id="50740" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema PREMIUM 2
-http://cdn.catcast.workers.dev/50740.m3u8
-#EXTINF:-1 tvg-id="50960" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema PREMIUM 4
-http://cdn.catcast.workers.dev/50960.m3u8
-#EXTINF:-1 tvg-id="50961" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema PREMIUM 5
-http://cdn.catcast.workers.dev/50961.m3u8
-#EXTINF:-1 tvg-id="50690" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema RAMBO
-http://cdn.catcast.workers.dev/50690.m3u8
-#EXTINF:-1 tvg-id="50714" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema ROCKY
-http://cdn.catcast.workers.dev/50714.m3u8
-#EXTINF:-1 tvg-id="50667" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema SQUID GAME 1
-http://cdn.catcast.workers.dev/50667.m3u8
-#EXTINF:-1 tvg-id="50673" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema SQUID GAME 2
-http://cdn.catcast.workers.dev/50673.m3u8
-#EXTINF:-1 tvg-id="50674" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema SQUID GAME 3
-http://cdn.catcast.workers.dev/50674.m3u8
-#EXTINF:-1 tvg-id="50730" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema STIVEN SEGAL 1
-http://cdn.catcast.workers.dev/50730.m3u8
-#EXTINF:-1 tvg-id="50738" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema TERMINATOR
-http://cdn.catcast.workers.dev/50738.m3u8
-#EXTINF:-1 tvg-id="50723" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema TRANSFORMER 1
-http://cdn.catcast.workers.dev/50723.m3u8
-#EXTINF:-1 tvg-id="50724" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema TRANSFORMER 2
-http://cdn.catcast.workers.dev/50724.m3u8
-#EXTINF:-1 tvg-id="50953" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema Universal-Esger
-http://cdn.catcast.workers.dev/50953.m3u8
-#EXTINF:-1 tvg-id="50713" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema VAN DAMME
-http://cdn.catcast.workers.dev/50713.m3u8
-#EXTINF:-1 tvg-id="50739" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema VAN DAMME 2
-http://cdn.catcast.workers.dev/50739.m3u8
-#EXTINF:-1 tvg-id="51036" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema PREMIUM 6
-http://cdn.catcast.workers.dev/51036.m3u8
-#EXTINF:-1 tvg-id="50954" group-title="Çocuk" tvg-logo="https://catcast.tv/assets/no-logo.svg",CizgiFilm MADAGASCAR
-http://cdn.catcast.workers.dev/50954.m3u8
-#EXTINF:-1 tvg-id="50576" group-title="Çocuk" tvg-logo="https://catcast.tv/assets/no-logo.svg",CizgiFilm SEVİMLİLER
-http://cdn.catcast.workers.dev/50576.m3u8
-#EXTINF:-1 tvg-id="50849" group-title="Çocuk" tvg-logo="https://catcast.tv/assets/no-logo.svg",CizgiFilm TOM ve JERRY
-http://cdn.catcast.workers.dev/50849.m3u8
-#EXTINF:-1 tvg-id="50957" group-title="Çocuk" tvg-logo="https://catcast.tv/assets/no-logo.svg",CizgiFilm Şrek&Ejdaha
-http://cdn.catcast.workers.dev/50957.m3u8
-#EXTINF:-1 tvg-id="50341 group-title="7/24 Dizi/Film"" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema Action
-http://cdn.catcast.workers.dev/50341.m3u8
-#EXTINF:-1 tvg-id="50786" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema BOLLYWOOD 2
-http://cdn.catcast.workers.dev/50786.m3u8
-#EXTINF:-1 tvg-id="50944" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema MARVEL 5
-http://cdn.catcast.workers.dev/50944.m3u8
-#EXTINF:-1 tvg-id="50945" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema MARVEL 6
-http://cdn.catcast.workers.dev/50945.m3u8
-#EXTINF:-1 tvg-id="50948" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Cinema YIRTICI 2
-http://cdn.catcast.workers.dev/50948.m3u8
-#EXTINF:-1 tvg-id="50471" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Film TURKIYE
-http://cdn.catcast.workers.dev/50471.m3u8
 #EXTINF:-1 tvg-id="50490" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Komedi Roman Havasi
 http://cdn.catcast.workers.dev/50490.m3u8
 #EXTINF:-1 tvg-id="50852" group-title="7/24 Dizi/Film" tvg-logo="https://catcast.tv/assets/no-logo.svg",Retro Filmler
