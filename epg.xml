@@ -3,10 +3,6 @@
   <channel id="360">
     <display-name>360</display-name>
   </channel>
-  <programme start="20261014020000 +0300" stop="20261014031500 +0300" channel="360">
-    <title>Seren'le Buluşalım</title>
-    <desc>Sağlıktan güzelliğe, sanattan günlük yaşama kadar hayatın farklı alanları “Seren’le Buluşalım”da konuşuluyor. Uzman konuklar, ünlü isimler, ilham veren hikâyeler ve pratik öneriler, Seren Fosforoğlu’nun sunumuyla 360 ekranında izleyiciyle buluşuyor.</desc>
-  </programme>
   <programme start="20261014031500 +0300" stop="20261014050000 +0300" channel="360">
     <title>Zamanı Geldi</title>
     <desc>Ekin Olcayto ve Tayyar Işıksaçan'ın sunumuyla Türkiye'den ve dünyadan en güncel başlıklar, sosyal medyada konuşulanlar, dikkat çeken gelişmeler ve hayata dair merak edilen tüm detaylar 360'ta.</desc>
@@ -2409,10 +2405,6 @@
   <channel id="Bloomberg HT">
     <display-name>Bloomberg HT</display-name>
   </channel>
-  <programme start="20261014024500 +0300" stop="20261014031000 +0300" channel="Bloomberg HT">
-    <title>Akıllı Tarım</title>
-    <desc>Üreticiden tüketiciye herkesi yakından ilgilendiren konularda sektörün nabzı tutulurken, her hafta farklı konu başlıkları enine boyuna tartışılıyor.</desc>
-  </programme>
   <programme start="20261014031000 +0300" stop="20261014043000 +0300" channel="Bloomberg HT">
     <title>Dört Kadın Bir Dünya</title>
     <desc>Hayatın estetik kodları bu programda çözülüyor! Kırmızı halıdan sokağa, bienallerden mimariye, festivallerden moda haftalarına; Türkiye’nin ve dünyanın en güncel etkinlikleri, hayata dair her stilin ruhu ve her tasarımın hikayesi ekrana taşınıyor.</desc>
@@ -3119,14 +3111,6 @@
   <channel id="Cartoon Network">
     <display-name>Cartoon Network</display-name>
   </channel>
-  <programme start="20261014025000 +0300" stop="20261014030500 +0300" channel="Cartoon Network">
-    <title>Ben 10</title>
-    <desc>Ben Tennyson, uzay kol saati olan Omnitrixi keşfeder. Bu saat Bene 10 muhteşem ve güçlü uzaylı karakterden bir tanesine dönüşme yeteneği verir!</desc>
-  </programme>
-  <programme start="20261014030500 +0300" stop="20261014031500 +0300" channel="Cartoon Network">
-    <title>Kral Şakir</title>
-    <desc>Kral Şakir, bir aslan ailesinin çocukları Şakir ve Cananın, hayvanların yaşadığı modern şehir hayatında karşılaştıkları komik ve macera dolu hikayeleridir.</desc>
-  </programme>
   <programme start="20261014031500 +0300" stop="20261014033000 +0300" channel="Cartoon Network">
     <title>Kral Şakir</title>
     <desc>Kral Şakir, bir aslan ailesinin çocukları Şakir ve Cananın, hayvanların yaşadığı modern şehir hayatında karşılaştıkları komik ve macera dolu hikayeleridir.</desc>
@@ -4146,11 +4130,6 @@
   <channel id="DMAX">
     <display-name>DMAX</display-name>
   </channel>
-  <programme start="20261014022000 +0300" stop="20261014030500 +0300" channel="DMAX">
-    <title>Bilinmeyene Yolculuk</title>
-    <desc>Josh, eski çağların en en güçlü kadın hükümdarları Nefertiti ve Kleopatra'nın sırlarını açıklayabilmek için Mısır'daki yolculuğuna devam ediyor.</desc>
-    <episode-num system="xmltv_ns">3.10.</episode-num>
-  </programme>
   <programme start="20261014030500 +0300" stop="20261014035000 +0300" channel="DMAX">
     <title>Bilinmeyene Yolculuk</title>
     <desc>Josh, kayıp Maun Gemi'nin enkazını bulabilmek için Avustralya'nın ünlü Batıklar Sahili'ne gidiyor. Bu geminin varlığı kanıtlanırsa ülkenin tarihini yeniden yazmak gerekebilir.</desc>
@@ -5150,10 +5129,6 @@
   <channel id="FB TV">
     <display-name>FB TV</display-name>
   </channel>
-  <programme start="20261014014500 +0300" stop="20261014031500 +0300" channel="FB TV">
-    <title>Basketbol: Euroleague</title>
-    <desc>Basketbol: EuroLeague, kıtanın en güçlü kulüplerinin şampiyonluk için mücadele ettiği prestijli bir organizasyondur. Yüksek tempo, yıldız oyuncular ve taktik savaşları izleyiciye heyecan dolu anlar yaşatır.</desc>
-  </programme>
   <programme start="20261014031500 +0300" stop="20261014034500 +0300" channel="FB TV">
     <title>Euroleague Özel</title>
     <desc>Euroleague Özel'de maçlar, takımlar ve yıldız oyuncular; istatistikler ve uzman yorumlarıyla detaylı biçimde ele alınıyor. Haftanın öne çıkan başlıkları değerlendiriliyor.</desc>
@@ -7744,10 +7719,6 @@
   <channel id="Minika GO">
     <display-name>Minika GO</display-name>
   </channel>
-  <programme start="20261014030000 +0300" stop="20261014031500 +0300" channel="Minika GO">
-    <title>Servis</title>
-    <episode-num system="xmltv_ns">0.2.</episode-num>
-  </programme>
   <programme start="20261014031500 +0300" stop="20261014033000 +0300" channel="Minika GO">
     <title>Servis</title>
     <episode-num system="xmltv_ns">0.3.</episode-num>
@@ -9023,11 +8994,6 @@
   <channel id="Minika Çocuk">
     <display-name>Minika Çocuk</display-name>
   </channel>
-  <programme start="20261014030000 +0300" stop="20261014031000 +0300" channel="Minika Çocuk">
-    <title>Neşeli Dünyam</title>
-    <desc>Çok uzaklardan gelen iki sevimli kardeş, Neşe'nin dünyasına ortak oluyor.</desc>
-    <episode-num system="xmltv_ns">0.18.</episode-num>
-  </programme>
   <programme start="20261014031000 +0300" stop="20261014032000 +0300" channel="Minika Çocuk">
     <title>Neşeli Dünyam</title>
     <desc>Çok uzaklardan gelen iki sevimli kardeş, Neşe'nin dünyasına ortak oluyor.</desc>
@@ -11971,11 +11937,6 @@
   <channel id="TLC">
     <display-name>TLC</display-name>
   </channel>
-  <programme start="20261014023000 +0300" stop="20261014031000 +0300" channel="TLC">
-    <title>Paula Zahn İle Cinayet Dosyası</title>
-    <desc>Polis, öldürülen genç bir kadının FLRT 12 şeklinde aldığı özel bir plaka nedeniyle mi yoksa çok daha karanlık bir plan sonucu mu cinayete kurban gittiğini sorgular.</desc>
-    <episode-num system="xmltv_ns">11.4.</episode-num>
-  </programme>
   <programme start="20261014031000 +0300" stop="20261014033500 +0300" channel="TLC">
     <title>Ada Avcıları</title>
     <desc>Sunucu Chris Krolow, kendi adalarında tropikal bir kaçış olarak mülk arayan kişilere eşlik ediyor.</desc>
@@ -14053,10 +14014,6 @@
   <channel id="TRT EBA">
     <display-name>TRT EBA</display-name>
   </channel>
-  <programme start="20261014024500 +0300" stop="20261014031500 +0300" channel="TRT EBA">
-    <title>Coğrafya - 11</title>
-    <desc>Müfredata uygun olarak hazırlanan 11. Sınıflar için Coğrafya Dersi</desc>
-  </programme>
   <programme start="20261014031500 +0300" stop="20261014034500 +0300" channel="TRT EBA">
     <title>Biyoloji - 11</title>
     <desc>Müfredata uygun olarak hazırlanan 11. Sınıflar için Biyoloji Dersi</desc>
@@ -15727,10 +15684,6 @@
   <channel id="TRT Türk">
     <display-name>TRT Türk</display-name>
   </channel>
-  <programme start="20261014024000 +0300" stop="20261014031000 +0300" channel="TRT Türk">
-    <title>Gönül Verenler</title>
-    <desc>Gönül Verenler programı Avrupa'da faaliyet gösteren Türk kurum ve derneklerinin kültürel, sosyal ve toplumsal alanlardaki çalışmalarını ekrana taşımayı hedefleyen bir program. Program, Türk toplumunun birlik ve beraberliğini güçlendirmeyi hedeflerken, derneklerin düzenlediği etkinlikler, açılışlar ve sosyal sorumluluk projeleri gibi faaliyetleri detaylı bir şekilde ele almakta. İzleyiciler, her bölümde Türk kurumlarının Avrupa'daki topluma katkılarını ve kültürel mirasın korunması için yapılan çalışmaları yakından tanıma fırsatı bulur. Gönül Verenler, bu gönüllülük esaslı çalışmaları samimi bir dille izleyicilere aktararak, Avrupa'daki Türklerin kültürel değerlerini nasıl yaşattıklarını ve toplumla nasıl paylaştıklarını gözler önüne sermeyi amaçlamakta.</desc>
-  </programme>
   <programme start="20261014031000 +0300" stop="20261014041000 +0300" channel="TRT Türk">
     <title>Elde Var Hayat</title>
   </programme>
@@ -17324,10 +17277,6 @@
   <channel id="TV8.5">
     <display-name>TV8.5</display-name>
   </channel>
-  <programme start="20261014011500 +0300" stop="20261014031500 +0300" channel="TV8.5">
-    <title>Çarkıfelek</title>
-    <desc>Büyük sürprizler ve ödülleri ile eğlence dolu anlar yaşatan Çarkıfelek, Cem Davran'ın sunumuyla ekrana geliyor.</desc>
-  </programme>
   <programme start="20261014031500 +0300" stop="20261014051500 +0300" channel="TV8.5">
     <title>Canım Annem</title>
     <desc>Zeynep, tehlikeli bir kalp rahatsızlığı olan güzeller güzeli bir kızdır. Hastalığı yüzünden annesi Cemre'nin bir araba kazasında öldüğünü ona söylemezler. Bunun yerine babası Murat, Zeynep kalp ameliyatı olacak yaşa gelene kadar, annesi Cemre’nin yerine geçecek bir benzerini tutar.</desc>
