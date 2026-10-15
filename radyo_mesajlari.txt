@@ -1,32 +1,47 @@
-TR|Beleş TiVi'yi tercih ettiğiniz için teşekkürler! İyi dinlemeler...
-TR|İpucu: Sevdiğin kanalları basılı tutarak FAVORİLER kategorisine ekleyebilirsin!
-TR|Kesintisiz müziğin tadını çıkarın!
-TR|Beleş TiVi ile en popüler ulusal TV kanalları ve yerel radyolar tek uygulamada!
-TR|İpucu: Favoriler listesindeki kanalları basılı tutup sağa/sola sürükleyerek sırasını değiştirebilirsin!
-TR|Uygulamada karşılaştığınız sorunları veya isteklerinizi 'Bize Ulaşın' kısmından iletebilirsiniz.
-TR|İpucu: Ayarlar menüsünden kendi M3U ve Xtream listelerinizi kolayca yükleyebilirsiniz!
-TR|Aynı anda 4 yayını birden izlemek ister misiniz? Menüden 'Çoklu Ekran' özelliğini mutlaka deneyin!
-TR|Listede bulamadığınız ve eklenmesini istediğiniz radyoları belestivi@gmail.com adresine yazın, ekleyelim!
-TR|Bizi desteklemek için Play Store'da 5 yıldız verip yorum yapmayı unutmayın!
+TR|Beleş TiVi’ye hoş geldin. Keyifli dinlemeler!
+TR|Biraz mola, biraz müzik. Radyo sana eşlik etsin.
+TR|Ekranı karart, müziğin tadını çıkar.
+TR|Uyku zamanlayıcısıyla dinleme süreni sen belirle.
+TR|Sevdiğin istasyonu basılı tutarak favorilerine ekleyebilirsin.
+TR|Favorilerinin sırasını değiştirmek için bir kanalı basılı tutup sıralama seçeneğini kullanabilirsin.
+TR|Beleş TiVi ile radyo dinlemek ücretsiz.
+TR|Görüş ve önerilerini belestivi.com üzerinden paylaşabilirsin.
+TR|Kendi M3U ve Xtream listelerini Ayarlar bölümünden ekleyebilirsin.
+TR|Birden fazla yayını birlikte izlemek için Çoklu Ekran özelliğini deneyebilirsin.
+TR|Dinlemek istediğin bir radyo eksik mi? belestivi@gmail.com adresine yazabilirsin.
+TR|Google Play’de yorum yaparak bize destek olabilirsin.
+TR|Beleş TiVi’yi sevdiklerine önererek bize destek olabilirsin.
+TR|Günün temposuna kısa bir müzik molası.
+TR|Bugün de bize eşlik ettiğin için teşekkürler!
 
-EN|Thanks for choosing Beleş TiVi! Happy listening...
-EN|Tip: Long-press your favorite channels to add them to the FAVORITES category!
-EN|Enjoy uninterrupted music!
-EN|The most popular national TV channels and local radios in one app with Beleş TiVi!
-EN|Tip: Long-press and drag left/right to reorder channels in your favorites list!
-EN|You can report issues or requests you encounter in the app via the 'Contact Us' section.
-EN|Tip: You can easily load your own M3U and Xtream lists from the Settings menu!
-EN|Do you want to watch 4 streams at the same time? Be sure to try the 'Multi-Screen' feature in the menu!
-EN|Write to belestivi@gmail.com for radios you can't find in the list and want us to add!
-EN|Don't forget to give us 5 stars and leave a comment on the Play Store to support us!
+EN|Welcome to Beleş TiVi. Enjoy listening!
+EN|Take a little break and let the radio keep you company.
+EN|Darken the screen and enjoy the music.
+EN|Choose your listening time with the sleep timer.
+EN|Long-press a station to add it to your favorites.
+EN|To reorder your favorites, long-press a channel and choose the ordering option.
+EN|Listening to radio with Beleş TiVi is free.
+EN|Share your feedback and suggestions at belestivi.com.
+EN|You can add your own M3U and Xtream lists in Settings.
+EN|Try Multi-Screen to watch several streams together.
+EN|Missing a radio station? Let us know at belestivi@gmail.com.
+EN|You can support us by leaving a review on Google Play.
+EN|You can support us by recommending Beleş TiVi to friends and family.
+EN|A little music break from your busy day.
+EN|Thanks for spending part of your day with us!
 
-DE|Danke, dass Sie sich für Beleş TiVi entschieden haben! Viel Spaß beim Zuhören...
-DE|Tipp: Halten Sie Ihre Lieblingskanäle gedrückt, um sie zur Kategorie FAVORITEN hinzuzufügen!
-DE|Genießen Sie ununterbrochene Musik!
-DE|Die beliebtesten nationalen TV-Sender und Lokalradios in einer App mit Beleş TiVi!
-DE|Tipp: Halten Sie Kanäle in der Favoritenliste gedrückt und ziehen Sie sie nach links/rechts, um die Reihenfolge zu ändern!
-DE|Sie können Probleme oder Wünsche zur App über den Bereich 'Kontakt' mitteilen.
-DE|Tipp: Sie können Ihre eigenen M3U- und Xtream-Listen einfach über das Einstellungsmenü laden!
-DE|Möchten Sie 4 Streams gleichzeitig ansehen? Probieren Sie unbedingt die 'Multi-Bildschirm'-Funktion im Menü aus!
-DE|Schreiben Sie an belestivi@gmail.com, wenn Radiosender in der Liste fehlen, die wir hinzufügen sollen!
-DE|Vergessen Sie nicht, uns 5 Sterne im Play Store zu geben und einen Kommentar zu hinterlassen, um uns zu unterstützen!
+DE|Willkommen bei Beleş TiVi. Viel Spaß beim Zuhören!
+DE|Mach eine kleine Pause und lass dich vom Radio begleiten.
+DE|Verdunkle den Bildschirm und genieße die Musik.
+DE|Bestimme deine Hörzeit mit dem Sleep-Timer.
+DE|Halte einen Sender gedrückt, um ihn zu deinen Favoriten hinzuzufügen.
+DE|Halte einen Sender gedrückt und wähle die Sortierfunktion, um deine Favoriten neu anzuordnen.
+DE|Radiohören mit Beleş TiVi ist kostenlos.
+DE|Teile deine Meinungen und Vorschläge auf belestivi.com.
+DE|Eigene M3U- und Xtream-Listen kannst du in den Einstellungen hinzufügen.
+DE|Mit der Mehrfachansicht kannst du mehrere Sender gleichzeitig ansehen.
+DE|Fehlt dein Radiosender? Schreib uns an belestivi@gmail.com.
+DE|Du kannst uns mit einer Bewertung bei Google Play unterstützen.
+DE|Du kannst uns unterstützen, indem du Beleş TiVi deinen Freunden und deiner Familie empfiehlst.
+DE|Eine kleine Musikpause vom Alltag.
+DE|Danke, dass du heute wieder dabei bist!
