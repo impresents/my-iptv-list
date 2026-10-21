@@ -2390,10 +2390,6 @@
   <channel id="Bloomberg HT">
     <display-name>Bloomberg HT</display-name>
   </channel>
-  <programme start="20261021024500 +0300" stop="20261021031000 +0300" channel="Bloomberg HT">
-    <title>Akıllı Tarım</title>
-    <desc>Üreticiden tüketiciye herkesi yakından ilgilendiren konularda sektörün nabzı tutulurken, her hafta farklı konu başlıkları enine boyuna tartışılıyor.</desc>
-  </programme>
   <programme start="20261021031000 +0300" stop="20261021043000 +0300" channel="Bloomberg HT">
     <title>Dört Kadın Bir Dünya</title>
     <desc>Hayatın estetik kodları bu programda çözülüyor! Kırmızı halıdan sokağa, bienallerden mimariye, festivallerden moda haftalarına; Türkiye’nin ve dünyanın en güncel etkinlikleri, hayata dair her stilin ruhu ve her tasarımın hikayesi ekrana taşınıyor.</desc>
@@ -3114,10 +3110,6 @@
   <channel id="Cartoon Network">
     <display-name>Cartoon Network</display-name>
   </channel>
-  <programme start="20261021025000 +0300" stop="20261021030500 +0300" channel="Cartoon Network">
-    <title>Ben 10</title>
-    <desc>Ben Tennyson, uzay kol saati olan Omnitrixi keşfeder. Bu saat Bene 10 muhteşem ve güçlü uzaylı karakterden bir tanesine dönüşme yeteneği verir!</desc>
-  </programme>
   <programme start="20261021030500 +0300" stop="20261021031500 +0300" channel="Cartoon Network">
     <title>Kral Şakir</title>
     <desc>Kral Şakir, bir aslan ailesinin çocukları Şakir ve Cananın, hayvanların yaşadığı modern şehir hayatında karşılaştıkları komik ve macera dolu hikayeleridir.</desc>
@@ -4093,11 +4085,6 @@
   <channel id="DMAX">
     <display-name>DMAX</display-name>
   </channel>
-  <programme start="20261021022000 +0300" stop="20261021030500 +0300" channel="DMAX">
-    <title>Bilinmeyene Yolculuk</title>
-    <desc>Josh, 2. Dünya Savaşı Hava Kuvvetleri Kadın Pilotları kahramanlarından, P-51 Mustang uçağı düşünce kaybolan Gertrude 'Tommy' Tompkins dosyasını ele alıyor.</desc>
-    <episode-num system="xmltv_ns">4.5.</episode-num>
-  </programme>
   <programme start="20261021030500 +0300" stop="20261021035000 +0300" channel="DMAX">
     <title>Bilinmeyene Yolculuk</title>
     <desc>Eski Üçüncü Reich'de, Josh, Hitler'in sekreteri tarafından notalara gömüldüğü iddia edilen bir kodu kırmaya çalışıyor. Nazi altınına yol açabilir mi?.</desc>
@@ -11927,11 +11914,6 @@
   <channel id="TLC">
     <display-name>TLC</display-name>
   </channel>
-  <programme start="20261021022500 +0300" stop="20261021031000 +0300" channel="TLC">
-    <title>Paula Zahn İle Cinayet Dosyası</title>
-    <desc>Üniversiteli bir genç kız ortadan kaybolunca ailesi onu bulmak için umutsuz bir araştırma başlatır. Keşfettikleri şey hayatlarını sonsuza dek değiştirecektir.</desc>
-    <episode-num system="xmltv_ns">11.11.</episode-num>
-  </programme>
   <programme start="20261021031000 +0300" stop="20261021033500 +0300" channel="TLC">
     <title>Ada Avcıları</title>
     <desc>Sunucu Chris Krolow potansiyel alıcılarla birlikte tropik yazlıkların kralını arıyor, hedefleri ise özel adada bir malikane!</desc>
@@ -14796,10 +14778,6 @@
   <channel id="TRT Kurdi">
     <display-name>TRT Kurdi</display-name>
   </channel>
-  <programme start="20261021021000 +0300" stop="20261021031000 +0300" channel="TRT Kurdi">
-    <title>Gece Gezgini (Şevger)</title>
-    <desc>Doğu ve Güneydoğu Anadolu bölgelerindeki köylere gidiliyor, halkın yaşamı gözler önüne seriliyor. Ayrıca köylerdeki dengbejlere de mikrofon uzatılıyor.</desc>
-  </programme>
   <programme start="20261021031000 +0300" stop="20261021053000 +0300" channel="TRT Kurdi">
     <title>Can ve Ciğer (Can û Ceger)</title>
     <desc>Güneydoğu Anadolu'da yaşayan bir grup insanın günlük yaşayışı ekrana taşınıyor. Hüzün, sevinç, komik olaylar ve sıcak insan ilişkileri Can ve Ciğer'de...</desc>
