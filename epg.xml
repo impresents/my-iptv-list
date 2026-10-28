@@ -3,10 +3,6 @@
   <channel id="360">
     <display-name>360</display-name>
   </channel>
-  <programme start="20261028020000 +0300" stop="20261028031500 +0300" channel="360">
-    <title>Seren'le Buluşalım</title>
-    <desc>Sağlıktan güzelliğe, sanattan günlük yaşama kadar hayatın farklı alanları “Seren’le Buluşalım”da konuşuluyor. Uzman konuklar, ünlü isimler, ilham veren hikâyeler ve pratik öneriler, Seren Fosforoğlu’nun sunumuyla 360 ekranında izleyiciyle buluşuyor.</desc>
-  </programme>
   <programme start="20261028031500 +0300" stop="20261028050000 +0300" channel="360">
     <title>Zamanı Geldi</title>
     <desc>Ekin Olcayto ve Tayyar Işıksaçan'ın sunumuyla Türkiye'den ve dünyadan en güncel başlıklar, sosyal medyada konuşulanlar, dikkat çeken gelişmeler ve hayata dair merak edilen tüm detaylar 360'ta.</desc>
@@ -382,10 +378,6 @@
   <channel id="A News">
     <display-name>A News</display-name>
   </channel>
-  <programme start="20261028030000 +0300" stop="20261028040000 +0300" channel="A News">
-    <title>Daybreak</title>
-    <desc>A new day, a new outlook on the latest news with Daybreak...</desc>
-  </programme>
   <programme start="20261028040000 +0300" stop="20261028050000 +0300" channel="A News">
     <title>Daybreak</title>
     <desc>A new day, a new outlook on the latest news with Daybreak...</desc>
@@ -1057,9 +1049,6 @@
   <channel id="A Para">
     <display-name>A Para</display-name>
   </channel>
-  <programme start="20261028030000 +0300" stop="20261028040000 +0300" channel="A Para">
-    <title>Sır Küpü</title>
-  </programme>
   <programme start="20261028040000 +0300" stop="20261028050000 +0300" channel="A Para">
     <title>Başarının Anahtarı</title>
     <desc>Başarıya ulaşmanın püf noktaları hakkında bilgi verilirken, alanında uzman isimler de tecrübelerini paylaşıyor.</desc>
@@ -2263,10 +2252,6 @@
   <channel id="Beyaz TV">
     <display-name>Beyaz TV</display-name>
   </channel>
-  <programme start="20261028010000 +0300" stop="20261028034500 +0300" channel="Beyaz TV">
-    <title>Tetikçi</title>
-    <desc>Yönetmen Antoine Fuqua tarafından çekilmiş ve başrolünde Mark Wahlberg yer alır. Film, emekli keskin nişancı Bob Lee Swagger'ın bir suikast planını önlemek için göreve çağrılmasıyla başlar. Ancak kısa süre sonra kendisinin tuzağa düşürüldüğünü fark eder.</desc>
-  </programme>
   <programme start="20261028034500 +0300" stop="20261028053000 +0300" channel="Beyaz TV">
     <title>Rambo 4</title>
     <desc>Rambo, yönetmen ve başrolünde Sylvester Stallone bulunan aksiyon filmidir. Emekli asker John Rambo, savaşın sürdüğü bir bölgede yardım ekibini tehlikeli bir kurtarma görevine götürür ve yeniden çatışmanın içine çekilir.</desc>
@@ -2390,10 +2375,6 @@
   <channel id="Bloomberg HT">
     <display-name>Bloomberg HT</display-name>
   </channel>
-  <programme start="20261028024500 +0300" stop="20261028031000 +0300" channel="Bloomberg HT">
-    <title>Akıllı Tarım</title>
-    <desc>Üreticiden tüketiciye herkesi yakından ilgilendiren konularda sektörün nabzı tutulurken, her hafta farklı konu başlıkları enine boyuna tartışılıyor.</desc>
-  </programme>
   <programme start="20261028031000 +0300" stop="20261028043000 +0300" channel="Bloomberg HT">
     <title>Dört Kadın Bir Dünya</title>
     <desc>Hayatın estetik kodları bu programda çözülüyor! Kırmızı halıdan sokağa, bienallerden mimariye, festivallerden moda haftalarına; Türkiye’nin ve dünyanın en güncel etkinlikleri, hayata dair her stilin ruhu ve her tasarımın hikayesi ekrana taşınıyor.</desc>
@@ -2626,14 +2607,6 @@
   <channel id="CNBC-e">
     <display-name>CNBC-e</display-name>
   </channel>
-  <programme start="20261028025000 +0300" stop="20261028033000 +0300" channel="CNBC-e">
-    <title>Üstü Kalsın</title>
-    <desc>Ekranların dinamik aktüel kuşağı Üstü Kalsın, hayatın tam kalbine dokunuyor. Şehrin koşturmacasından sokağın sesine, sosyal medya akımlarından haftanın konuşulan ilginç olaylarına kadar gündelik yaşama dair ne varsa samimi sohbetler ve özgün bakış açılarıyla izleyiciyle buluşuyor.</desc>
-  </programme>
-  <programme start="20261028033000 +0300" stop="20261028040000 +0300" channel="CNBC-e">
-    <title>Ümit Aktaş İle İyilik Hareketi</title>
-    <desc>Ümit Aktaş ile İyilik Hareketi, sağlık, beslenme ve yaşam kalitesini artırmaya odaklanan bir programdır. Alanında uzman konuklar, doğru bilgiler ve pratik önerilerle izleyicilerin yaşamına değer katıyor.</desc>
-  </programme>
   <programme start="20261028040000 +0300" stop="20261028043000 +0300" channel="CNBC-e">
     <title>Sigorta Life</title>
     <desc>CNBC-e, sigorta sektörüne yönelik özel röportajlar ve program iş birlikleriyle sektördeki gelişmeleri gündeme taşımaktadır. Yapay zekâ uygulamaları, dijital dönüşüm ve güncel ekonomik gelişmeler uzman konukların değerlendirmeleriyle izleyicilere aktarılmaktadır.</desc>
@@ -3040,30 +3013,6 @@
   <channel id="Cartoon Network">
     <display-name>Cartoon Network</display-name>
   </channel>
-  <programme start="20261028025000 +0300" stop="20261028030500 +0300" channel="Cartoon Network">
-    <title>Ben 10</title>
-    <desc>Ben Tennyson, uzay kol saati olan Omnitrixi keşfeder. Bu saat Bene 10 muhteşem ve güçlü uzaylı karakterden bir tanesine dönüşme yeteneği verir!</desc>
-  </programme>
-  <programme start="20261028030500 +0300" stop="20261028031500 +0300" channel="Cartoon Network">
-    <title>Kral Şakir</title>
-    <desc>Kral Şakir, bir aslan ailesinin çocukları Şakir ve Cananın, hayvanların yaşadığı modern şehir hayatında karşılaştıkları komik ve macera dolu hikayeleridir.</desc>
-  </programme>
-  <programme start="20261028031500 +0300" stop="20261028033000 +0300" channel="Cartoon Network">
-    <title>Kral Şakir</title>
-    <desc>Kral Şakir, bir aslan ailesinin çocukları Şakir ve Cananın, hayvanların yaşadığı modern şehir hayatında karşılaştıkları komik ve macera dolu hikayeleridir.</desc>
-  </programme>
-  <programme start="20261028033000 +0300" stop="20261028034000 +0300" channel="Cartoon Network">
-    <title>Kral Şakir</title>
-    <desc>Kral Şakir, bir aslan ailesinin çocukları Şakir ve Cananın, hayvanların yaşadığı modern şehir hayatında karşılaştıkları komik ve macera dolu hikayeleridir.</desc>
-  </programme>
-  <programme start="20261028034000 +0300" stop="20261028035500 +0300" channel="Cartoon Network">
-    <title>Kral Şakir</title>
-    <desc>Kral Şakir, bir aslan ailesinin çocukları Şakir ve Cananın, hayvanların yaşadığı modern şehir hayatında karşılaştıkları komik ve macera dolu hikayeleridir.</desc>
-  </programme>
-  <programme start="20261028035500 +0300" stop="20261028042000 +0300" channel="Cartoon Network">
-    <title>Kral Şakir</title>
-    <desc>Kral Şakir, bir aslan ailesinin çocukları Şakir ve Cananın, hayvanların yaşadığı modern şehir hayatında karşılaştıkları komik ve macera dolu hikayeleridir.</desc>
-  </programme>
   <programme start="20261028042000 +0300" stop="20261028043000 +0300" channel="Cartoon Network">
     <title>Kral Şakir</title>
     <desc>Kral Şakir, bir aslan ailesinin çocukları Şakir ve Cananın, hayvanların yaşadığı modern şehir hayatında karşılaştıkları komik ve macera dolu hikayeleridir.</desc>
@@ -4043,16 +3992,6 @@
   <channel id="DMAX">
     <display-name>DMAX</display-name>
   </channel>
-  <programme start="20261028022000 +0300" stop="20261028030500 +0300" channel="DMAX">
-    <title>Bilinmeyene Yolculuk</title>
-    <desc>Josh, efsanevi korsan Henry Morgan'ın hazinesini bulmak için Lajas resifine dalar. Yolculuğu onu modern çağın bir harikası olan Panama Kanalı'na götürür.</desc>
-    <episode-num system="xmltv_ns">0.5.</episode-num>
-  </programme>
-  <programme start="20261028030500 +0300" stop="20261028035000 +0300" channel="DMAX">
-    <title>Bilinmeyene Yolculuk</title>
-    <desc>Josh efsanevi Thomas Beale'in hazinesinin peşinde, Virginia'yı karış karış arar. Hazinenin yeri şifrelenmiş bir kodla gizlidir, acaba bu gizemli bulmacayı çözebilecek mi?.</desc>
-    <episode-num system="xmltv_ns">0.6.</episode-num>
-  </programme>
   <programme start="20261028035000 +0300" stop="20261028043500 +0300" channel="DMAX">
     <title>İngiltere Mezatçıları</title>
     <desc>Mezatçı Angus Ashworth ve ekibi gizli hazineleri keşfetmek için ev temizliği yapar. Bu antikalar ne kadara satılacak?.</desc>
@@ -4441,14 +4380,6 @@
   <channel id="Diyanet TV">
     <display-name>Diyanet TV</display-name>
   </channel>
-  <programme start="20261028030000 +0300" stop="20261028033000 +0300" channel="Diyanet TV">
-    <title>Diyanet Ana Haber</title>
-    <desc>Gün içinde yaşanan gelişmeler, gündemde yer alan konular izleyicilere aktarılıyor. Siyasetten ekonomiye, kültürden sanata Türkiye ve dünya gündemine ilişkin önemli gelişmeler ekrana geliyor.</desc>
-  </programme>
-  <programme start="20261028033000 +0300" stop="20261028040000 +0300" channel="Diyanet TV">
-    <title>Engel ve Azim</title>
-    <desc>Engelli bireylerin yaşadıkları zorluklar, hayata karşı verdikleri mücadeleler ve ulaştıkları başarılar Engel ve Azim'de ekrana taşınıyor.</desc>
-  </programme>
   <programme start="20261028040000 +0300" stop="20261028043000 +0300" channel="Diyanet TV">
     <title>5 Vakit Yolda</title>
     <desc>5 Vakit Yolda, yaşamın izlerini ekrana taşıyor.</desc>
@@ -5293,18 +5224,6 @@
   <channel id="Flash Haber">
     <display-name>Flash Haber</display-name>
   </channel>
-  <programme start="20261028030000 +0300" stop="20261028032500 +0300" channel="Flash Haber">
-    <title>Donanım Günlüğü</title>
-    <desc>Donanım Günlüğü, teknoloji dünyasındaki en yeni donanımları, performans testlerini ve dikkat çeken yenilikleri izleyiciyle buluşturuyor. Ekran kartlarından işlemcilere, oyun ekipmanlarından aksesuar incelemelerine kadar pek çok başlık sade ve anlaşılır bir dille ele alınıyor.</desc>
-  </programme>
-  <programme start="20261028032500 +0300" stop="20261028035500 +0300" channel="Flash Haber">
-    <title>Yeşil Hat</title>
-    <desc>Yeşil Hat, çevre ve doğa odaklı içeriğiyle sürdürülebilir yaşamın önemini izleyiciyle buluşturuyor. Programda iklim değişikliği, çevre sorunları, yenilenebilir enerji, geri dönüşüm ve ekolojik yaşam gibi başlıklar ele alınıyor.</desc>
-  </programme>
-  <programme start="20261028035500 +0300" stop="20261028041500 +0300" channel="Flash Haber">
-    <title>Kuş Bakışı</title>
-    <desc>Kuş Bakışı, doğal yaşam alanlarını, şehirleri ve kültürel mirası benzersiz bir perspektiften ekrana taşıyor. Havadan çekimlerle zenginleşen anlatım, izleyiciyi farklı coğrafyalara götürürken her bölümü görsel bir keşfe dönüştürüyor.</desc>
-  </programme>
   <programme start="20261028041500 +0300" stop="20261028043000 +0300" channel="Flash Haber">
     <title>Kültür Sanat</title>
     <desc>Kültür Sanat, tiyatro, sinema, müzik, edebiyat ve görsel sanatlar dünyasındaki yenilikleri, güncel etkinlikleri ve önemli isimlerle yapılan özel röportajları bir araya getiriyor. Her bölümde sanatın toplumsal hayattaki yeri ve etkisi vurgulanırken, ilham veren projeler ve eserler izleyiciye sunuluyor.</desc>
@@ -6152,14 +6071,6 @@
   <channel id="GZT">
     <display-name>GZT</display-name>
   </channel>
-  <programme start="20261028030000 +0300" stop="20261028031700 +0300" channel="GZT">
-    <title>Hakan Karahan Doğada</title>
-    <desc>Hakan Karahan Doğada</desc>
-  </programme>
-  <programme start="20261028031700 +0300" stop="20261028040100 +0300" channel="GZT">
-    <title>Sürgün Adaları</title>
-    <desc>Sürgün Adaları</desc>
-  </programme>
   <programme start="20261028040100 +0300" stop="20261028042700 +0300" channel="GZT">
     <title>Hk Outdoors</title>
     <desc>Hk Outdoors</desc>
@@ -6719,10 +6630,6 @@
   <channel id="HT Spor">
     <display-name>HT Spor</display-name>
   </channel>
-  <programme start="20261028030000 +0300" stop="20261028040000 +0300" channel="HT Spor">
-    <title>Gece Yarısı</title>
-    <desc>Seçil Menteş keyifli bir söyleşi programıyla ekranlarda...</desc>
-  </programme>
   <programme start="20261028040000 +0300" stop="20261028060000 +0300" channel="HT Spor">
     <title>Manacor - Villarreal</title>
     <desc>CD Manacor ile Villarreal CF takımları arasında oynanan İspanya Kral Kupası karşılaşması...</desc>
@@ -6859,10 +6766,6 @@
   <channel id="Haber Global">
     <display-name>Haber Global</display-name>
   </channel>
-  <programme start="20261028020000 +0300" stop="20261028040000 +0300" channel="Haber Global">
-    <title>Kontra</title>
-    <desc>Haber Global Kontra sporseverlere futbol dünyasının nabzını tutan bir program sunuyor. Performans değerlendirmeleri, takımların durumu ve güncel transfer haberleri gibi gündemdeki başlıklar canlı yorumlarla masaya yatırılıyor. Heyecan ve spor tutkusunu bir arada izleyiciye aktaran yayın, haftanın futbol gündemini çarpıcı bir dille ele alıyor.</desc>
-  </programme>
   <programme start="20261028040000 +0300" stop="20261028060000 +0300" channel="Haber Global">
     <title>Haber Bülteni</title>
     <desc>Haber Global haber bülteni gece saatlerinde gün boyunca yaşanan önemli gelişmeleri izleyiciyle buluşturuyor. Türkiye ve dünya gündemindeki son dakika haberleri, siyaset, ekonomi ve toplumsal olaylar sade bir anlatımla ele alınıyor. İzleyici günün öne çıkan başlıklarını bu bültende toplu halde takip ediyor.</desc>
@@ -6978,10 +6881,6 @@
   <channel id="Habertürk">
     <display-name>Habertürk</display-name>
   </channel>
-  <programme start="20261028010000 +0300" stop="20261028031500 +0300" channel="Habertürk">
-    <title>Haber Bülteni</title>
-    <desc>Dünyada ve Türkiye'de olup biten her şey, günün gelişmeleri ve son dakika haberleri, canlı bağlantılar ve uzman konuklar eşliğinde, çarpıcı yorumlar ekrana geliyor.</desc>
-  </programme>
   <programme start="20261028031500 +0300" stop="20261028050000 +0300" channel="Habertürk">
     <title>Olaylar ve Görüşler</title>
     <desc>Siyaset, ekonomi, bilim ve sosyal hayata dair Türkiye ve dünya ne konuşuyorsa hepsi 'Olaylar ve Görüşler'de ele alınıyor. Objektif, dinamik, zihin açıcı ve farklı bir program...</desc>
@@ -7208,10 +7107,6 @@
   <channel id="Kanal 24">
     <display-name>Kanal 24</display-name>
   </channel>
-  <programme start="20261028023000 +0300" stop="20261028041500 +0300" channel="Kanal 24">
-    <title>Bu Ülke</title>
-    <desc>Türkiye'nin gündemindeki merak edilen ve tartışılan sorular, siyaset, ekonomi, toplumsal meseleler ve kültür-eğitim başlıklarıyla ele alınıyor. Uzman konuklar ve sahadan aktarılan bilgilerle olayların arka planı izleyiciye aktarılıyor.</desc>
-  </programme>
   <programme start="20261028041500 +0300" stop="20261028044500 +0300" channel="Kanal 24">
     <title>8. Etap</title>
     <desc>Ekranların en uzun soluklu otomotiv ve motor sporları programı 8.</desc>
@@ -7692,32 +7587,6 @@
   <channel id="Minika GO">
     <display-name>Minika GO</display-name>
   </channel>
-  <programme start="20261028030000 +0300" stop="20261028031500 +0300" channel="Minika GO">
-    <title>Servis</title>
-    <episode-num system="xmltv_ns">0.22.</episode-num>
-  </programme>
-  <programme start="20261028031500 +0300" stop="20261028033000 +0300" channel="Minika GO">
-    <title>Servis</title>
-    <episode-num system="xmltv_ns">0.23.</episode-num>
-  </programme>
-  <programme start="20261028033000 +0300" stop="20261028034500 +0300" channel="Minika GO">
-    <title>İstanbul Muhafızları</title>
-    <desc>İstanbul'u ne kadar tanıyorsun? Kimbilir bilmediğin ne çok şey var? İşte sana eğlenceli bir fırsat. Mehmet, Zeynep, Elif ve Ali ile birlikte İstanbul'u hem karış karış tanıyacak, hem de her bölümde Gürgen ve adamlarının yaşattığı problemleri çözeceksin.</desc>
-    <episode-num system="xmltv_ns">1.25.</episode-num>
-  </programme>
-  <programme start="20261028034500 +0300" stop="20261028040000 +0300" channel="Minika GO">
-    <title>İstanbul Muhafızları</title>
-    <desc>İstanbul'u ne kadar tanıyorsun? Kimbilir bilmediğin ne çok şey var? İşte sana eğlenceli bir fırsat. Mehmet, Zeynep, Elif ve Ali ile birlikte İstanbul'u hem karış karış tanıyacak, hem de her bölümde Gürgen ve adamlarının yaşattığı problemleri çözeceksin.</desc>
-    <episode-num system="xmltv_ns">1.0.</episode-num>
-  </programme>
-  <programme start="20261028040000 +0300" stop="20261028041000 +0300" channel="Minika GO">
-    <title>Mavi Gölge</title>
-    <episode-num system="xmltv_ns">0.3.</episode-num>
-  </programme>
-  <programme start="20261028041000 +0300" stop="20261028042000 +0300" channel="Minika GO">
-    <title>Mavi Gölge</title>
-    <episode-num system="xmltv_ns">0.4.</episode-num>
-  </programme>
   <programme start="20261028042000 +0300" stop="20261028043000 +0300" channel="Minika GO">
     <title>Mavi Gölge</title>
     <episode-num system="xmltv_ns">0.5.</episode-num>
@@ -8975,29 +8844,6 @@
   <channel id="Minika Çocuk">
     <display-name>Minika Çocuk</display-name>
   </channel>
-  <programme start="20261028030000 +0300" stop="20261028031500 +0300" channel="Minika Çocuk">
-    <title>Neşeli Dünyam</title>
-    <desc>Çok uzaklardan gelen iki sevimli kardeş, Neşe'nin dünyasına ortak oluyor.</desc>
-    <episode-num system="xmltv_ns">3.9.</episode-num>
-  </programme>
-  <programme start="20261028031500 +0300" stop="20261028033000 +0300" channel="Minika Çocuk">
-    <title>Neşeli Dünyam</title>
-    <desc>Çok uzaklardan gelen iki sevimli kardeş, Neşe'nin dünyasına ortak oluyor.</desc>
-    <episode-num system="xmltv_ns">3.10.</episode-num>
-  </programme>
-  <programme start="20261028033000 +0300" stop="20261028034500 +0300" channel="Minika Çocuk">
-    <title>Servis</title>
-    <episode-num system="xmltv_ns">0.16.</episode-num>
-  </programme>
-  <programme start="20261028034500 +0300" stop="20261028040000 +0300" channel="Minika Çocuk">
-    <title>Servis</title>
-    <episode-num system="xmltv_ns">0.17.</episode-num>
-  </programme>
-  <programme start="20261028040000 +0300" stop="20261028041500 +0300" channel="Minika Çocuk">
-    <title>İstanbul Muhafızları</title>
-    <desc>İstanbul'u ne kadar tanıyorsun? Kimbilir bilmediğin ne çok şey var? İşte sana eğlenceli bir fırsat. Mehmet, Zeynep, Elif ve Ali ile birlikte İstanbul'u hem karış karış tanıyacak, hem de her bölümde Gürgen ve adamlarının yaşattığı problemleri çözeceksin.</desc>
-    <episode-num system="xmltv_ns">0.13.</episode-num>
-  </programme>
   <programme start="20261028041500 +0300" stop="20261028043000 +0300" channel="Minika Çocuk">
     <title>İstanbul Muhafızları</title>
     <desc>İstanbul'u ne kadar tanıyorsun? Kimbilir bilmediğin ne çok şey var? İşte sana eğlenceli bir fırsat. Mehmet, Zeynep, Elif ve Ali ile birlikte İstanbul'u hem karış karış tanıyacak, hem de her bölümde Gürgen ve adamlarının yaşattığı problemleri çözeceksin.</desc>
@@ -10316,18 +10162,6 @@
   <channel id="NTV">
     <display-name>NTV</display-name>
   </channel>
-  <programme start="20261028030000 +0300" stop="20261028033000 +0300" channel="NTV">
-    <title>Haber Bülteni</title>
-    <desc>Türkiye'den ve dünyadan önemli gelişmeler, Haber Bülteni ile ekrana geliyor. Önemli gelişmeler, gündemde öne çıkan konular ve son dakika gelişmeleri izleyiciye aktarılıyor.</desc>
-  </programme>
-  <programme start="20261028033000 +0300" stop="20261028035500 +0300" channel="NTV">
-    <title>Siyasi İşler</title>
-    <desc>Siyasi İşler; Ahmed Arpat'ın moderatörlüğünde Ankara'nın siyasi havası ve İstanbul'a yansıyanları masaya yatırıyor. Türkiye'de ve dünyada gündemi ne oluşturuyor, ne konuşuluyorsa enine boyuna tartışılıyor, yorumlanıyor ve değerlendiriliyor.</desc>
-  </programme>
-  <programme start="20261028035500 +0300" stop="20261028040000 +0300" channel="NTV">
-    <title>Hava Durumu</title>
-    <desc>Türkiye ile dünyanın bazı merkezlerinin hava koşulları, Hava Durumu kuşağında ekrana geliyor.İzleyiciler, gün içerisindeki sıcaklık, rüzgar ve yağış koşullarına dair belli aralıklarla bilgilendiriliyor.</desc>
-  </programme>
   <programme start="20261028040000 +0300" stop="20261028043000 +0300" channel="NTV">
     <title>Haber Bülteni</title>
     <desc>Türkiye'den ve dünyadan önemli gelişmeler, Haber Bülteni ile ekrana geliyor. Önemli gelişmeler, gündemde öne çıkan konular ve son dakika gelişmeleri izleyiciye aktarılıyor.</desc>
@@ -11325,14 +11159,6 @@
   <channel id="TELE1">
     <display-name>TELE1</display-name>
   </channel>
-  <programme start="20261028030000 +0300" stop="20261028033000 +0300" channel="TELE1">
-    <title>Senin Şehrin</title>
-    <desc>Senin Şehrin, Tele1'de hafta içi her gün Fatih Türkmenoğlu ile izleyiciyi şehrin bilinen ve gizli güzellikleriyle buluşturur. Tarihi mekânlar, lezzet durakları, kültürel noktalar ve keşfedilmeyi bekleyen köşelerle dolu program, bilgilendirici ve keyifli bir şehir yolculuğu sunar.</desc>
-  </programme>
-  <programme start="20261028033000 +0300" stop="20261028040000 +0300" channel="TELE1">
-    <title>Asla Vazgeçmem</title>
-    <desc>Aşka inanmayan Yiğit, karanlık geçmişiyle yaşarken hayatına giren iki kadınla sarsılır. Yıllar süren derin uykudan uyanan bir çocuğun annesi İclal ve yıldırım gibi gelen bir aşkla değişen Nur, onun için geri dönüşü olmayan bir yol açar. Fedakarlık, tutku ve kader arasında kalan Yiğit, duygularını sorgularken her seçim yeni bir bedel getirir. Bu hikaye aşkın, umudun ve insan ruhunun sınırlarını anlatır.</desc>
-  </programme>
   <programme start="20261028040000 +0300" stop="20261028050000 +0300" channel="TELE1">
     <title>Asla Vazgeçmem</title>
     <desc>Aşka inanmayan Yiğit, karanlık geçmişiyle yaşarken hayatına giren iki kadınla sarsılır. Yıllar süren derin uykudan uyanan bir çocuğun annesi İclal ve yıldırım gibi gelen bir aşkla değişen Nur, onun için geri dönüşü olmayan bir yol açar. Fedakarlık, tutku ve kader arasında kalan Yiğit, duygularını sorgularken her seçim yeni bir bedel getirir. Bu hikaye aşkın, umudun ve insan ruhunun sınırlarını anlatır.</desc>
@@ -11823,21 +11649,6 @@
   <channel id="TLC">
     <display-name>TLC</display-name>
   </channel>
-  <programme start="20261028025500 +0300" stop="20261028032000 +0300" channel="TLC">
-    <title>Ada Avcıları</title>
-    <desc>Sunucu Chris Krolow potansiyel alıcılarla birlikte tropik yazlıkların kralını arıyor, hedefleri ise özel adada bir malikane!</desc>
-    <episode-num system="xmltv_ns">3.6.</episode-num>
-  </programme>
-  <programme start="20261028032000 +0300" stop="20261028034000 +0300" channel="TLC">
-    <title>Ada Avcıları</title>
-    <desc>Sunucu Chris Krolow potansiyel alıcılarla birlikte tropik yazlıkların kralını arıyor, hedefleri ise özel adada bir malikane!</desc>
-    <episode-num system="xmltv_ns">3.10.</episode-num>
-  </programme>
-  <programme start="20261028034000 +0300" stop="20261028040000 +0300" channel="TLC">
-    <title>Ada Avcıları</title>
-    <desc>Sunucu Chris Krolow potansiyel alıcılarla birlikte tropik yazlıkların kralını arıyor, hedefleri ise özel adada bir malikane!</desc>
-    <episode-num system="xmltv_ns">3.1.</episode-num>
-  </programme>
   <programme start="20261028040000 +0300" stop="20261028044000 +0300" channel="TLC">
     <title>Hayatına Yer Aç</title>
     <desc>ADHD, gitarlar ve dağınıklık Stephen ve Megan'ın evini kaosa sürükler. Peter ve Cherie'nin yardımıyla yeni bir başlangıç yapılır.</desc>
@@ -12196,10 +12007,6 @@
   <channel id="TRT 1">
     <display-name>TRT 1</display-name>
   </channel>
-  <programme start="20261028025000 +0300" stop="20261028033000 +0300" channel="TRT 1">
-    <title>Seksenler</title>
-    <desc>Klasik bir Türk ailesinin yaşamını konu alan eğlenceli bir dönem sit-com'u... Sosyal hayattaki değişim, hayatımıza giren yeniliklerin bizleri nasıl etkilediği gözler önüne seriliyor. Seksenler dizisi bize kaybettiğimiz insani değerleri yeni nesillere tekrar kazandırmak amacıyla geçmişe yapılmış eğlenceli bir yolculuk... Çocuklar; sobayı, merdaneli makineyi, pul yapıştırıp yolladığımız mektupları, anket defterlerini, siyah önlükleri, kolalı yakaları, sokaklarda koşturarak sürdüğümüz telli arabaları, misket dolu torbaları ilk defa bu dizide görecek.</desc>
-  </programme>
   <programme start="20261028033000 +0300" stop="20261028054500 +0300" channel="TRT 1">
     <title>Alparslan: Büyük Selçuklu</title>
     <desc>Selçuklu Sultanı Tuğrul Bey, veliahtını tayin edeceği gün, Bizanslıların Türkmenleri kılıçtan geçirdiği haberini alır. Anadolu’ya sefer emri verir. Sefere giden Selçuklu Meliklerine gizemli suikastçılar saldırır. Saldırının izleri Alparslan’ı hiç ummadığı bir yere götürür.</desc>
@@ -12329,14 +12136,6 @@
   <channel id="TRT 2">
     <display-name>TRT 2</display-name>
   </channel>
-  <programme start="20261028024500 +0300" stop="20261028033000 +0300" channel="TRT 2">
-    <title>Gün Batıdan Doğmadan</title>
-    <desc>Gün Batıdan Doğmadan programında bu hafta Prof. Dr. Ömer Karaoğlu ve Ali Beytullah Çakır modern iktisadın tanımını zihniyet, ahenk ve müzik ilişkisi üzerinden konuşuyor.</desc>
-  </programme>
-  <programme start="20261028033000 +0300" stop="20261028040000 +0300" channel="TRT 2">
-    <title>Medeniyetin İşaret Taşları</title>
-    <desc>Zamana yön veren muvakkithanelerden saat kulelerine; bilim tarihinde yer tutan rubu tahtasından rasathanelere; yüksek bir kültürün mirası kuş evlerinden su kemerlerine, medeniyetimizin işaret taşlarının izi sürülüyor.</desc>
-  </programme>
   <programme start="20261028040000 +0300" stop="20261028044500 +0300" channel="TRT 2">
     <title>Edebiyat Dünyası</title>
     <desc>Edebiyat Dünyası; yazarlara, eserlere ve edebiyatımızın her alanına ışık tutmak için ekranlarınıza geliyor.</desc>
@@ -12684,10 +12483,6 @@
   <channel id="TRT 3">
     <display-name>TRT 3</display-name>
   </channel>
-  <programme start="20261028020000 +0300" stop="20261028040000 +0300" channel="TRT 3">
-    <title>UEFA Şampiyonlar Ligi Özetler</title>
-    <desc>UEFA Şampiyonlar Liginde haftanın karşılaşmalarının özet görüntüleri ekranlarınıza geliyor.</desc>
-  </programme>
   <programme start="20261028040000 +0300" stop="20261028060000 +0300" channel="TRT 3">
     <title>UEFA Avrupa Ligi Özetler</title>
     <desc>UEFA Avrupa Liginde haftanın karşılaşmalarının özet görüntüleri ekranlarınıza geliyor.</desc>
@@ -12891,14 +12686,6 @@
   <channel id="TRT Arabi">
     <display-name>TRT Arabi</display-name>
   </channel>
-  <programme start="20261028030000 +0300" stop="20261028035000 +0300" channel="TRT Arabi">
-    <title>Al Alam Al Yawm</title>
-    <desc>A daily political news program that covers developments and events in the region and around the world.</desc>
-  </programme>
-  <programme start="20261028035000 +0300" stop="20261028040000 +0300" channel="TRT Arabi">
-    <title>Doc - Melaffat</title>
-    <desc>The filler follows students stranded in Gaza after receiving scholarships in Belgium, and the impact of delayed evacuation on their future.</desc>
-  </programme>
   <programme start="20261028040000 +0300" stop="20261028043000 +0300" channel="TRT Arabi">
     <title>News</title>
   </programme>
@@ -13232,13 +13019,6 @@
   <channel id="TRT Avaz">
     <display-name>TRT Avaz</display-name>
   </channel>
-  <programme start="20261028030000 +0300" stop="20261028033000 +0300" channel="TRT Avaz">
-    <title>Türk Dünyası Keşif Rotası</title>
-    <desc>Program, Orta Asya'dan Anadolu'ya uzanan geniş Türk coğrafyasında geçen; doğayla mücadele, yön bulma, hayatta kalma ve tarihsel izleri sürme temalarını bir araya getiren, aksiyon ve macera odaklı, kültürel derinliği olan bir belgesel serisidir.</desc>
-  </programme>
-  <programme start="20261028033000 +0300" stop="20261028040000 +0300" channel="TRT Avaz">
-    <title>İz Ve Dönüşüm</title>
-  </programme>
   <programme start="20261028040000 +0300" stop="20261028043000 +0300" channel="TRT Avaz">
     <title>Türk Metinleri</title>
     <desc>Türk Kültür ve medeniyetinin Orhun Kitabelerinden başlayarak Yesevi Ocağından, Dede Korkut masallarından Aşıkpaşazade tarihine kadar tüm ana metin ve kaynaklarının işleneceği eğitim - kültür programıdır.</desc>
@@ -13765,10 +13545,6 @@
   <channel id="TRT Belgesel">
     <display-name>TRT Belgesel</display-name>
   </channel>
-  <programme start="20261028030000 +0300" stop="20261028040000 +0300" channel="TRT Belgesel">
-    <title>Çocuğum İçin</title>
-    <desc>Aile kelimesi insanın kalbinde derin bir sıcaklık oluşturur. Annenin şefkati ile babanın güveni birleştiğinde ortaya büyük bir mutluluk çıkar. TRT Belgesel bu kez, anne ve baba olmanın zorluklarına odaklanıyor.</desc>
-  </programme>
   <programme start="20261028040000 +0300" stop="20261028043000 +0300" channel="TRT Belgesel">
     <title>Hasat Vakti</title>
     <desc>Karadeniz'in dik yamaçlarından Çukurova'nın sonsuz düzlüklerine uzanan köklü bir üretim serüveni... 'Hasat Vakti' yalnızca tarımsal üretimi değil; emeği, gelenekleri, iklimi, coğrafyayı ve üretimin insan yaşamındaki yerini de kayıt altına alıyor. Anadolu'nun binlerce yıllık üretim kültürünü belgeleyen seri, hasat mevsiminin en yoğun döneminde gerçekleştirilen çekimlerle Türkiye'nin tarımsal zenginliğini ve kültürel çeşitliliğini izleyiciyle buluşturuyor.</desc>
@@ -14025,18 +13801,6 @@
   <channel id="TRT EBA">
     <display-name>TRT EBA</display-name>
   </channel>
-  <programme start="20261028024500 +0300" stop="20261028031500 +0300" channel="TRT EBA">
-    <title>Coğrafya - 11</title>
-    <desc>Müfredata uygun olarak hazırlanan 11. Sınıflar için Coğrafya Dersi</desc>
-  </programme>
-  <programme start="20261028031500 +0300" stop="20261028034500 +0300" channel="TRT EBA">
-    <title>Biyoloji - 11</title>
-    <desc>Müfredata uygun olarak hazırlanan 11. Sınıflar için Biyoloji Dersi</desc>
-  </programme>
-  <programme start="20261028034500 +0300" stop="20261028041500 +0300" channel="TRT EBA">
-    <title>Fizik - 12</title>
-    <desc>Müfredata uygun olarak hazırlanan 12. Sınıflar için Fizik Dersi</desc>
-  </programme>
   <programme start="20261028041500 +0300" stop="20261028044500 +0300" channel="TRT EBA">
     <title>Kimya - 12</title>
     <desc>Müfredata uygun olarak hazırlanan 12. Sınıflar için Kimya Dersi</desc>
@@ -14412,10 +14176,6 @@
   <channel id="TRT Haber">
     <display-name>TRT Haber</display-name>
   </channel>
-  <programme start="20261028010000 +0300" stop="20261028040000 +0300" channel="TRT Haber">
-    <title>Gün Sonu</title>
-    <desc>Günün sonunda, dünün ve yarının gündemine dair haberler, canlı bağlantılar, dosya haberlerle ve alanında uzman konukların değerlendirmeleriyle izleyiciye aktarılıyor.</desc>
-  </programme>
   <programme start="20261028040000 +0300" stop="20261028050000 +0300" channel="TRT Haber">
     <title>Haber 04</title>
     <desc>Gün içinde yaşanan gelişmeler, gündemde yer alan konular izleyicilere aktarılıyor. Siyasetten ekonomiye, kültürden sanata Türkiye ve dünya gündemine ilişkin önemli gelişmeler canlı bağlantılarla ekrana geliyor.</desc>
@@ -14603,10 +14363,6 @@
   <channel id="TRT Kurdi">
     <display-name>TRT Kurdi</display-name>
   </channel>
-  <programme start="20261028030000 +0300" stop="20261028033000 +0300" channel="TRT Kurdi">
-    <title>Zor İşler (Karên Bızehmet)</title>
-    <desc>Xebatkarên ku bi keda destan debara mala xwe dikin; bi xweşî û zehmetiyên wan, qala karên xwe dikin.</desc>
-  </programme>
   <programme start="20261028033000 +0300" stop="20261028053000 +0300" channel="TRT Kurdi">
     <title>Can ve Ciğer (Can û Ceger)</title>
     <desc>Güneydoğu Anadolu'da yaşayan bir grup insanın günlük yaşayışı ekrana taşınıyor. Hüzün, sevinç, komik olaylar ve sıcak insan ilişkileri Can ve Ciğer'de...</desc>
@@ -14832,10 +14588,6 @@
   <channel id="TRT Müzik">
     <display-name>TRT Müzik</display-name>
   </channel>
-  <programme start="20261028024500 +0300" stop="20261028034500 +0300" channel="TRT Müzik">
-    <title>Yüz Yüze Akustik</title>
-    <desc>5 Quartet grubunun sunumuyla hazırlanan programda, halk müziği ve sanat müziğinin unutulmayan eserleri farklı müzik tarzlarıyla harmanlanarak icra ediliyor.</desc>
-  </programme>
   <programme start="20261028034500 +0300" stop="20261028043000 +0300" channel="TRT Müzik">
     <title>Aranjman</title>
     <desc>Sunuculuğu ve solistliğini Alper Kış'ın yaptığı programda, sevilen şarkılar Batı melodileriyle harmanlanıyor. Şarkılar, nostaljik bir konspet eşliğinde ekrana taşınıyor.</desc>
@@ -15091,10 +14843,6 @@
   <channel id="TRT Spor">
     <display-name>TRT Spor</display-name>
   </channel>
-  <programme start="20261028020000 +0300" stop="20261028040000 +0300" channel="TRT Spor">
-    <title>UEFA Şampiyonlar Ligi Özetler</title>
-    <desc>UEFA Şampiyonlar Liginde haftanın karşılaşmalarının özet görüntüleri ekranlarınıza geliyor.</desc>
-  </programme>
   <programme start="20261028040000 +0300" stop="20261028060000 +0300" channel="TRT Spor">
     <title>UEFA Avrupa Ligi Özetler</title>
     <desc>UEFA Avrupa Liginde haftanın karşılaşmalarının özet görüntüleri ekranlarınıza geliyor.</desc>
@@ -15641,12 +15389,6 @@
   <channel id="TRT Türk">
     <display-name>TRT Türk</display-name>
   </channel>
-  <programme start="20261028024500 +0300" stop="20261028031500 +0300" channel="TRT Türk">
-    <title>Köy Havası</title>
-  </programme>
-  <programme start="20261028031500 +0300" stop="20261028041500 +0300" channel="TRT Türk">
-    <title>Elde Var Hayat</title>
-  </programme>
   <programme start="20261028041500 +0300" stop="20261028054500 +0300" channel="TRT Türk">
     <title>Seksenler</title>
     <desc>Seksenli yıllarda İstanbul'un küçük bir mahallesinde yaşayan insanların hikâyesi. Her sahnesiyle tam bir dönem dizisi... Hem nostaljik, hem enerjik, hem de çok komik.</desc>
@@ -15912,18 +15654,6 @@
   <channel id="TRT World">
     <display-name>TRT World</display-name>
   </channel>
-  <programme start="20261028030000 +0300" stop="20261028033000 +0300" channel="TRT World">
-    <title>News</title>
-    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
-  </programme>
-  <programme start="20261028033000 +0300" stop="20261028040000 +0300" channel="TRT World">
-    <title>Africa Matters</title>
-    <desc>Every week, Africa Matters will bring you the untold, under-reported stories from across the continent and we'll also unpack the issues that matter to Africans.</desc>
-  </programme>
-  <programme start="20261028040000 +0300" stop="20261028041500 +0300" channel="TRT World">
-    <title>News</title>
-    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
-  </programme>
   <programme start="20261028041500 +0300" stop="20261028043000 +0300" channel="TRT World">
     <title>Newsfeed</title>
     <desc>Newsfeed reflects the day`s events and opinions,as reported or discussed on social media.</desc>
@@ -16311,18 +16041,6 @@
   <channel id="TRT Çocuk">
     <display-name>TRT Çocuk</display-name>
   </channel>
-  <programme start="20261028025500 +0300" stop="20261028032000 +0300" channel="TRT Çocuk">
-    <title>Kehribar İle Boncuk</title>
-    <desc>Ormanya'da oyun, eğlence, dostluk ve macera var!Kehribar ile Boncuk'un okuldan mezun olup Uzay Akademisi'ne gitmek için staj listesini tamamlamaları gerekiyor. Bu heyecanlı serüvene katılmak istersenKehribar ile Boncuk, senin kanalın TRT Çocuk'ta.</desc>
-  </programme>
-  <programme start="20261028032000 +0300" stop="20261028034500 +0300" channel="TRT Çocuk">
-    <title>Aslan</title>
-    <desc>Farklı sorunlar için yeni araçlar hayal etmeden duramayan Aslan, merak ettiği konuları dedesinin yardımıyla çözüyor. Aslan ve arkadaşları, yeni ve ilginç icatlarla keşif ve eğlencenin tadını çıkarıyor.</desc>
-  </programme>
-  <programme start="20261028034500 +0300" stop="20261028041000 +0300" channel="TRT Çocuk">
-    <title>Doru</title>
-    <desc>Doru ve annesi Dorukısrak bir sürüye katılır. Doru, sürüde Karatay ile tanışır. Bazen kendi başları derde girer bazen de diğer atları düştükleri zor durumlardan kurtarırlar. Saklandıkları ormanda onları yakalamaya çalışan avcı, kurt ve başka tehlikeleri birlikte atlatmak için mücadele verirler.</desc>
-  </programme>
   <programme start="20261028041000 +0300" stop="20261028043500 +0300" channel="TRT Çocuk">
     <title>Elif ve Arkadaşları</title>
     <desc>Elif'in düşleri gerçek oldu! Artık o da okula gidiyor. Hem de yeni arkadaşları Ayşe, Selim ve Kerem ile. Elif ve arkadaşları, ana okulunda her gün yeni şeyler öğreniyor.</desc>
@@ -16902,10 +16620,6 @@
   <channel id="TV4">
     <display-name>TV4</display-name>
   </channel>
-  <programme start="20261028030000 +0300" stop="20261028033000 +0300" channel="TV4">
-    <title>Tarihi Rotalar</title>
-    <desc>Ömer Kokal, Anadolu'nun tarihî ve kültürel zenginliklerini efsaneler, söylenceler ve rivayetlerle harmanlayarak izleyiciye keşif dolu bir yolculuk sunuyor. Tarihi Rotalar, kadim medeniyetlerin izlerini sürerken, gizli hikâyeleri ve kuşaktan kuşağa aktarılan anlatıları gün yüzüne çıkarıyor.</desc>
-  </programme>
   <programme start="20261028033000 +0300" stop="20261028044500 +0300" channel="TV4">
     <title>Mavi Eşarp</title>
     <desc>Geçmişin gölgesinde yaşanan bir aşk hikâyesi, gizem ve duygusallıkla birleşiyor. Mavi Eşarp, Türkan Şoray'ın etkileyici performansıyla izleyiciyi içine çeken dramatik bir serüven sunuyor. Gizli sırlar, duygusal hesaplaşmalar ve zamana meydan okuyan aşk öyküsü, film boyunca izleyiciyi ekrana bağlıyor.</desc>
@@ -17109,10 +16823,6 @@
   <channel id="TV8">
     <display-name>TV8</display-name>
   </channel>
-  <programme start="20261028001500 +0300" stop="20261028033000 +0300" channel="TV8">
-    <title>Zuhal Topal'la Yemekteyiz</title>
-    <desc>Zuhal Topal'ın sunduğu yemek yarışmasında, birbirinden renkli ve iddialı kişiler mutfaktaki hünerlerini sergiliyor.</desc>
-  </programme>
   <programme start="20261028033000 +0300" stop="20261028053000 +0300" channel="TV8">
     <title>Gel Konuşalım</title>
     <desc>Gel Konuşalım programı ekranların sevilen yüzleri Ece Erken ve Nur Tuğba Namlı'nın yorumlarıyla ekrana geliyor. Bu programda yok yok! En sıcak haberler, en ilginç olaylar, modadan estetiğe, spordan ilişkiye, ünlülerin özel hayatlarından sokaktaki yaşama dair ne varsa kadın ve erkek gözünden Gel Konuşalım'da yorumlanıp, tartışılıyor.</desc>
@@ -17206,10 +16916,6 @@
   <channel id="TV8.5">
     <display-name>TV8.5</display-name>
   </channel>
-  <programme start="20261028011500 +0300" stop="20261028031500 +0300" channel="TV8.5">
-    <title>Çarkıfelek</title>
-    <desc>Büyük sürprizler ve ödülleri ile eğlence dolu anlar yaşatan Çarkıfelek, Cem Davran'ın sunumuyla ekrana geliyor.</desc>
-  </programme>
   <programme start="20261028031500 +0300" stop="20261028051500 +0300" channel="TV8.5">
     <title>Canım Annem</title>
     <desc>Zeynep, tehlikeli bir kalp rahatsızlığı olan güzeller güzeli bir kızdır. Hastalığı yüzünden annesi Cemre'nin bir araba kazasında öldüğünü ona söylemezler. Bunun yerine babası Murat, Zeynep kalp ameliyatı olacak yaşa gelene kadar, annesi Cemre’nin yerine geçecek bir benzerini tutar.</desc>
@@ -17632,16 +17338,6 @@
   <channel id="TYT Türk">
     <display-name>TYT Türk</display-name>
   </channel>
-  <programme start="20261028023000 +0300" stop="20261028031500 +0300" channel="TYT Türk">
-    <title>TYT Ana Haber</title>
-    <desc>Türkiye ve dünya gündeminden önemli başlıklar TYT Türk Ana Haber'de ekrana geliyor.</desc>
-  </programme>
-  <programme start="20261028031500 +0300" stop="20261028033000 +0300" channel="TYT Türk">
-    <title>Spor Bülteni</title>
-  </programme>
-  <programme start="20261028033000 +0300" stop="20261028041500 +0300" channel="TYT Türk">
-    <title>Şampiyon Mutfakta</title>
-  </programme>
   <programme start="20261028041500 +0300" stop="20261028061500 +0300" channel="TYT Türk">
     <title>Sinema</title>
     <desc>Türk ve dünya sinemasından en güzel filmler ve beğeni toplamış yapıtlar ekrana geliyor.</desc>
@@ -17786,10 +17482,6 @@
   <channel id="Teve2">
     <display-name>Teve2</display-name>
   </channel>
-  <programme start="20261028023000 +0300" stop="20261028034500 +0300" channel="Teve2">
-    <title>Kanıt</title>
-    <desc>Dizi, konsept danışmanlığını ve sunuculuğunu Kriminalist Prof. Dr. Sevil Atasoy'un yaptığı, yaşanmış gerçek suç hikâyelerinden esinlenilerek hazırlanmış. Dizide, zekice yapıldığına inanılan cinayetlerin, hırsızlıkların, adam kaçırmaların yani birçok suç olayının nasıl çözüldüğü ve hangi noktada kimlerin ne kadar etkisi olduğu ekrana getiriliyor.</desc>
-  </programme>
   <programme start="20261028034500 +0300" stop="20261028060000 +0300" channel="Teve2">
     <title>Çocuklar Duymasın</title>
     <desc>Sert, aslında ne kadar duygusal olsa da duygularını göstermekten kaçınan, anti romantik, kıskanç Taş Fırın erkeği Haluk ile modern, kariyerinin zirvesinde olan ve romantizm beklentisinden hiç vazgeçmeyen Meltem’in evlilikleri, dostlarıyla ilişkileri, iş hayatları ve ev içi küçük problemleri her zamanki gibi ön plandadır. Artık çocuklar büyümüş ve her ikisi de evden gitmiştir. Ancak Haluk ve Meltem, Emine ve Emine’nin kayınvalidesi Kükrek Kadriye sayesinde hiç yalnız kalmazlar. Dominant teyze Gönül ve Zero Tuna’nın gündemi TEOG’dur. Çocukları Beton Orçun ve Merve TEOG sınavına hazırlanmaktadır. Bir TEOG annesi olan Gönül, çocukları internetten uzaklaştırıp ders çalışmalarını sağlamak için elinden geleni yapar.</desc>
@@ -18076,10 +17768,6 @@
   <channel id="Türk Haber">
     <display-name>Türk Haber</display-name>
   </channel>
-  <programme start="20261028030000 +0300" stop="20261028040000 +0300" channel="Türk Haber">
-    <title>Haber Bülteni</title>
-    <desc>Gün içinde yaşanan önemli gelişmeleri ve gündemi belirleyen başlıkları izleyiciyle buluşturan kapsamlı bir programdır. İç ve dış gündeme dair haberler, güncel veriler ve öne çıkan olaylar tarafsız ve anlaşılır bir dille aktarılır. Program, kamuoyunun doğru bilgiye zamanında ulaşmasını hedefler.</desc>
-  </programme>
   <programme start="20261028040000 +0300" stop="20261028050000 +0300" channel="Türk Haber">
     <title>Yeni Bir Gün</title>
     <desc>Günün ilk saatlerinde gündemi belirleyen gelişmeleri ve öne çıkan konuları ele alan bir sohbet ve değerlendirme programıdır. Güncel haberler, toplumsal başlıklar ve kamuoyunu ilgilendiren konular açık ve anlaşılır bir anlatımla izleyiciye aktarılır. Program, güne bilinçli bir başlangıç yapılmasını amaçlar.</desc>
@@ -18462,10 +18150,6 @@
   <channel id="tv100">
     <display-name>tv100</display-name>
   </channel>
-  <programme start="20261028010000 +0300" stop="20261028040000 +0300" channel="tv100">
-    <title>Başak Şengül ile Doğru Yorum</title>
-    <desc>Başak Şengül moderatörlüğünde Doğru Yorum, alanında uzman konukların yorumlarıyla siyaset, ekonomi, hukuk, dış politika konularını masaya yatırıyor.</desc>
-  </programme>
   <programme start="20261028040000 +0300" stop="20261028050000 +0300" channel="tv100">
     <title>Haber Bülteni</title>
     <desc>Siyaset, ekonomi, spor ve daha birçok alanda yaşanan olaylar, öne çıkan gelişmeler, saat başlarında yayınlanan haber bültenleriyle ekranlara taşınıyor.</desc>
