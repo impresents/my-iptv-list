@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-10-30T22:35:09.777760+00:00",
-  "channel_count": 68,
+  "updated_utc": "2026-10-31T06:07:59.748369+00:00",
+  "channel_count": 67,
   "sources": {
     "Kanal 24": "Turkey 3",
     "360": "Turkey 3",
@@ -67,7 +67,6 @@
     "TYT Türk": "Turkey 3",
     "Ülke TV": "Turkey 3",
     "VAV TV": "Turkey 3",
-    "GZT": "Turkey 4",
     "Lider Haber": "Turkey 4",
     "Tivibu Spor": "Turkey 5"
   },
@@ -75,6 +74,7 @@
   "missing": [
     "BBC World",
     "Bi Kanal",
+    "GZT",
     "KRT",
     "MK TV",
     "STOON TV",
@@ -150,7 +150,6 @@
     "TYT Türk": "20261101070000 +0300",
     "Ülke TV": "20261101070000 +0300",
     "VAV TV": "20261101070000 +0300",
-    "GZT": "20261031025900 +0300",
     "Lider Haber": "20261101100000 +0300",
     "Tivibu Spor": "20261101073000 +0300"
   }
